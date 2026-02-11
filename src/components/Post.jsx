@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
 import { theme } from "../theme";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 
@@ -118,8 +119,6 @@ export default function Post({ post, author }) {
       <div
         style={{
           marginTop: "12px",
-          fontSize: theme.typography.metricSize,
-          color: theme.colors.textSecondary,
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center"
@@ -128,12 +127,48 @@ export default function Post({ post, author }) {
         <div
           style={{
             display: "flex",
-            gap: "16px"
+            gap: "24px",
+            alignItems: "center"
           }}
         >
-          <span>❤ {post.metrics.likes}</span>
-          <span>↻ {post.metrics.shares}</span>
-          <span>💬 {post.metrics.comments}</span>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: theme.colors.textSecondary,
+              fontSize: theme.typography.metricSize
+            }}
+          >
+            <Heart size={16} strokeWidth={2} />
+            <span>{post.metrics.likes}</span>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: theme.colors.textSecondary,
+              fontSize: theme.typography.metricSize
+            }}
+          >
+            <Share2 size={16} strokeWidth={2} />
+            <span>{post.metrics.shares}</span>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: theme.colors.textSecondary,
+              fontSize: theme.typography.metricSize
+            }}
+          >
+            <MessageCircle size={16} strokeWidth={2} />
+            <span>{post.metrics.comments}</span>
+          </div>
         </div>
 
         <button
@@ -142,7 +177,6 @@ export default function Post({ post, author }) {
             background: "none",
             border: "none",
             cursor: "pointer",
-            fontSize: "16px",
             padding: "4px 8px",
             color: copied ? theme.colors.accent : theme.colors.textSecondary,
             transition: "color 0.2s",
@@ -152,7 +186,7 @@ export default function Post({ post, author }) {
           }}
           title="Copy link to this post"
         >
-          {copied ? "✓" : "🔗"}
+          {copied ? <Check size={16} strokeWidth={2} /> : <LinkIcon size={16} strokeWidth={2} />}
         </button>
       </div>
     </div>
