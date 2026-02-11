@@ -76,135 +76,99 @@ export default function Author({ authorId }) {
     );
   }
 
-  const avatarSize = 120;
-  const avatarOffset = 60;
-
   return (
     <div
       style={{
-        background: "#f5f5f5",
-        minHeight: "100vh"
+        padding: theme.spacing.pagePadding
       }}
     >
-      {/* Header Section */}
+      {/* Author Header Card */}
       <div
         style={{
-          position: "relative",
-          paddingBottom: avatarOffset
+          background: theme.colors.postBackground,
+          padding: theme.spacing.postPadding,
+          borderRadius: theme.layout.postRadius,
+          marginBottom: theme.spacing.gap
         }}
       >
-        {/* Header Image */}
-        <img
-          src={author.header}
-          alt={author.name}
-          style={{
-            width: "100%",
-            height: "300px",
-            objectFit: "cover",
-            display: "block"
-          }}
-        />
-
-        {/* Author Info Card */}
+        {/* Avatar and Info Row */}
         <div
           style={{
-            position: "relative",
-            marginTop: `-${avatarOffset}px`,
-            marginLeft: theme.spacing.pagePadding,
-            marginRight: theme.spacing.pagePadding,
-            background: "white",
-            borderRadius: "8px",
-            padding: theme.spacing.postPadding,
-            boxShadow: "0 2px 8px rgba(0,0,0,0.1)"
+            display: "flex",
+            gap: "16px",
+            alignItems: "flex-start",
+            marginBottom: "16px"
           }}
         >
-          {/* Avatar and Info Row */}
-          <div
+          {/* Avatar */}
+          <img
+            src={author.image}
+            alt={author.name}
             style={{
-              display: "flex",
-              gap: "16px",
-              alignItems: "flex-start",
-              marginBottom: "16px"
+              width: "80px",
+              height: "80px",
+              objectFit: "cover",
+              borderRadius: theme.layout.postRadius,
+              flexShrink: 0,
+              cursor: "pointer"
             }}
-          >
-            {/* Avatar */}
-            <img
-              src={author.image}
-              alt={author.name}
+            onClick={() => (window.location.hash = `#author&${author.author_id}`)}
+            title="Click to refresh profile"
+          />
+
+          {/* Author Info */}
+          <div style={{ flex: 1 }}>
+            <h1
               style={{
-                width: avatarSize,
-                height: avatarSize,
-                objectFit: "cover",
-                borderRadius: "50%",
-                flexShrink: 0,
+                margin: "0 0 8px 0",
+                fontSize: "20px",
+                fontWeight: 700,
+                color: theme.colors.textPrimary,
                 cursor: "pointer"
               }}
               onClick={() => (window.location.hash = `#author&${author.author_id}`)}
               title="Click to refresh profile"
-            />
+            >
+              {author.name}
+            </h1>
 
-            {/* Author Info */}
-            <div style={{ flex: 1 }}>
-              <h1
+            {/* Birth/Death line */}
+            {(author.born || author.died) && (
+              <div
                 style={{
-                  margin: "0 0 8px 0",
-                  fontSize: "24px",
-                  fontWeight: 700,
-                  color: theme.colors.textPrimary,
-                  cursor: "pointer"
-                }}
-                onClick={() => (window.location.hash = `#author&${author.author_id}`)}
-                title="Click to refresh profile"
-              >
-                {author.name}
-              </h1>
-
-              {/* Birth/Death line */}
-              {(author.born || author.died) && (
-                <div
-                  style={{
-                    fontSize: "13px",
-                    color: theme.colors.textSecondary,
-                    marginBottom: "8px"
-                  }}
-                >
-                  {author.born && author.born.substring(0, 4)}
-                  {author.born && author.died && " — "}
-                  {author.died && author.died.substring(0, 4)}
-                </div>
-              )}
-
-              {/* Bio */}
-              <p
-                style={{
-                  margin: 0,
-                  fontSize: theme.typography.bodySize,
-                  color: theme.colors.textPrimary,
-                  lineHeight: 1.5
+                  fontSize: theme.typography.dateSize,
+                  color: theme.colors.textSecondary
                 }}
               >
-                {author.bio}
-              </p>
-            </div>
+                {author.born && author.born.substring(0, 4)}
+                {author.born && author.died && " — "}
+                {author.died && author.died.substring(0, 4)}
+              </div>
+            )}
           </div>
         </div>
+
+        {/* Bio - Full Width */}
+        <p
+          style={{
+            margin: 0,
+            fontSize: theme.typography.bodySize,
+            color: theme.colors.textPrimary,
+            lineHeight: 1.6
+          }}
+        >
+          {author.bio}
+        </p>
       </div>
 
       {/* Posts Section */}
-      <div
-        style={{
-          padding: theme.spacing.pagePadding,
-          paddingTop: "24px",
-          maxWidth: "800px",
-          margin: "0 auto"
-        }}
-      >
+      <div>
         {posts.length === 0 ? (
           <div
             style={{
-              padding: "24px",
-              background: "white",
-              borderRadius: "8px",
+              padding: theme.spacing.postPadding,
+              background: theme.colors.postBackground,
+              borderRadius: theme.layout.postRadius,
               textAlign: "center",
               color: theme.colors.textSecondary
             }}
