@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Post from "../components/Post";
+import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
 import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
@@ -178,7 +179,11 @@ export default function Author({ authorId }) {
           </div>
         ) : (
           posts.map(post => (
-            <Post key={post.id} post={post} author={author} />
+            post.type === "image" || post.image ? (
+              <ImagePost key={post.id} post={post} author={author} />
+            ) : (
+              <Post key={post.id} post={post} author={author} />
+            )
           ))
         )}
       </div>

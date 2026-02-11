@@ -58,6 +58,7 @@ export function buildFeed(posts) {
 // -------------------------
 export async function loadData() {
   const postModules = import.meta.glob("../data/posts/*.json");
+  const imageModules = import.meta.glob("../data/images/*.json");
   const authorModules = import.meta.glob("../data/authors/*.json");
 
   let allPosts = [];
@@ -65,6 +66,12 @@ export async function loadData() {
 
   for (const path in postModules) {
     const module = await postModules[path]();
+    allPosts = [...allPosts, ...module.default];
+  }
+
+  // Also load image posts so they can be mixed into feeds
+  for (const path in imageModules) {
+    const module = await imageModules[path]();
     allPosts = [...allPosts, ...module.default];
   }
 
