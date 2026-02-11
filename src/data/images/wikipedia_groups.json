@@ -1,0 +1,66 @@
+[
+  {
+    "id": "c6e9a4b4-8f2e-4e7d-9f4e-2b6a5c1d9e11",
+    "type": "image",
+    "work_id": "wikipedia_group_mathematics",
+    "author_id": "wikipedia",
+    "date": "2000-01-01",
+    "image": "/images/Rubik's_cube.svg.png",
+    "caption": "The manipulations of the Rubik's Cube form the Rubik's Cube group.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Rubik%27s_cube.svg",
+      "article": "Group (mathematics)"
+    },
+    "credit": "Created by RTCNCA, licensed under CC BY-SA 3.0 via Wikimedia Commons",
+    "tags": ["group theory", "finite groups", "rubik's cube"],
+    "metrics": { "likes": 1240, "shares": 310, "comments": 88 }
+  },
+  {
+    "id": "4f9b7d63-2d75-4a6f-b65f-83c9d1b8e2c4",
+    "type": "image",
+    "work_id": "wikipedia_group_mathematics",
+    "author_id": "wikipedia",
+    "date": "2000-01-01",
+    "image": "/images/Clock_group.svg.png",
+    "caption": "Set of hours in a clock, {0,1,…,11}, is isomorphic to C₁₂ (arithmetic modulo 12) eg 9+4=1",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Clock_group.svg",
+      "article": "Group (mathematics)"
+    },
+    "credit": "Uploaded by Spindled, licensed under CC BY-SA 3.0 via Wikimedia Commons",
+    "tags": ["cyclic groups", "modular arithmetic", "group theory"],
+    "metrics": { "likes": 980, "shares": 221, "comments": 54 }
+  },
+  {
+    "id": "9b3c2a71-5f44-4c89-91c7-0e7f3b2a9d56",
+    "type": "image",
+    "work_id": "wikipedia_group_mathematics",
+    "author_id": "wikipedia",
+    "date": "2000-01-01",
+    "image": "/images/Wallpaper_group-cm-6.jpg",
+    "caption": "A periodic wallpaper pattern gives rise to a wallpaper group.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Wallpaper_group-cm-6.jpg",
+      "article": "Group (mathematics)"
+    },
+    "credit": "Public domain; originally by Owen Jones, from The Grammar of Ornament (1856), via Wikimedia Commons",
+    "tags": ["symmetry", "wallpaper groups", "group theory"],
+    "metrics": { "likes": 1502, "shares": 401, "comments": 112 }
+  },
+  {
+    "id": "1a7e5c84-3b12-4d7f-8b21-4e8a9f0c6d77",
+    "type": "image",
+    "work_id": "wikipedia_group_mathematics",
+    "author_id": "wikipedia",
+    "date": "2000-01-01",
+    "image": "/images/Fundamental_group.svg.png",
+    "caption": "The fundamental group of a plane minus a point (bold) consists of loops around the missing point. This group is isomorphic to the integers under addition.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Fundamental_group.svg",
+      "article": "Group (mathematics)"
+    },
+    "credit": "Created by Jakob.scholbach (original) and redrawn by Pbroks13, licensed under CC BY-SA 3.0 via Wikimedia Commons",
+    "tags": ["algebraic topology", "fundamental group", "group theory"],
+    "metrics": { "likes": 1325, "shares": 342, "comments": 95 }
+  }
+]

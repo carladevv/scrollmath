@@ -1,0 +1,12 @@
+[
+  {
+    "author_id": "wikipedia",
+    "name": "Wikipedia",
+    "image": "/authors/wikipedia.png",
+    "header": "/headers/2.jpg",
+    "bio": "Free online encyclopedia containing collaboratively written and edited articles.",
+    "born": "2001-01-15",
+    "died": null,
+    "country": "Global"
+  }
+]
