@@ -3,6 +3,8 @@ import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-re
 import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 import renderMathInElement from "katex/dist/contrib/auto-render";
+import PostFooter from "./PostFooter";
+
 
 export default function Post({ post, author }) {
   const contentRef = useRef(null);
@@ -140,79 +142,7 @@ export default function Post({ post, author }) {
       </div>
 
       {/* Metrics */}
-      <div
-        style={{
-          marginTop: "12px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center"
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            gap: "24px",
-            alignItems: "center"
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "6px",
-              color: theme.colors.textSecondary,
-              fontSize: theme.typography.metricSize
-            }}
-          >
-            <Heart size={16} strokeWidth={2} />
-            <span>{post.metrics.likes}</span>
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "6px",
-              color: theme.colors.textSecondary,
-              fontSize: theme.typography.metricSize
-            }}
-          >
-            <Share2 size={16} strokeWidth={2} />
-            <span>{post.metrics.shares}</span>
-          </div>
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "6px",
-              color: theme.colors.textSecondary,
-              fontSize: theme.typography.metricSize
-            }}
-          >
-            <MessageCircle size={16} strokeWidth={2} />
-            <span>{post.metrics.comments}</span>
-          </div>
-        </div>
-
-        <button
-          onClick={handleCopyLink}
-          style={{
-            background: "none",
-            border: "none",
-            cursor: "pointer",
-            padding: "4px 8px",
-            color: copied ? theme.colors.accent : theme.colors.textSecondary,
-            transition: "color 0.2s",
-            display: "flex",
-            alignItems: "center",
-            gap: "4px"
-          }}
-          title={uiTexts.copyLinkTitle}
-        >
-          {copied ? <Check size={16} strokeWidth={2} /> : <LinkIcon size={16} strokeWidth={2} />}
-        </button>
-      </div>
+      <PostFooter post={post} />
     </div>
   );
 }
