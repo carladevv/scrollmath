@@ -1,9 +1,11 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
 import { theme } from "../theme";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 
 export default function Post({ post, author }) {
   const contentRef = useRef(null);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!contentRef.current) return;
@@ -17,6 +19,22 @@ export default function Post({ post, author }) {
     });
   }, [post.content.html]);
 
+  const handleCopyLink = async () => {
+    const url = window.location.origin + "/#post&" + post.id;
+
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error("Failed to copy link:", err);
+    }
+  };
+
+  const handleHeaderClick = () => {
+    window.location.hash = "#post&" + post.id;
+  };
+
   return (
     <div
       style={{
@@ -28,16 +46,19 @@ export default function Post({ post, author }) {
     >
       {/* Header */}
       <div
+        onClick={handleHeaderClick}
         style={{
           marginBottom: "8px",
           display: "flex",
           alignItems: "center",
-          gap: "8px"
+          gap: "8px",
+          cursor: "pointer"
         }}
       >
         <img
           src={author.image}
           alt={author.name}
+          onClick={e => e.stopPropagation()}
           style={{
             width: "36px",
             height: "36px",
@@ -46,7 +67,9 @@ export default function Post({ post, author }) {
           }}
         />
 
-        <div>
+        <div
+          onClick={e => e.stopPropagation()}
+        >
           <div
             style={{
               fontSize: theme.typography.authorSize,
@@ -105,15 +128,75 @@ export default function Post({ post, author }) {
       <div
         style={{
           marginTop: "12px",
-          fontSize: theme.typography.metricSize,
-          color: theme.colors.textSecondary,
           display: "flex",
-          gap: "16px"
+          justifyContent: "space-between",
+          alignItems: "center"
         }}
       >
-        <span>❤ {post.metrics.likes}</span>
-        <span>↻ {post.metrics.shares}</span>
-        <span>💬 {post.metrics.comments}</span>
+        <div
+          style={{
+            display: "flex",
+            gap: "24px",
+            alignItems: "center"
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: theme.colors.textSecondary,
+              fontSize: theme.typography.metricSize
+            }}
+          >
+            <Heart size={16} strokeWidth={2} />
+            <span>{post.metrics.likes}</span>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: theme.colors.textSecondary,
+              fontSize: theme.typography.metricSize
+            }}
+          >
+            <Share2 size={16} strokeWidth={2} />
+            <span>{post.metrics.shares}</span>
+          </div>
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+              color: theme.colors.textSecondary,
+              fontSize: theme.typography.metricSize
+            }}
+          >
+            <MessageCircle size={16} strokeWidth={2} />
+            <span>{post.metrics.comments}</span>
+          </div>
+        </div>
+
+        <button
+          onClick={handleCopyLink}
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            padding: "4px 8px",
+            color: copied ? theme.colors.accent : theme.colors.textSecondary,
+            transition: "color 0.2s",
+            display: "flex",
+            alignItems: "center",
+            gap: "4px"
+          }}
+          title="Copy link to this post"
+        >
+          {copied ? <Check size={16} strokeWidth={2} /> : <LinkIcon size={16} strokeWidth={2} />}
+        </button>
       </div>
     </div>
   );
