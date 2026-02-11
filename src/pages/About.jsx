@@ -6,13 +6,20 @@ export default function About() {
     <div
       style={{
         padding: theme.spacing.pagePadding,
-        background: theme.colors.postBackground,
-        borderRadius: theme.layout.postRadius,
-        color: theme.colors.textPrimary,
+        color: theme.colors.textLight,
         lineHeight: 1.6
       }}
     >
+      <style>{`
+        .about-content p {
+          margin-bottom: 24px;
+        }
+        .about-content p:last-child {
+          margin-bottom: 0;
+        }
+      `}</style>
       <div
+        className="about-content"
         dangerouslySetInnerHTML={{ __html: uiTexts.about_html }}
       />
     </div>
