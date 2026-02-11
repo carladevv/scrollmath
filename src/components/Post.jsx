@@ -1,9 +1,10 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { theme } from "../theme";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 
 export default function Post({ post, author }) {
   const contentRef = useRef(null);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!contentRef.current) return;
@@ -16,6 +17,18 @@ export default function Post({ post, author }) {
       throwOnError: false
     });
   }, [post.content.html]);
+
+  const handleCopyLink = async () => {
+    const url = window.location.origin + "/#post&" + post.id;
+
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error("Failed to copy link:", err);
+    }
+  };
 
   return (
     <div
@@ -108,12 +121,39 @@ export default function Post({ post, author }) {
           fontSize: theme.typography.metricSize,
           color: theme.colors.textSecondary,
           display: "flex",
-          gap: "16px"
+          justifyContent: "space-between",
+          alignItems: "center"
         }}
       >
-        <span>❤ {post.metrics.likes}</span>
-        <span>↻ {post.metrics.shares}</span>
-        <span>💬 {post.metrics.comments}</span>
+        <div
+          style={{
+            display: "flex",
+            gap: "16px"
+          }}
+        >
+          <span>❤ {post.metrics.likes}</span>
+          <span>↻ {post.metrics.shares}</span>
+          <span>💬 {post.metrics.comments}</span>
+        </div>
+
+        <button
+          onClick={handleCopyLink}
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            fontSize: "16px",
+            padding: "4px 8px",
+            color: copied ? theme.colors.accent : theme.colors.textSecondary,
+            transition: "color 0.2s",
+            display: "flex",
+            alignItems: "center",
+            gap: "4px"
+          }}
+          title="Copy link to this post"
+        >
+          {copied ? "✓" : "🔗"}
+        </button>
       </div>
     </div>
   );
