@@ -35,6 +35,10 @@ export default function Post({ post, author }) {
     window.location.hash = "#post&" + post.id;
   };
 
+  const handleAuthorClick = () => {
+    window.location.hash = "#author&" + author.author_id;
+  };
+
   return (
     <div
       style={{
@@ -58,17 +62,27 @@ export default function Post({ post, author }) {
         <img
           src={author.image}
           alt={author.name}
-          onClick={e => e.stopPropagation()}
+          onClick={e => {
+            e.stopPropagation();
+            handleAuthorClick();
+          }}
           style={{
             width: "36px",
             height: "36px",
             objectFit: "cover",
-            borderRadius: "50%"
+            borderRadius: "50%",
+            cursor: "pointer"
           }}
         />
 
         <div
-          onClick={e => e.stopPropagation()}
+          onClick={e => {
+            e.stopPropagation();
+            handleAuthorClick();
+          }}
+          style={{
+            cursor: "pointer"
+          }}
         >
           <div
             style={{
