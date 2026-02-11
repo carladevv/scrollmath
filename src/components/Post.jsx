@@ -17,7 +17,7 @@ export default function Post({ post, author }) {
       ],
       throwOnError: false
     });
-  }, [post.content.html]);
+  }, [post.id, post.content.html]);
 
   const handleCopyLink = async () => {
     const url = window.location.origin + "/#post&" + post.id;
