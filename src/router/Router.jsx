@@ -24,7 +24,16 @@ function parseHash(hash) {
   }
 
   // Split on "&" to separate route and param
-  const [route, param] = hashValue.split("&");
+  const [route, rawParam] = hashValue.split("&");
+  let param = null;
+  if (rawParam) {
+    try {
+      param = decodeURIComponent(rawParam);
+    } catch (e) {
+      // If decoding fails, fall back to raw value
+      param = rawParam;
+    }
+  }
 
   return {
     route: route || "home",
@@ -62,7 +71,7 @@ export default function Router() {
     case "home":
       return <Home />;
     case "search":
-      return <Search />;
+      return <Search initialQuery={param} />;
     case "about":
       return <About />;
     case "author":

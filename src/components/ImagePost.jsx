@@ -152,10 +152,33 @@ export default function ImagePost({ post, author }) {
         style={{
           marginTop: "8px",
           fontSize: theme.typography.tagSize,
-          color: theme.colors.accent
+          color: theme.colors.accent,
+          display: "flex",
+          gap: "8px",
+          flexWrap: "wrap"
         }}
       >
-        {post.tags?.map(tag => `#${tag}`).join(" ")}
+        {post.tags?.map(tag => (
+          <button
+            key={tag}
+            onClick={e => {
+              e.stopPropagation();
+              window.location.hash = "#search&" + encodeURIComponent(tag);
+            }}
+            style={{
+              background: "none",
+              border: "none",
+              padding: 0,
+              margin: 0,
+              color: theme.colors.accent,
+              cursor: "pointer",
+              fontSize: theme.typography.tagSize
+            }}
+            title={`Search ${tag}`}
+          >
+            #{tag}
+          </button>
+        ))}
       </div>
 
       {/* Footer */}
