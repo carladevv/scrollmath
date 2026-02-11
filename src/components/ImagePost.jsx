@@ -1,0 +1,149 @@
+import { theme } from "../theme";
+import PostFooter from "./PostFooter";
+
+export default function ImagePost({ post, author }) {
+  const handleHeaderClick = () => {
+    window.location.hash = "#post&" + post.id;
+  };
+
+  const handleAuthorClick = () => {
+    window.location.hash = "#author&" + author.author_id;
+  };
+
+  return (
+    <div
+      style={{
+        background: theme.colors.postBackground,
+        padding: theme.spacing.postPadding,
+        borderRadius: theme.layout.postRadius,
+        marginBottom: theme.spacing.gap
+      }}
+    >
+      {/* Header */}
+      <div
+        onClick={handleHeaderClick}
+        style={{
+          marginBottom: "8px",
+          display: "flex",
+          alignItems: "center",
+          gap: "8px",
+          cursor: "pointer"
+        }}
+      >
+        <img
+          src={author.image}
+          alt={author.name}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleAuthorClick();
+          }}
+          style={{
+            width: "36px",
+            height: "36px",
+            objectFit: "cover",
+            borderRadius: "50%",
+            cursor: "pointer"
+          }}
+        />
+
+        <div
+          onClick={(e) => {
+            e.stopPropagation();
+            handleAuthorClick();
+          }}
+          style={{ cursor: "pointer" }}
+        >
+          <div
+            style={{
+              fontSize: theme.typography.authorSize,
+              fontWeight: 600,
+              color: theme.colors.textPrimary
+            }}
+          >
+            {author.name}
+          </div>
+
+          <div
+            style={{
+              fontSize: theme.typography.dateSize,
+              color: theme.colors.textSecondary
+            }}
+          >
+            {post.date}
+          </div>
+        </div>
+      </div>
+
+      {/* Image */}
+      <div style={{ marginBottom: "12px" }}>
+        <img
+          src={post.image}
+          alt={post.caption}
+          style={{
+            width: "100%",
+            borderRadius: theme.layout.postRadius,
+            objectFit: "cover"
+          }}
+        />
+      </div>
+
+      {/* Caption */}
+      <div
+        style={{
+          fontSize: theme.typography.bodySize,
+          color: theme.colors.textPrimary,
+          lineHeight: 1.6
+        }}
+      >
+        {post.caption}
+      </div>
+
+      {/* Origin Link */}
+      <div
+        style={{
+          marginTop: "8px",
+          fontSize: theme.typography.dateSize,
+          color: theme.colors.textSecondary
+        }}
+      >
+        <a
+          href={post.origin.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: theme.colors.accent,
+            textDecoration: "none"
+          }}
+        >
+          {post.origin.article}
+        </a>
+      </div>
+
+      {/* Credit */}
+      <div
+        style={{
+          marginTop: "4px",
+          fontSize: "12px",
+          color: theme.colors.textSecondary,
+          opacity: 0.8
+        }}
+      >
+        {post.credit}
+      </div>
+
+      {/* Tags */}
+      <div
+        style={{
+          marginTop: "8px",
+          fontSize: theme.typography.tagSize,
+          color: theme.colors.accent
+        }}
+      >
+        {post.tags?.map(tag => `#${tag}`).join(" ")}
+      </div>
+
+      {/* Footer */}
+      <PostFooter post={post} />
+    </div>
+  );
+}
