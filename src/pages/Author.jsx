@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Post from "../components/Post";
 import { loadData } from "../utils/feed";
 import { theme } from "../theme";
+import uiTexts from "../data/ui_texts.json";
 
 export default function Author({ authorId }) {
   const [author, setAuthor] = useState(null);
@@ -57,7 +58,7 @@ export default function Author({ authorId }) {
           color: theme.colors.textLight
         }}
       >
-        Loading...
+        {uiTexts.loading}
       </div>
     );
   }
@@ -70,8 +71,8 @@ export default function Author({ authorId }) {
           color: theme.colors.textLight
         }}
       >
-        <h1>Author Not Found</h1>
-        <p>The author you're looking for doesn't exist.</p>
+        <h1>{uiTexts.authorNotFoundTitle}</h1>
+        <p>{uiTexts.authorNotFoundMessage}</p>
       </div>
     );
   }
@@ -173,7 +174,7 @@ export default function Author({ authorId }) {
               color: theme.colors.textSecondary
             }}
           >
-            No posts yet
+            {uiTexts.noPostsYet}
           </div>
         ) : (
           posts.map(post => (

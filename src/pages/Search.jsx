@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Post from "../components/Post";
 import { loadData } from "../utils/feed";
 import { theme } from "../theme";
+import uiTexts from "../data/ui_texts.json";
 
 /**
  * Strip HTML tags from a string
@@ -79,7 +80,7 @@ export default function Search() {
           color: theme.colors.textLight
         }}
       >
-        Loading...
+        {uiTexts.loading}
       </div>
     );
   }
@@ -98,7 +99,7 @@ export default function Search() {
       >
         <input
           type="text"
-          placeholder="Search posts, authors, tags..."
+          placeholder={uiTexts.searchPlaceholder}
           value={query}
           onChange={e => setQuery(e.target.value)}
           style={{
@@ -126,7 +127,7 @@ export default function Search() {
               textAlign: "center"
             }}
           >
-            Enter a search query to find posts
+            {uiTexts.searchEmptyQuery}
           </div>
         ) : results.length === 0 ? (
           <div
@@ -138,7 +139,7 @@ export default function Search() {
               textAlign: "center"
             }}
           >
-            No results found for "{query}"
+            {uiTexts.searchNoResults} "{query}"
           </div>
         ) : (
           <div>
@@ -149,7 +150,7 @@ export default function Search() {
                 color: theme.colors.textSecondary
               }}
             >
-              {results.length} {results.length === 1 ? "result" : "results"} found
+              {results.length} {results.length === 1 ? "result" : "results"} {uiTexts.searchFound}
             </div>
 
             {results.map(post => {

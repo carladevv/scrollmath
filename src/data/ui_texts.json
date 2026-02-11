@@ -1,0 +1,19 @@
+{
+  "projectName": "scrollmath",
+  "navHome": "Home",
+  "navSearch": "Search",
+  "navAbout": "About",
+  "loading": "Loading...",
+  "about_html": "<p>Scrollmath is a personal study feed designed to take advantage of the way my brain has learned to absorb information in social-media post form. I use it to refresh and revisit core ideas in mathematics through short, scrollable excerpts.</p><p>A secondary goal is to keep concepts in context: for example, seeing Dedekind cuts not as a floating abstraction, but in Dedekind's own words, with the author's picture, the publication date, and the work where the idea is introduced. This helps me build a stronger mental map of mathematical history.</p><p>The content focus follows the first-semester curriculum of the Spanish mathematics degree at UNED (where I study). As I progress and discover useful or interesting sources, I will add more works to the feed.</p><p>AI has helped me select and format quotations from the texts I provide, but none of the mathematical content itself is generated: the posts are direct excerpts from the original sources.</p>",
+  "searchPlaceholder": "Search posts, authors, tags...",
+  "searchEmptyQuery": "Enter a search query to find posts",
+  "searchNoResults": "No results found for",
+  "searchResultCount": "results.length === 1 ? 'result' : 'results'",
+  "searchFound": "found",
+  "postNotFoundTitle": "Post Not Found",
+  "postNotFoundMessage": "The post you're looking for doesn't exist.",
+  "authorNotFoundTitle": "Author Not Found",
+  "authorNotFoundMessage": "The author you're looking for doesn't exist.",
+  "copyLinkTitle": "Copy link to this post",
+  "noPostsYet": "No posts yet"
+}

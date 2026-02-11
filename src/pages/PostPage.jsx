@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Post from "../components/Post";
 import { loadData } from "../utils/feed";
 import { theme } from "../theme";
+import uiTexts from "../data/ui_texts.json";
 
 export default function PostPage({ postId }) {
   const [post, setPost] = useState(null);
@@ -47,7 +48,7 @@ export default function PostPage({ postId }) {
           color: theme.colors.textLight
         }}
       >
-        Loading...
+        {uiTexts.loading}
       </div>
     );
   }
@@ -60,8 +61,8 @@ export default function PostPage({ postId }) {
           color: theme.colors.textLight
         }}
       >
-        <h1>Post Not Found</h1>
-        <p>The post you're looking for doesn't exist.</p>
+        <h1>{uiTexts.postNotFoundTitle}</h1>
+        <p>{uiTexts.postNotFoundMessage}</p>
       </div>
     );
   }
