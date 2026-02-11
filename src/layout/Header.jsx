@@ -1,4 +1,5 @@
 import { theme } from "../theme";
+import uiTexts from "../data/ui_texts.json";
 
 export default function Header() {
   const handleNavigation = (hash) => {
@@ -28,7 +29,7 @@ export default function Header() {
         }}
         onClick={() => handleNavigation("#home")}
       >
-        scrollmath
+        {uiTexts.projectName}
       </div>
 
       {/* Navigation Links */}
@@ -58,7 +59,7 @@ export default function Header() {
             e.target.style.backgroundColor = "transparent";
           }}
         >
-          Home
+          {uiTexts.navHome}
         </button>
 
         <button
@@ -80,7 +81,7 @@ export default function Header() {
             e.target.style.backgroundColor = "transparent";
           }}
         >
-          Search
+          {uiTexts.navSearch}
         </button>
 
         <button
@@ -102,7 +103,7 @@ export default function Header() {
             e.target.style.backgroundColor = "transparent";
           }}
         >
-          About
+          {uiTexts.navAbout}
         </button>
       </nav>
     </div>

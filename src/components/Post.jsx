@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
 import { theme } from "../theme";
+import uiTexts from "../data/ui_texts.json";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 
 export default function Post({ post, author }) {
@@ -207,7 +208,7 @@ export default function Post({ post, author }) {
             alignItems: "center",
             gap: "4px"
           }}
-          title="Copy link to this post"
+          title={uiTexts.copyLinkTitle}
         >
           {copied ? <Check size={16} strokeWidth={2} /> : <LinkIcon size={16} strokeWidth={2} />}
         </button>
