@@ -141,8 +141,8 @@ export default function Author({ authorId }) {
                 }}
               >
                 {author.born && author.born.substring(0, 4)}
-                {author.born && author.died && " — "}
-                {author.died && author.died.substring(0, 4)}
+                {author.born && " — "}
+                {author.died ? author.died.substring(0, 4) : "Present"}
               </div>
             )}
           </div>
