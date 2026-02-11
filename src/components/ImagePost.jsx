@@ -1,10 +1,24 @@
+import { useEffect, useRef } from "react";
 import { theme } from "../theme";
 import PostFooter from "./PostFooter";
+import renderMathInElement from "katex/dist/contrib/auto-render";
 
 export default function ImagePost({ post, author }) {
+  const captionRef = useRef(null);
   const handleHeaderClick = () => {
     window.location.hash = "#post&" + post.id;
   };
+
+  useEffect(() => {
+    if (!captionRef.current) return;
+    renderMathInElement(captionRef.current, {
+      delimiters: [
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+      throwOnError: false
+    });
+  }, [post.id, post.caption]);
 
   const handleAuthorClick = () => {
     window.location.hash = "#author&" + author.author_id;
@@ -94,9 +108,11 @@ export default function ImagePost({ post, author }) {
           color: theme.colors.textPrimary,
           lineHeight: 1.6
         }}
-      >
-        {post.caption}
-      </div>
+        ref={captionRef}
+        dangerouslySetInnerHTML={{ __html: post.caption }}
+      />
+
+      
 
       {/* Origin Link */}
       <div

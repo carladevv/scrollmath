@@ -22,7 +22,7 @@
     "author_id": "wikipedia",
     "date": "2000-01-01",
     "image": "/images/Clock_group.svg.png",
-    "caption": "Set of hours in a clock, {0,1,…,11}, is isomorphic to C₁₂ (arithmetic modulo 12) eg 9+4=1",
+    "caption": "Set of hours in a clock, \\( \\{0,1,\\dots,11\\} \\), is isomorphic to \\( C_{12} \\) (arithmetic modulo 12) e.g. \\( 9 + 4 = 1 \\).",
     "origin": {
       "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Clock_group.svg",
       "article": "Group (mathematics)"
@@ -54,7 +54,7 @@
     "author_id": "wikipedia",
     "date": "2000-01-01",
     "image": "/images/Fundamental_group.svg.png",
-    "caption": "The fundamental group of a plane minus a point (bold) consists of loops around the missing point. This group is isomorphic to the integers under addition.",
+    "caption": "The fundamental group of a plane minus a point (bold) consists of loops around the missing point. This group is isomorphic to the integers under addition \\( \\mathbb{Z} \\).",
     "origin": {
       "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Fundamental_group.svg",
       "article": "Group (mathematics)"

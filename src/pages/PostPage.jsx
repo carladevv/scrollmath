@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Post from "../components/Post";
+import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
 import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
@@ -74,7 +75,11 @@ export default function PostPage({ postId }) {
         maxWidth: "800px"
       }}
     >
-      <Post post={post} author={author} />
+      {post.type === "image" || post.image ? (
+        <ImagePost post={post} author={author} />
+      ) : (
+        <Post post={post} author={author} />
+      )}
     </div>
   );
 }

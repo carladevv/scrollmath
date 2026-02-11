@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Post from "../components/Post";
+import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
 import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
@@ -157,12 +158,14 @@ export default function Search() {
               const author = authors.find(a => a.author_id === post.author_id);
               if (!author) return null;
 
+              if (post.type === "image" || post.image) {
+                return (
+                  <ImagePost key={post.id + Math.random()} post={post} author={author} />
+                );
+              }
+
               return (
-                <Post
-                  key={post.id + Math.random()}
-                  post={post}
-                  author={author}
-                />
+                <Post key={post.id + Math.random()} post={post} author={author} />
               );
             })}
           </div>
