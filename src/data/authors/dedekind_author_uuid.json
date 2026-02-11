@@ -1,0 +1,11 @@
+[
+  {
+    "author_id": "dedekind",
+    "name": "Richard Dedekind",
+    "image": "/authors/dedekind.jpg",
+    "bio": "German mathematician who gave a rigorous arithmetical construction of the real numbers via cuts.",
+    "born": "1831-10-06",
+    "died": "1916-02-12",
+    "country": "Germany"
+  }
+]

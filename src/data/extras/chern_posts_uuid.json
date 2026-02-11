@@ -1,0 +1,462 @@
+[
+  {
+    "id": "1c5b51db-a35b-4f4a-bcc3-b55fc85abe2c",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>I believe I am expected to tell you all about geometry; what it is, its developments through the centuries, its current issues and problems, and, if possible, a peep into the future.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1120,
+      "shares": 206,
+      "comments": 468
+    }
+  },
+  {
+    "id": "bd9e7eb8-abf3-4741-968c-83f9de5989e3",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The meaning of the word geometry changes with time and with the speaker.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 2306,
+      "shares": 479,
+      "comments": 455
+    }
+  },
+  {
+    "id": "844882b1-2618-4ad2-8f52-6cb4fcaea6fa",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>A branch of mathematics is called geometry, because the name seems good on emotional and traditional grounds to a sufficiently large number of competent people.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1969,
+      "shares": 151,
+      "comments": 259
+    }
+  },
+  {
+    "id": "c93c8e36-15e7-4082-b60e-97769720f3de",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The psychological aspects of true geometric intuition will perhaps never be cleared up.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 3647,
+      "shares": 423,
+      "comments": 370
+    }
+  },
+  {
+    "id": "f848a8b5-3baf-435b-a55c-7b4859a7f8a9",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>Among the simplest geometrical figures is the triangle, which has many beautiful properties.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 3385,
+      "shares": 107,
+      "comments": 143
+    }
+  },
+  {
+    "id": "1af3afa1-9cd4-4879-9a38-900e9e852f5a",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The discovery of hyperbolic non-Euclidean geometry, in the eighteenth century by Gauss, John Bolyai, and Lobatchevsky, was one of the most brilliant chapters in human intellectual history.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 2947,
+      "shares": 101,
+      "comments": 368
+    }
+  },
+  {
+    "id": "50e146b7-25e1-4319-be2c-0259ddaf415b",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>By cutting the n-gon into n - 2 triangles, one sees that the sum of its angles is \\((n - 2)\\pi\\).</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 929,
+      "shares": 507,
+      "comments": 419
+    }
+  },
+  {
+    "id": "c587f622-53dc-4a61-84f5-4b222689456f",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The rotation index of C is equal to one plus the algebraic sum of the number of self-intersections.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 3368,
+      "shares": 378,
+      "comments": 209
+    }
+  },
+  {
+    "id": "c6aebe94-b37d-4bef-a131-90dd73ad60fc",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>Two closed smooth curves with the same rotation index are regularly homotopic.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 3442,
+      "shares": 660,
+      "comments": 69
+    }
+  },
+  {
+    "id": "8d1a809a-969c-42e9-8fb9-721f34ae5a91",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>It is a standard practice in mathematics that in order to study closed smooth curves in the plane it is more profitable to look at all curves and to put them into classes.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 490,
+      "shares": 595,
+      "comments": 302
+    }
+  },
+  {
+    "id": "5cb45f2f-646d-43a7-8ed3-69949f97a5cd",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>There is an essential difference between right-handed and left-handed helices, depending on the sign of the torsion; a right-handed helix cannot be congruent to a left-handed one, except by a mirror reflection.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1917,
+      "shares": 505,
+      "comments": 77
+    }
+  },
+  {
+    "id": "9967f30d-9a07-4e67-80c0-26950c2b2a26",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The linking number L is determined by the formula \\(T + W = L\\).</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 394,
+      "shares": 474,
+      "comments": 388
+    }
+  },
+  {
+    "id": "0b367e26-e0f6-4325-8bc5-10e0ef628c2c",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>Gauss's fundamental work elevated differential geometry from a chapter of calculus to an independent discipline.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 369,
+      "shares": 256,
+      "comments": 333
+    }
+  },
+  {
+    "id": "882def1c-a935-4c85-8bfc-da0f956a9669",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The main idea is that a surface has an intrinsic geometry based on the measure of arc length alone.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1105,
+      "shares": 455,
+      "comments": 84
+    }
+  },
+  {
+    "id": "25a68f43-3a38-46ad-b4c6-3653db0ff572",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>Let the surface \\(\\Sigma\\) be smooth and oriented. At every point \\(p \\in \\Sigma\\) there is a unit normal vector \\(v(p)\\) which is perpendicular to the tangent plane to \\(\\Sigma\\) at \\(p\\).</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1485,
+      "shares": 616,
+      "comments": 21
+    }
+  },
+  {
+    "id": "4394bec8-112f-4f1e-9f9c-cb4627e02f47",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The Gauss mapping \\(g: \\Sigma \\to S^2\\).</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 2933,
+      "shares": 754,
+      "comments": 362
+    }
+  },
+  {
+    "id": "8127d7c9-1a1a-455b-bab2-83ae106f6820",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The Euler-Poincaré characteristic of M is defined by \\(\\chi(M) = a_0 - a_1 + \\cdots + (-1)^n a_n\\).</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1375,
+      "shares": 251,
+      "comments": 200
+    }
+  },
+  {
+    "id": "2ec1bd4f-216a-4972-9253-8144cd8f14e3",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The Gauss-Bonnet formula in surface theory is \\(2\\pi\\chi(D)\\).</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 2659,
+      "shares": 116,
+      "comments": 480
+    }
+  },
+  {
+    "id": "c79ab75b-a745-4902-ab4e-700c72c4c7d7",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>A manifold is described locally by coordinates, but the latter are subject to arbitrary transformations.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 2437,
+      "shares": 345,
+      "comments": 216
+    }
+  },
+  {
+    "id": "2a52d414-21fb-4aa1-aab0-f4ee7f49e7e2",
+    "work_id": "chern_triangles_manifolds_1979",
+    "author_id": "chern",
+    "date": "1979-05-01",
+    "source": {
+      "work": "From Triangles to Manifolds",
+      "chapter": null
+    },
+    "content": {
+      "html": "<p>The expression of the index of an elliptic operator as the integral of a local invariant culminates in the Atiyah-Singer index theorem.</p>"
+    },
+    "tags": [
+      "differential geometry",
+      "manifolds",
+      "topology"
+    ],
+    "metrics": {
+      "likes": 1253,
+      "shares": 165,
+      "comments": 16
+    }
+  }
+]

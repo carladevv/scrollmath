@@ -1,0 +1,380 @@
+[
+  {
+    "id": "caa48dca-63a0-4539-a04a-194912390ddb",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "Preface"
+    },
+    "content": {
+      "html": "<p>The reflections which form the subject of this little treatise date from the autumn of the year 1858. At that time I felt more keenly than ever before the lack of a truly scientific foundation for arithmetic. This feeling of dissatisfaction was so overpowering that I formed the fixed resolve to reflect until I had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis.</p>"
+    },
+    "tags": [
+      "real analysis",
+      "foundations",
+      "real numbers"
+    ],
+    "metrics": {
+      "likes": 276,
+      "shares": 130,
+      "comments": 133
+    }
+  },
+  {
+    "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§1"
+    },
+    "content": {
+      "html": "<p>By arithmetic I understand the science of numbers. The development of arithmetic depends upon the creation of the infinite sequence of positive integers. From this arise the negative and rational numbers, through the demand that subtraction and division shall always be possible.</p>"
+    },
+    "tags": [
+      "foundations",
+      "real numbers"
+    ],
+    "metrics": {
+      "likes": 614,
+      "shares": 274,
+      "comments": 146
+    }
+  },
+  {
+    "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§2"
+    },
+    "content": {
+      "html": "<p>The rational numbers form an ordered field; but they do not suffice to express every magnitude. There exist magnitudes which cannot be expressed by rational numbers, although they are determined by rational relations.</p>"
+    },
+    "tags": [
+      "real numbers",
+      "real analysis"
+    ],
+    "metrics": {
+      "likes": 871,
+      "shares": 69,
+      "comments": 100
+    }
+  },
+  {
+    "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§3"
+    },
+    "content": {
+      "html": "<p>Let D be a positive integer which is not the square of an integer. Then there exists a positive integer \\(\\lambda\\) such that</p><p>\\[ \\lambda^2 < D < (\\lambda + 1)^2. \\]</p><p>No rational number whose square equals D exists. Thus the rational numbers are insufficient to represent all magnitudes.</p>"
+    },
+    "tags": [
+      "dedekind cuts",
+      "real numbers"
+    ],
+    "metrics": {
+      "likes": 635,
+      "shares": 77,
+      "comments": 38
+    }
+  },
+  {
+    "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§3"
+    },
+    "content": {
+      "html": "<p>If all points of a straight line fall into two classes such that every point of the first class lies to the left of every point of the second class, then there exists one and only one point which produces this division of all points into two classes.</p>"
+    },
+    "tags": [
+      "dedekind cuts",
+      "real analysis"
+    ],
+    "metrics": {
+      "likes": 1174,
+      "shares": 131,
+      "comments": 13
+    }
+  },
+  {
+    "id": "67f96574-8756-4561-889f-ed1e868c6e22",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§4"
+    },
+    "content": {
+      "html": "<p>Every cut of the rational numbers into two classes, such that every number of the first class is less than every number of the second, determines either a rational or an irrational number.</p>"
+    },
+    "tags": [
+      "dedekind cuts",
+      "real numbers"
+    ],
+    "metrics": {
+      "likes": 693,
+      "shares": 216,
+      "comments": 28
+    }
+  },
+  {
+    "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§4"
+    },
+    "content": {
+      "html": "<p>Whenever a cut is given which is not produced by a rational number, we create a new number corresponding to this cut, which we call an irrational number. Thus the domain of rational numbers is extended to a new domain of numbers.</p>"
+    },
+    "tags": [
+      "dedekind cuts",
+      "real numbers"
+    ],
+    "metrics": {
+      "likes": 234,
+      "shares": 12,
+      "comments": 91
+    }
+  },
+  {
+    "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§5"
+    },
+    "content": {
+      "html": "<p>The totality of all real numbers forms a complete ordered field. Between any two distinct real numbers there exist infinitely many others.</p>"
+    },
+    "tags": [
+      "real numbers",
+      "real analysis"
+    ],
+    "metrics": {
+      "likes": 719,
+      "shares": 157,
+      "comments": 29
+    }
+  },
+  {
+    "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§6"
+    },
+    "content": {
+      "html": "<p>If \\(\\alpha\\) and \\(\\beta\\) are real numbers corresponding to cuts \\((A_1, A_2)\\) and \\((B_1, B_2)\\), then their sum \\(\\gamma = \\alpha + \\beta\\) is defined by a corresponding cut \\((C_1, C_2)\\).</p>"
+    },
+    "tags": [
+      "real numbers",
+      "dedekind cuts"
+    ],
+    "metrics": {
+      "likes": 979,
+      "shares": 288,
+      "comments": 98
+    }
+  },
+  {
+    "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§6"
+    },
+    "content": {
+      "html": "<p>The order of the real numbers is such that if \\(\\alpha > \\beta\\) and \\(\\beta > \\gamma\\), then \\(\\alpha > \\gamma\\). This order extends that of the rational numbers without contradiction.</p>"
+    },
+    "tags": [
+      "real numbers",
+      "real analysis"
+    ],
+    "metrics": {
+      "likes": 1126,
+      "shares": 16,
+      "comments": 97
+    }
+  },
+  {
+    "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "§7"
+    },
+    "content": {
+      "html": "<p>If a variable magnitude increases continuously but remains bounded above, then it approaches a limit. This theorem is equivalent to the principle of continuity of the real numbers.</p>"
+    },
+    "tags": [
+      "real analysis",
+      "foundations"
+    ],
+    "metrics": {
+      "likes": 629,
+      "shares": 235,
+      "comments": 105
+    }
+  },
+  {
+    "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
+    "author_id": "dedekind",
+    "date": "1872-03-20",
+    "source": {
+      "work": "Continuity and Irrational Numbers",
+      "work_id_": "dedekind_continuity_1872",
+      "chapter": "Conclusion"
+    },
+    "content": {
+      "html": "<p>The essence of continuity lies in the completeness of the number system. The arithmetical conception of the real numbers renders the appeal to geometric intuition unnecessary for the foundation of analysis.</p>"
+    },
+    "tags": [
+      "real numbers",
+      "real analysis",
+      "foundations"
+    ],
+    "metrics": {
+      "likes": 826,
+      "shares": 284,
+      "comments": 145
+    }
+  },
+  {
+  "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§1"
+  },
+  "content": {
+    "html": "<p>I regard the whole of arithmetic as a necessary or at least natural consequence of the simplest arithmetical act, that of counting; and counting itself is nothing other than the successive creation of the infinite series of positive integers.</p>"
+  },
+  "tags": ["foundations", "real numbers"],
+  "metrics": { "likes": 842, "shares": 201, "comments": 77 }
+},
+{
+  "id": "e9ea3da5-2c69-26ac-901b-da3092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§3"
+  },
+  "content": {
+    "html": "<p>I find the essence of continuity in the following principle: If all points of a straight line fall into two classes such that every point of the first lies to the left of every point of the second, then there exists one and only one point which produces this division.</p>"
+  },
+  "tags": ["dedekind cuts", "foundations"],
+  "metrics": { "likes": 1324, "shares": 310, "comments": 91 }
+},
+{
+  "id": "e9ea3da5-2c69-48ac-201b-da3092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§4"
+  },
+  "content": {
+    "html": "<p>In the property that not all cuts are produced by rational numbers consists the incompleteness or discontinuity of the domain \\(\\mathbb{Q}\\).</p>"
+  },
+  "tags": ["dedekind cuts", "real numbers"],
+  "metrics": { "likes": 657, "shares": 140, "comments": 43 }
+},
+{
+  "id": "e9ea3da5-2c69-01bc-901b-da3092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§4"
+  },
+  "content": {
+    "html": "<p>Whenever a cut \\((A_1, A_2)\\) is given which is not produced by a rational number, we create a new number \\(\\alpha\\), which we call an irrational number, and which we regard as completely defined by this cut.</p>"
+  },
+  "tags": ["dedekind cuts", "real numbers"],
+  "metrics": { "likes": 905, "shares": 188, "comments": 60 }
+},
+{
+  "id": "e9ea3da5-7b69-48ac-901b-da3092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§5"
+  },
+  "content": {
+    "html": "<p>If the system of real numbers \\(\\mathbb{R}\\) is divided into two classes \\(\\mathcal{A}_1\\) and \\(\\mathcal{A}_2\\) such that every number \\(\\alpha_1\\) in \\(\\mathcal{A}_1\\) is less than every number \\(\\alpha_2\\) in \\(\\mathcal{A}_2\\), then there exists one and only one number \\(\\alpha\\) which produces this division.</p>"
+  },
+  "tags": ["real numbers", "real analysis"],
+  "metrics": { "likes": 1112, "shares": 247, "comments": 84 }
+},
+{
+  "id": "e9ea3da5-2c69-48ac-901b-da6092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§6"
+  },
+  "content": {
+    "html": "<p>To define the sum \\(\\gamma = \\alpha + \\beta\\), it suffices to define the cut \\((C_1, C_2)\\) which corresponds to it, reducing the operation entirely to operations among rational numbers.</p>"
+  },
+  "tags": ["real numbers", "dedekind cuts"],
+  "metrics": { "likes": 734, "shares": 119, "comments": 52 }
+},
+{
+  "id": "e9ef3da5-2c69-48ac-901b-da3092916c24",
+  "author_id": "dedekind",
+  "work_id": "dedekind_continuity_1872",
+  "date": "1872-03-20",
+  "source": {
+    "work": "Continuity and Irrational Numbers",
+    "chapter": "§7"
+  },
+  "content": {
+    "html": "<p>If a variable magnitude increases continuously but remains bounded, then it approaches a limit. This theorem is equivalent to the principle of continuity.</p>"
+  },
+  "tags": ["real analysis", "foundations"],
+  "metrics": { "likes": 1186, "shares": 289, "comments": 101 }
+}
+
+
+
+
+
+
+
+]
