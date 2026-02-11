@@ -19,14 +19,16 @@ function matchesQuery(post, author, query) {
   const lowerQuery = query.toLowerCase();
 
   // Search in post content (stripped of HTML)
-  const content = stripHTML(post.content.html).toLowerCase();
+  const rawContent = post.content && post.content.html ? post.content.html : (post.caption || "");
+  const content = stripHTML(rawContent).toLowerCase();
   if (content.includes(lowerQuery)) return true;
 
   // Search in post tags
-  if (post.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) return true;
+  if (post.tags && post.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) return true;
 
   // Search in source work title
-  if (post.source.work.toLowerCase().includes(lowerQuery)) return true;
+  const sourceTitle = (post.source && post.source.work) ? post.source.work : (post.origin && post.origin.article ? post.origin.article : "");
+  if (sourceTitle.toLowerCase().includes(lowerQuery)) return true;
 
   // Search in author name
   if (author && author.name.toLowerCase().includes(lowerQuery)) return true;
@@ -34,8 +36,8 @@ function matchesQuery(post, author, query) {
   return false;
 }
 
-export default function Search() {
-  const [query, setQuery] = useState("");
+export default function Search({ initialQuery }) {
+  const [query, setQuery] = useState(initialQuery || "");
   const [posts, setPosts] = useState([]);
   const [results, setResults] = useState([]);
   const [authors, setAuthors] = useState([]);
@@ -57,6 +59,12 @@ export default function Search() {
 
     loadAllData();
   }, []);
+
+  // Filter posts whenever query changes
+  useEffect(() => {
+    // Update local query when route param changes
+    setQuery(initialQuery || "");
+  }, [initialQuery]);
 
   // Filter posts whenever query changes
   useEffect(() => {
