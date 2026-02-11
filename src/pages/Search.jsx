@@ -5,7 +5,7 @@ export default function Search() {
     <div
       style={{
         padding: theme.spacing.pagePadding,
-        color: theme.colors.textPrimary
+        color: theme.colors.textLight
       }}
     >
       <h1>Search</h1>

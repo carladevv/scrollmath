@@ -22,7 +22,7 @@ export default function Header() {
         style={{
           fontSize: "18px",
           fontWeight: "bold",
-          color: theme.colors.textPrimary,
+          color: theme.colors.textLight,
           cursor: "pointer",
           marginRight: "auto"
         }}
@@ -44,7 +44,7 @@ export default function Header() {
           style={{
             background: "none",
             border: "none",
-            color: theme.colors.textPrimary,
+            color: theme.colors.textLight,
             fontSize: "14px",
             cursor: "pointer",
             padding: "8px 12px",
@@ -66,7 +66,7 @@ export default function Header() {
           style={{
             background: "none",
             border: "none",
-            color: theme.colors.textPrimary,
+            color: theme.colors.textLight,
             fontSize: "14px",
             cursor: "pointer",
             padding: "8px 12px",
@@ -88,7 +88,7 @@ export default function Header() {
           style={{
             background: "none",
             border: "none",
-            color: theme.colors.textPrimary,
+            color: theme.colors.textLight,
             fontSize: "14px",
             cursor: "pointer",
             padding: "8px 12px",

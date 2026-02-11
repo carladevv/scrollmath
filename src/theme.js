@@ -6,6 +6,7 @@ export const theme = {
     postBackground: "#ffffff",
     textPrimary: "#111111",
     textSecondary: "#666666",
+    textLight: "#ffffff",    // text on dark backgrounds
     border: "#e5e5e5",
     accent: "#cc0000"
   },

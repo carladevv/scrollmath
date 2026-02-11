@@ -5,7 +5,7 @@ export default function Author({ authorId }) {
     <div
       style={{
         padding: theme.spacing.pagePadding,
-        color: theme.colors.textPrimary
+        color: theme.colors.textLight
       }}
     >
       <h1>Author Page</h1>
