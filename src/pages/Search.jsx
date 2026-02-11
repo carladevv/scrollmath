@@ -158,7 +158,7 @@ export default function Search() {
 
               return (
                 <Post
-                  key={post.id}
+                  key={post.id + Math.random()}
                   post={post}
                   author={author}
                 />
