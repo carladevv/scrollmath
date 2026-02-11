@@ -31,6 +31,10 @@ export default function Post({ post, author }) {
     }
   };
 
+  const handleHeaderClick = () => {
+    window.location.hash = "#post&" + post.id;
+  };
+
   return (
     <div
       style={{
@@ -42,16 +46,19 @@ export default function Post({ post, author }) {
     >
       {/* Header */}
       <div
+        onClick={handleHeaderClick}
         style={{
           marginBottom: "8px",
           display: "flex",
           alignItems: "center",
-          gap: "8px"
+          gap: "8px",
+          cursor: "pointer"
         }}
       >
         <img
           src={author.image}
           alt={author.name}
+          onClick={e => e.stopPropagation()}
           style={{
             width: "36px",
             height: "36px",
@@ -60,7 +67,9 @@ export default function Post({ post, author }) {
           }}
         />
 
-        <div>
+        <div
+          onClick={e => e.stopPropagation()}
+        >
           <div
             style={{
               fontSize: theme.typography.authorSize,
