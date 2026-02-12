@@ -4,7 +4,7 @@ import PostFooter from "./PostFooter";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import { ExternalLink } from "lucide-react";
 
-export default function ImagePost({ post, author }) {
+export default function ImagePost({ post, author, postMargin = null }) {
   const captionRef = useRef(null);
   const handleHeaderClick = () => {
     window.location.hash = "#post&" + post.id;
@@ -31,7 +31,7 @@ export default function ImagePost({ post, author }) {
         background: theme.colors.postBackground,
         padding: theme.spacing.postPadding,
         borderRadius: theme.layout.postRadius,
-        marginBottom: theme.spacing.gap
+        marginBottom: postMargin !== null ? postMargin : theme.spacing.gap
       }}
     >
       {/* Header */}

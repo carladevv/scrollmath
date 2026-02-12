@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Search as SearchIcon } from "lucide-react";
 import Post from "../components/Post";
 import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
@@ -96,49 +97,46 @@ export default function Search({ initialQuery }) {
 
   return (
     <div
+      className="posts-column"
       style={{
-        padding: theme.spacing.pagePadding
+        marginTop: "-16px",
+        padding: "16px"
       }}
     >
       {/* Search Input */}
       <div
         style={{
-          marginBottom: theme.spacing.gap
+          marginBottom: "16px",
+          display: "flex",
+          alignItems: "center",
+          gap: "8px",
+          padding: "12px",
+          border: `1px solid ${theme.colors.border}`,
+          borderRadius: theme.layout.postRadius,
+          background: theme.colors.postBackground,
+          boxSizing: "border-box"
         }}
       >
+        <SearchIcon size={20} color={theme.colors.textSecondary} />
         <input
           type="text"
           placeholder={uiTexts.searchPlaceholder}
           value={query}
           onChange={e => setQuery(e.target.value)}
           style={{
-            width: "100%",
-            padding: "12px",
+            flex: 1,
+            border: "none",
             fontSize: theme.typography.bodySize,
-            border: `1px solid ${theme.colors.border}`,
-            borderRadius: theme.layout.postRadius,
-            boxSizing: "border-box",
             color: theme.colors.textPrimary,
-            background: theme.colors.postBackground
+            background: "transparent",
+            outline: "none"
           }}
         />
       </div>
 
       {/* Results Section */}
       <div>
-        {query.trim() === "" ? (
-          <div
-            style={{
-              padding: theme.spacing.postPadding,
-              background: theme.colors.postBackground,
-              borderRadius: theme.layout.postRadius,
-              color: theme.colors.textSecondary,
-              textAlign: "center"
-            }}
-          >
-            {uiTexts.searchEmptyQuery}
-          </div>
-        ) : results.length === 0 ? (
+        {query.trim() === "" ? null : results.length === 0 ? (
           <div
             style={{
               padding: theme.spacing.postPadding,
@@ -154,7 +152,7 @@ export default function Search({ initialQuery }) {
           <div>
             <div
               style={{
-                marginBottom: theme.spacing.gap,
+                marginBottom: "16px",
                 fontSize: theme.typography.dateSize,
                 color: theme.colors.textSecondary
               }}
@@ -168,12 +166,12 @@ export default function Search({ initialQuery }) {
 
               if (post.type === "image" || post.image) {
                 return (
-                  <ImagePost key={post.id + Math.random()} post={post} author={author} />
+                  <ImagePost key={post.id + Math.random()} post={post} author={author} postMargin="16px" />
                 );
               }
 
               return (
-                <Post key={post.id + Math.random()} post={post} author={author} />
+                <Post key={post.id + Math.random()} post={post} author={author} postMargin="16px" />
               );
             })}
           </div>

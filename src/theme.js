@@ -4,6 +4,7 @@ export const theme = {
     header: "#0b1422",
     footer: "#0b1422",
     postBackground: "#ffffff",
+    authorPageBackground: "#fafafa",
     textPrimary: "#111111",
     textSecondary: "#666666",
     textLight: "#ffffff",    // text on dark backgrounds

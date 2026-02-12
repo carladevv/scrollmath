@@ -80,12 +80,16 @@ export default function Author({ authorId }) {
 
   return (
     <div
+      className="posts-column desktop-top-gap"
       style={{
-        padding: theme.spacing.pagePadding
+        background: theme.colors.authorPageBackground,
+        display: "flex",
+        flexDirection: "column"
       }}
     >
-      {/* Author Header Card */}
+      {/* Author Header Card - with side padding only */}
       <div
+        className="author-header-card"
         style={{
           background: theme.colors.postBackground,
           padding: theme.spacing.postPadding,
@@ -172,7 +176,9 @@ export default function Author({ authorId }) {
               background: theme.colors.postBackground,
               borderRadius: theme.layout.postRadius,
               textAlign: "center",
-              color: theme.colors.textSecondary
+              color: theme.colors.textSecondary,
+              marginLeft: "16px",
+              marginRight: "16px"
             }}
           >
             {uiTexts.noPostsYet}
