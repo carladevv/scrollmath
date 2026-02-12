@@ -97,13 +97,13 @@ export default function Search({ initialQuery }) {
   return (
     <div
       style={{
-        padding: theme.spacing.pagePadding
+        padding: "8px"
       }}
     >
       {/* Search Input */}
       <div
         style={{
-          marginBottom: theme.spacing.gap
+          marginBottom: "8px"
         }}
       >
         <input
@@ -154,7 +154,7 @@ export default function Search({ initialQuery }) {
           <div>
             <div
               style={{
-                marginBottom: theme.spacing.gap,
+                marginBottom: "8px",
                 fontSize: theme.typography.dateSize,
                 color: theme.colors.textSecondary
               }}
@@ -168,12 +168,12 @@ export default function Search({ initialQuery }) {
 
               if (post.type === "image" || post.image) {
                 return (
-                  <ImagePost key={post.id + Math.random()} post={post} author={author} />
+                  <ImagePost key={post.id + Math.random()} post={post} author={author} postMargin="8px" />
                 );
               }
 
               return (
-                <Post key={post.id + Math.random()} post={post} author={author} />
+                <Post key={post.id + Math.random()} post={post} author={author} postMargin="8px" />
               );
             })}
           </div>

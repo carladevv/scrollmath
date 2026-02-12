@@ -6,7 +6,7 @@ import renderMathInElement from "katex/dist/contrib/auto-render";
 import PostFooter from "./PostFooter";
 
 
-export default function Post({ post, author }) {
+export default function Post({ post, author, postMargin = null }) {
   const contentRef = useRef(null);
   const [copied, setCopied] = useState(false);
 
@@ -48,7 +48,7 @@ export default function Post({ post, author }) {
         background: theme.colors.postBackground,
         padding: theme.spacing.postPadding,
         borderRadius: theme.layout.postRadius,
-        marginBottom: theme.spacing.gap
+        marginBottom: postMargin !== null ? postMargin : theme.spacing.gap
       }}
     >
       {/* Header */}

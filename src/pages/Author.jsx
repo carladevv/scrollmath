@@ -81,16 +81,22 @@ export default function Author({ authorId }) {
   return (
     <div
       style={{
-        padding: theme.spacing.pagePadding
+        margin: "-16px",
+        marginTop: "0",
+        display: "flex",
+        flexDirection: "column"
       }}
     >
-      {/* Author Header Card */}
+      {/* Author Header Card - with side padding only */}
       <div
         style={{
           background: theme.colors.postBackground,
           padding: theme.spacing.postPadding,
           borderRadius: theme.layout.postRadius,
-          marginBottom: theme.spacing.gap
+          marginBottom: theme.spacing.gap,
+          marginLeft: "16px",
+          marginRight: "16px",
+          marginTop: "16px"
         }}
       >
         {/* Avatar and Info Row */}
@@ -172,7 +178,9 @@ export default function Author({ authorId }) {
               background: theme.colors.postBackground,
               borderRadius: theme.layout.postRadius,
               textAlign: "center",
-              color: theme.colors.textSecondary
+              color: theme.colors.textSecondary,
+              marginLeft: "16px",
+              marginRight: "16px"
             }}
           >
             {uiTexts.noPostsYet}
