@@ -97,8 +97,9 @@ export default function Search({ initialQuery }) {
 
   return (
     <div
+      className="posts-column"
       style={{
-        margin: "-16px",
+        marginTop: "-16px",
         padding: "16px"
       }}
     >

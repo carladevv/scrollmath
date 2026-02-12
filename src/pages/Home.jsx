@@ -56,10 +56,10 @@ export default function Home() {
   return (
     <div
       ref={feedRef}
+      className="posts-column desktop-top-gap"
       style={{
         height: "100%",
-        overflowY: "auto",
-        margin: "-16px"
+        overflowY: "auto"
       }}
     >
       {feedPosts.map(post => {
