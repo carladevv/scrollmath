@@ -2,11 +2,12 @@ import { useEffect, useRef } from "react";
 import PostFooter from "./PostFooter";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import { ExternalLink } from "lucide-react";
+import { buildAuthorPath, buildPostPath, buildSearchPath, navigateTo } from "../router/navigation";
 
 export default function ImagePost({ post, author }) {
   const captionRef = useRef(null);
   const handleHeaderClick = () => {
-    window.location.hash = "#post&" + post.id;
+    navigateTo(buildPostPath(post.id));
   };
 
   useEffect(() => {
@@ -21,7 +22,7 @@ export default function ImagePost({ post, author }) {
   }, [post.id, post.caption]);
 
   const handleAuthorClick = () => {
-    window.location.hash = "#author&" + author.author_id;
+    navigateTo(buildAuthorPath(author.author_id));
   };
 
   return (
@@ -94,7 +95,7 @@ export default function ImagePost({ post, author }) {
             key={tag}
             onClick={e => {
               e.stopPropagation();
-              window.location.hash = "#search&" + encodeURIComponent(tag);
+              navigateTo(buildSearchPath(tag));
             }}
             className="post-tag-button"
             title={`Search ${tag}`}

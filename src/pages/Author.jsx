@@ -3,6 +3,7 @@ import Post from "../components/Post";
 import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
 import uiTexts from "../data/ui_texts.json";
+import { buildAuthorPath, navigateTo } from "../router/navigation";
 
 export default function Author({ authorId }) {
   const [author, setAuthor] = useState(null);
@@ -78,7 +79,7 @@ export default function Author({ authorId }) {
             src={author.image}
             alt={author.name}
             className="author-avatar"
-            onClick={() => (window.location.hash = `#author&${author.author_id}`)}
+            onClick={() => navigateTo(buildAuthorPath(author.author_id))}
             title="Click to refresh profile"
           />
 
@@ -86,7 +87,7 @@ export default function Author({ authorId }) {
           <div className="author-info">
             <h1
               className="author-name"
-              onClick={() => (window.location.hash = `#author&${author.author_id}`)}
+              onClick={() => navigateTo(buildAuthorPath(author.author_id))}
               title="Click to refresh profile"
             >
               {author.name}

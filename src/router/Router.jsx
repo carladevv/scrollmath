@@ -4,69 +4,38 @@ import Search from "../pages/Search";
 import About from "../pages/About";
 import Author from "../pages/Author";
 import PostPage from "../pages/PostPage";
-
-/**
- * Parses window.location.hash to extract route and parameters
- * Supported formats:
- * - "" or "#home" → route: "home", param: null
- * - "#search" → route: "search", param: null
- * - "#about" → route: "about", param: null
- * - "#author&ID" → route: "author", param: "ID"
- * - "#post&ID" → route: "post", param: "ID"
- */
-function parseHash(hash) {
-  // Remove leading "#"
-  const hashValue = hash.startsWith("#") ? hash.slice(1) : hash;
-
-  // Default to home if empty
-  if (!hashValue) {
-    return { route: "home", param: null };
-  }
-
-  // Split on "&" to separate route and param
-  const [route, rawParam] = hashValue.split("&");
-  let param = null;
-  if (rawParam) {
-    try {
-      param = decodeURIComponent(rawParam);
-    } catch (e) {
-      // If decoding fails, fall back to raw value
-      param = rawParam;
-    }
-  }
-
-  return {
-    route: route || "home",
-    param: param || null
-  };
-}
+import { parseLocation } from "./navigation";
 
 export default function Router() {
   const [route, setRoute] = useState("home");
   const [param, setParam] = useState(null);
 
-  // Parse hash on mount and whenever it changes
   useEffect(() => {
-    const handleHashChange = () => {
-      const { route: newRoute, param: newParam } = parseHash(
-        window.location.hash
-      );
+    const handleRouteChange = () => {
+      const { route: newRoute, param: newParam, canonicalPath } = parseLocation(window.location);
+
       setRoute(newRoute);
       setParam(newParam);
+
+      if (canonicalPath) {
+        const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+        if (current !== canonicalPath) {
+          window.history.replaceState({}, "", canonicalPath);
+        }
+      }
     };
 
-    // Initial parse
-    handleHashChange();
+    handleRouteChange();
 
-    // Listen for hash changes
-    window.addEventListener("hashchange", handleHashChange);
+    window.addEventListener("hashchange", handleRouteChange);
+    window.addEventListener("popstate", handleRouteChange);
 
     return () => {
-      window.removeEventListener("hashchange", handleHashChange);
+      window.removeEventListener("hashchange", handleRouteChange);
+      window.removeEventListener("popstate", handleRouteChange);
     };
   }, []);
 
-  // Render appropriate page based on route
   switch (route) {
     case "home":
       return <Home />;

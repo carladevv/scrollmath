@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
 import uiTexts from "../data/ui_texts.json";
+import { buildPostPath } from "../router/navigation";
 
 export default function PostFooter({ post }) {
   const [copied, setCopied] = useState(false);
@@ -8,7 +9,7 @@ export default function PostFooter({ post }) {
   const handleCopyLink = async (e) => {
     e.stopPropagation();
 
-    const url = window.location.origin + "/#post&" + post.id;
+    const url = window.location.origin + buildPostPath(post.id);
 
     try {
       await navigator.clipboard.writeText(url);

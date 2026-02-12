@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { AlertTriangle } from "lucide-react";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import PostFooter from "./PostFooter";
+import { buildAuthorPath, buildPostPath, buildSearchPath, navigateTo } from "../router/navigation";
 
 function getTranslationCredit(work) {
   if (!work || !work.translation) return null;
@@ -33,11 +34,11 @@ export default function Post({ post, author }) {
   }, [post.id, post.content.html]);
 
   const handleHeaderClick = () => {
-    window.location.hash = "#post&" + post.id;
+    navigateTo(buildPostPath(post.id));
   };
 
   const handleAuthorClick = () => {
-    window.location.hash = "#author&" + author.author_id;
+    navigateTo(buildAuthorPath(author.author_id));
   };
 
   const workTitle = (post.work && post.work.title) || "Unknown work";
@@ -104,7 +105,7 @@ export default function Post({ post, author }) {
             key={tag}
             onClick={e => {
               e.stopPropagation();
-              window.location.hash = "#search&" + encodeURIComponent(tag);
+              navigateTo(buildSearchPath(tag));
             }}
             className="post-tag-button"
             title={`Search ${tag}`}
