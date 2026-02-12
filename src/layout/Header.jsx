@@ -1,8 +1,9 @@
 import uiTexts from "../data/ui_texts.json";
+import { buildAboutPath, buildHomePath, buildSearchPath, navigateTo } from "../router/navigation";
 
 export default function Header() {
-  const handleNavigation = (hash) => {
-    window.location.hash = hash;
+  const handleNavigation = (path) => {
+    navigateTo(path);
   };
 
   return (
@@ -10,7 +11,7 @@ export default function Header() {
       {/* Project Name */}
       <div
         className="app-header-brand"
-        onClick={() => handleNavigation("#home")}
+        onClick={() => handleNavigation(buildHomePath())}
       >
         {uiTexts.projectName}
       </div>
@@ -18,21 +19,21 @@ export default function Header() {
       {/* Navigation Links */}
       <nav className="app-header-nav">
         <button
-          onClick={() => handleNavigation("#home")}
+          onClick={() => handleNavigation(buildHomePath())}
           className="app-header-nav-button"
         >
           {uiTexts.navHome}
         </button>
 
         <button
-          onClick={() => handleNavigation("#search")}
+          onClick={() => handleNavigation(buildSearchPath())}
           className="app-header-nav-button"
         >
           {uiTexts.navSearch}
         </button>
 
         <button
-          onClick={() => handleNavigation("#about")}
+          onClick={() => handleNavigation(buildAboutPath())}
           className="app-header-nav-button"
         >
           {uiTexts.navAbout}

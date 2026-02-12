@@ -1,8 +1,10 @@
+import { buildAuthorPath, buildPostPath, navigateTo } from "../router/navigation";
+
 export default function TinyImagePost({ post, author }) {
   return (
     <div
       onClick={() => {
-        window.location.hash = "#post&" + post.id;
+        navigateTo(buildPostPath(post.id));
       }}
       className="tiny-post"
       title="Open post"
@@ -13,7 +15,7 @@ export default function TinyImagePost({ post, author }) {
           alt={author.name}
           onClick={e => {
             e.stopPropagation();
-            window.location.hash = "#author&" + author.author_id;
+            navigateTo(buildAuthorPath(author.author_id));
           }}
           className="tiny-post-avatar"
         />
