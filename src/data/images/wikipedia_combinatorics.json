@@ -22,7 +22,7 @@
     "author_id": "wikipedia",
     "date": "2004-07-24",
     "image": "/images/Hasse_diagram_of_powerset_of_3.svg.png",
-    "caption": "Hasse diagram of the powerset of $\\{x,y,z\\}$ ordered by inclusion.",
+    "caption":"Hasse diagram of the powerset of \\( \\{x,y,z\\} \\) ordered by inclusion.",
     "origin": {
       "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Hasse_diagram_of_powerset_of_3.svg",
       "article": "Combinatorics"
