@@ -1,0 +1,66 @@
+[
+  {
+    "id": "5f7df3b2-6d43-4d6d-9e44-1fbf0c8a2b10",
+    "type": "image",
+    "work_id": "wikipedia_combinatorics",
+    "author_id": "wikipedia",
+    "date": "2006-01-29",
+    "image": "/images/Plain-bob-minor_2.png",
+    "caption": "An example of change ringing (with six bells), one of the earliest nontrivial results in graph theory.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Plain-bob-minor_2.png",
+      "article": "Combinatorics"
+    },
+    "credit": "Public domain (PD-self). Commons lists: source assumed own work; author assumed Andrew Hyde (based on copyright claims).",
+    "tags": ["combinatorics"],
+    "metrics": { "likes": 812, "shares": 184, "comments": 37 }
+  },
+  {
+    "id": "c1d3c6e8-9341-4c2c-97f0-7a8fe0e2a2a7",
+    "type": "image",
+    "work_id": "wikipedia_combinatorics",
+    "author_id": "wikipedia",
+    "date": "2004-07-24",
+    "image": "/images/Hasse_diagram_of_powerset_of_3.svg.png",
+    "caption": "Hasse diagram of the powerset of $\\{x,y,z\\}$ ordered by inclusion.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Hasse_diagram_of_powerset_of_3.svg",
+      "article": "Combinatorics"
+    },
+    "credit": "Created by KSmrq; self-made using graphviz's dot. Licensed under CC BY-SA 3.0 (also offered under other free licenses on the Commons page).",
+    "tags": ["combinatorics", "posets"],
+    "metrics": { "likes": 1045, "shares": 263, "comments": 58 }
+  },
+  {
+    "id": "a8f1a2c5-3b92-45de-9b0e-0d6c2d9f3b66",
+    "type": "image",
+    "work_id": "wikipedia_combinatorics",
+    "author_id": "wikipedia",
+    "date": "2006-03-11",
+    "image": "/images/Catalan_4_leaves_binary_tree_example.svg.png",
+    "caption": "Five binary trees on three vertices, an example of Catalan numbers.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Catalan_4_leaves_binary_tree_example.svg",
+      "article": "Combinatorics"
+    },
+    "credit": "Transferred from Spanish Wikipedia to Commons. Commons lists the original uploader as Jasampler; file page indicates public domain status for this simple-geometry diagram.",
+    "tags": ["combinatorics", "catalan numbers"],
+    "metrics": { "likes": 973, "shares": 241, "comments": 46 }
+  },
+  {
+    "id": "0e2f3b69-2d8e-49d1-9f8b-9b0d4d3a77b9",
+    "type": "image",
+    "work_id": "wikipedia_combinatorics",
+    "author_id": "wikipedia",
+    "date": "2008-02-20",
+    "image": "/images/Kissing-3d.png",
+    "caption": "Kissing spheres are connected to both coding theory and discrete geometry.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Kissing-3d.png",
+      "article": "Combinatorics"
+    },
+    "credit": "Transferred from English Wikipedia to Commons; Commons lists the original uploader as Robertwb. Licensed under CC BY-SA 3.0.",
+    "tags": ["combinatorics", "geometry"],
+    "metrics": { "likes": 1398, "shares": 356, "comments": 82 }
+  }
+]

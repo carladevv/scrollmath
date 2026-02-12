@@ -1,0 +1,68 @@
+[
+  {
+    "id": "f57f1afe-8909-41b1-be26-badccf970e94",
+    "type": "image",
+    "work_id": "wikipedia_graph_theory",
+    "author_id": "wikipedia",
+    "date": "2015-05-04",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Moreno_Sociogram_2nd_Grade.png",
+    "caption": "Graph theory in sociology: Moreno Sociogram (1953).",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Graph_theory#/media/File%3AMoreno_Sociogram_2nd_Grade.png",
+      "article": "Graph theory"
+    },
+    "credit": "Own work",
+    "tags": ["graph_theory"],
+    "metrics": {
+      "likes": 1265,
+      "shares": 152,
+      "comments": 29
+    },
+    "creator": "Martin Grandjean",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "7824e47d-015b-408f-8f90-5bb27dea41c2",
+    "type": "image",
+    "work_id": "wikipedia_graph_theory",
+    "author_id": "wikipedia",
+    "date": "2024-08-24",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Example_of_simple_undirected_graph_3.svg",
+    "caption": "A graph with 6 vertices and 7 edges.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Graph_theory#/media/File%3AExample_of_simple_undirected_graph_3.svg",
+      "article": "Graph theory"
+    },
+    "credit": "Own work",
+    "tags": ["graph_theory"],
+    "metrics": {
+      "likes": 1184,
+      "shares": 297,
+      "comments": 55
+    },
+    "creator": "Michel Bakni",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "52e7dfd4-ef6d-4886-a6ad-677d0327b25e",
+    "type": "image",
+    "work_id": "wikipedia_graph_theory",
+    "author_id": "wikipedia",
+    "date": "2005-04-18",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png",
+    "caption": "The Seven Bridges of Königsberg problem.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Graph_theory#/media/File%3AKonigsberg_bridges.png",
+      "article": "Graph theory"
+    },
+    "credit": "Public domain (PD), based on the image.",
+    "tags": ["graph_theory"],
+    "metrics": {
+      "likes": 773,
+      "shares": 207,
+      "comments": 81
+    },
+    "creator": "Bogdan Giuşcă",
+    "license": "CC BY-SA 3.0"
+  }
+]

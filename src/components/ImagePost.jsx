@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { theme } from "../theme";
 import PostFooter from "./PostFooter";
 import renderMathInElement from "katex/dist/contrib/auto-render";
+import { ExternalLink } from "lucide-react";
 
 export default function ImagePost({ post, author }) {
   const captionRef = useRef(null);
@@ -131,12 +132,12 @@ export default function ImagePost({ post, author }) {
             textDecoration: "none"
           }}
         >
-          {post.origin.article}
+         {post.origin.article} <ExternalLink size={12}/> 
         </a>
       </div>
 
       {/* Credit */}
-      <div
+      {/* <div
         style={{
           marginTop: "4px",
           fontSize: "12px",
@@ -145,7 +146,7 @@ export default function ImagePost({ post, author }) {
         }}
       >
         {post.credit}
-      </div>
+      </div> */}
 
       {/* Tags */}
       <div

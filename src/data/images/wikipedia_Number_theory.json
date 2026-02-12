@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ba5122aa-02d0-497c-a227-a6ca6b2af0e6",
+    "type": "image",
+    "work_id": "wikipedia_number_theory",
+    "author_id": "wikipedia",
+    "date": "2019-07-26",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Computer_History_Museum_%284145886786%29.jpg",
+    "caption": "A Lehmer sieve, a primitive digital computer used to find primes and solve simple Diophantine equations.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3AComputer_History_Museum_%284145886786%29.jpg",
+      "article": "Number theory"
+    },
+    "credit": "Flickr",
+    "tags": [
+      "number_theory"
+    ],
+    "metrics": {
+      "likes": 1300,
+      "shares": 126,
+      "comments": 33
+    },
+    "creator": "Marcin Wichary from San Francisco, Calif.",
+    "license": "CC BY 2.0"
+  },
+  {
+    "id": "288e3ed8-3f9f-490c-a0da-389f80ca5b2b",
+    "type": "image",
+    "work_id": "wikipedia_number_theory",
+    "author_id": "wikipedia",
+    "date": "2018-01-08",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Riemann_Explicit_Formula.gif",
+    "caption": "Corrections to an estimate of the prime-counting function using zeros of the zeta function.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3ARiemann_Explicit_Formula.gif",
+      "article": "Number theory"
+    },
+    "credit": "Own work.",
+    "tags": [
+      "number_theory"
+    ],
+    "metrics": {
+      "likes": 890,
+      "shares": 137,
+      "comments": 48
+    },
+    "creator": "Daniel Hutama",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "0f40e84a-83d7-4d06-9023-9953f5864a3b",
+    "type": "image",
+    "work_id": "wikipedia_number_theory",
+    "author_id": "wikipedia",
+    "date": "2022-05-27",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Plimpton_322.jpg",
+    "caption": "The Babylonians demonstrated an early understanding of Pythagorean triples.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3APlimpton_322.jpg",
+      "article": "Number theory"
+    },
+    "credit": "Image copied from http://www.math.ubc.ca/~cass/courses/m446-03/pl322/pl322.html.",
+    "tags": [
+      "number_theory"
+    ],
+    "metrics": {
+      "likes": 1220,
+      "shares": 385,
+      "comments": 81
+    },
+    "creator": "photo author unknown",
+    "license": "Public domain"
+  },
+  {
+    "id": "33e16b29-d375-4808-b4aa-3d5fdf9383c3",
+    "type": "image",
+    "work_id": "wikipedia_number_theory",
+    "author_id": "wikipedia",
+    "date": "2022-06-06",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/ModularGroup-FundamentalDomain.svg",
+    "caption": "The action of the modular group on the upper half plane. The region in grey is the standard fundamental domain.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3AModularGroup-FundamentalDomain.svg",
+      "article": "Number theory"
+    },
+    "credit": "Own work based on: ModularGroup-FundamentalDomain-01.png.",
+    "tags": [
+      "number_theory"
+    ],
+    "metrics": {
+      "likes": 1350,
+      "shares": 162,
+      "comments": 55
+    },
+    "creator": "Original: Kilom691; Vector: Alexander Hulpke",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "e4840880-5984-437d-a204-3ef01766e44e",
+    "type": "image",
+    "work_id": "wikipedia_number_theory",
+    "author_id": "wikipedia",
+    "date": "2007-08-03",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Complex_zeta.jpg",
+    "caption": "Riemann zeta function \\( \\zeta(s) \\) in the complex plane. The color of a point \\( s \\) gives the value of \\( \\zeta(s) \\): dark colors denote values close to zero and hue gives the value's argument.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3AComplex_zeta.jpg",
+      "article": "Number theory"
+    },
+    "credit": "Made with Mathematica; own work.",
+    "tags": [
+      "number_theory"
+    ],
+    "metrics": {
+      "likes": 1203,
+      "shares": 228,
+      "comments": 73
+    },
+    "creator": "Jan Homann",
+    "license": "Public domain"
+  },
+  {
+    "id": "cf220614-2292-4760-9a4a-d295f088ce83",
+    "type": "image",
+    "work_id": "wikipedia_number_theory",
+    "author_id": "wikipedia",
+    "date": "2005-08-05",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Pierre_de_Fermat.png",
+    "caption": "Fermat is sometimes considered the founder of modern number theory.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3APierre_de_Fermat.png",
+      "article": "Number theory"
+    },
+    "credit": "",
+    "tags": [
+      "number_theory"
+    ],
+    "metrics": {
+      "likes": 785,
+      "shares": 265,
+      "comments": 17
+    },
+    "creator": "",
+    "license": "Public domain"
+  }
+]

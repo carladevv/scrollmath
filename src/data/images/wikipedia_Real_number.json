@@ -1,0 +1,74 @@
+[
+  {
+    "id": "a6a7402e-4059-4bbe-b0bc-9b2a493ed818",
+    "type": "image",
+    "work_id": "wikipedia_real_number",
+    "author_id": "wikipedia",
+    "date": "2021-09-07",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Number-systems_%28NZQRC%29.svg",
+    "caption": "Set inclusions between the natural numbers (\\( \\mathbb{N} \\)), the integers (\\( \\mathbb{Z} \\)), the rational numbers (\\( \\mathbb{Q} \\)), the real numbers (\\( \\mathbb{R} \\)), and the complex numbers (\\( \\mathbb{C} \\)).",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Real_number#/media/File%3ANumber-systems_%28NZQRC%29.svg",
+      "article": "Real number"
+    },
+    "credit": "Own work based on: Number-systems with C.png.",
+    "tags": [
+      "real_number"
+    ],
+    "metrics": {
+      "likes": 852,
+      "shares": 234,
+      "comments": 42
+    },
+    "creator": "Mortalmoth",
+    "license": "Public domain"
+  },
+  {
+    "id": "28afec76-b301-4fb3-a56d-ff8a4ee98aa8",
+    "type": "image",
+    "work_id": "wikipedia_real_number",
+    "author_id": "wikipedia",
+    "date": "2021-05-27",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Number-systems.svg",
+    "caption": "Real numbers \\( \\mathbb{R} \\) include the rational numbers \\( \\mathbb{Q} \\), which include the integers \\( \\mathbb{Z} \\), which in turn include the natural numbers \\( \\mathbb{N} \\).",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Real_number#/media/File%3ANumber-systems.svg",
+      "article": "Real number"
+    },
+    "credit": "Own work.",
+    "tags": [
+      "real_number"
+    ],
+    "metrics": {
+      "likes": 1592,
+      "shares": 182,
+      "comments": 90
+    },
+    "creator": "Mortalmoth",
+    "license": "Public domain"
+  },
+  {
+    "id": "d3fdcd5a-d949-433a-9629-c48bd7e5d3d0",
+    "type": "image",
+    "work_id": "wikipedia_real_number",
+    "author_id": "wikipedia",
+    "date": "2018-11-29",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Real_number_line.svg",
+    "caption": "Real numbers can be thought of as all points on a number line.",
+    "origin": {
+      "link": "https://en.wikipedia.org/wiki/Real_number#/media/File%3AReal_number_line.svg",
+      "article": "Real number"
+    },
+    "credit": "Own work.",
+    "tags": [
+      "real_number"
+    ],
+    "metrics": {
+      "likes": 1474,
+      "shares": 408,
+      "comments": 37
+    },
+    "creator": "User:Phrood~commonswiki",
+    "license": "Public domain"
+  }
+]
