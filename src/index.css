@@ -24,7 +24,7 @@ body {
 
 @media (min-width: 1024px) {
   .posts-column {
-    width: 60vw;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
