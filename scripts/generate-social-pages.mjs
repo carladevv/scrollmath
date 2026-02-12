@@ -32,6 +32,26 @@ function truncate(value, maxLength) {
   return `${value.slice(0, maxLength - 1)}...`;
 }
 
+function formatPostDate(rawDate) {
+  if (!rawDate) return "";
+  const parsed = new Date(rawDate);
+  if (Number.isNaN(parsed.getTime())) return rawDate;
+
+  return parsed.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC"
+  });
+}
+
+function normalizeIsoDate(rawDate) {
+  if (!rawDate) return "";
+  const parsed = new Date(rawDate);
+  if (Number.isNaN(parsed.getTime())) return "";
+  return parsed.toISOString();
+}
+
 function absoluteUrl(relativeOrAbsolute) {
   if (!relativeOrAbsolute) return "";
   if (/^https?:\/\//i.test(relativeOrAbsolute)) return relativeOrAbsolute;
@@ -68,35 +88,46 @@ async function loadJsonArrayFromDir(dirPath) {
 function buildMeta(post, author, work) {
   const isImagePost = post.type === "image" || Boolean(post.image);
   const text = isImagePost ? post.caption : stripHtml(post?.content?.html);
-  const titleCore = truncate(text || work?.title || "Mathematics excerpt", 90);
-  const title = `${author?.name || "Unknown author"} - ${titleCore}`;
-
-  const descriptionParts = [];
-  if (work?.title) descriptionParts.push(`From ${work.title}.`);
-  if (text) descriptionParts.push(truncate(text, 180));
-  if (Array.isArray(post.tags) && post.tags.length > 0) {
-    descriptionParts.push(
-      `Tags: ${post.tags.slice(0, 4).map(tag => `#${tag}`).join(" ")}`
-    );
-  }
-
-  const description = truncate(descriptionParts.join(" "), 280) || "Mathematics post.";
+  const title = author?.name || "Unknown author";
+  const formattedDate = formatPostDate(post.date);
+  const excerpt = truncate(text || "Mathematics post.", 220);
+  const description = truncate(
+    [excerpt, formattedDate ? `Date: ${formattedDate}` : "", work?.title ? `From: ${work.title}` : ""]
+      .filter(Boolean)
+      .join(" | "),
+    280
+  );
 
   const image = post.image || author?.header || author?.image || "/headers/1.jpg";
 
   return {
     title,
     description,
-    image: absoluteUrl(image)
+    image: absoluteUrl(image),
+    authorName: author?.name || "Unknown author",
+    formattedDate,
+    publishedTime: normalizeIsoDate(post.date)
   };
 }
 
-function createHtmlDocument({ title, description, image, canonicalUrl, redirectPath }) {
+function createHtmlDocument({
+  title,
+  description,
+  image,
+  canonicalUrl,
+  redirectPath,
+  authorName,
+  formattedDate,
+  publishedTime
+}) {
   const escapedTitle = escapeHtml(title);
   const escapedDescription = escapeHtml(description);
   const escapedImage = escapeHtml(image);
   const escapedCanonical = escapeHtml(canonicalUrl);
   const escapedRedirectPath = escapeHtml(redirectPath);
+  const escapedAuthorName = escapeHtml(authorName || "");
+  const escapedFormattedDate = escapeHtml(formattedDate || "");
+  const escapedPublishedTime = escapeHtml(publishedTime || "");
 
   return `<!doctype html>
 <html lang="en">
@@ -112,11 +143,17 @@ function createHtmlDocument({ title, description, image, canonicalUrl, redirectP
     <meta property="og:description" content="${escapedDescription}" />
     <meta property="og:image" content="${escapedImage}" />
     <meta property="og:url" content="${escapedCanonical}" />
+    <meta property="article:author" content="${escapedAuthorName}" />
+    ${escapedPublishedTime ? `<meta property="article:published_time" content="${escapedPublishedTime}" />` : ""}
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${escapedTitle}" />
     <meta name="twitter:description" content="${escapedDescription}" />
     <meta name="twitter:image" content="${escapedImage}" />
+    <meta name="twitter:label1" content="Author" />
+    <meta name="twitter:data1" content="${escapedAuthorName}" />
+    <meta name="twitter:label2" content="Date" />
+    <meta name="twitter:data2" content="${escapedFormattedDate}" />
 
     <meta http-equiv="refresh" content="0; url=${escapedRedirectPath}" />
     <script>
