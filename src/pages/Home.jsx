@@ -59,8 +59,7 @@ export default function Home() {
       style={{
         height: "100%",
         overflowY: "auto",
-        margin: "-16px",
-        marginTop: "0"
+        margin: "-16px"
       }}
     >
       {feedPosts.map(post => {

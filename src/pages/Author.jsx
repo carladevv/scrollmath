@@ -82,7 +82,6 @@ export default function Author({ authorId }) {
     <div
       style={{
         margin: "-16px",
-        marginTop: "0",
         display: "flex",
         flexDirection: "column"
       }}
