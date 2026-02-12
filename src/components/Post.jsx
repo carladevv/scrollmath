@@ -1,10 +1,23 @@
 import { useEffect, useRef, useState } from "react";
-import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
+import { Heart, Share2, MessageCircle, Link as LinkIcon, Check, AlertTriangle } from "lucide-react";
 import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import PostFooter from "./PostFooter";
 
+function getTranslationCredit(work) {
+  if (!work || !work.translation) return null;
+
+  if (work.translation.type === "human_translated" && work.translation.translator) {
+    return `Trans. ${work.translation.translator}`;
+  }
+
+  if (work.translation.type === "machine_translated") {
+    return "Machine translation";
+  }
+
+  return null;
+}
 
 export default function Post({ post, author, postMargin = null }) {
   const contentRef = useRef(null);
@@ -41,6 +54,9 @@ export default function Post({ post, author, postMargin = null }) {
   const handleAuthorClick = () => {
     window.location.hash = "#author&" + author.author_id;
   };
+
+  const workTitle = (post.work && post.work.title) || "Unknown work";
+  const translationCredit = getTranslationCredit(post.work);
 
   return (
     <div
@@ -123,11 +139,33 @@ export default function Post({ post, author, postMargin = null }) {
       <div
         style={{
           marginTop: "12px",
-          fontSize: theme.typography.dateSize,
           color: theme.colors.textSecondary
         }}
       >
-        {post.source.work}
+        <div
+          style={{
+            fontSize: "14px"
+          }}
+        >
+          {workTitle}
+        </div>
+        {translationCredit && (
+          <div
+            style={{
+              marginTop: "2px",
+              fontSize: "13px",
+              opacity: 0.75,
+              display: "flex",
+              alignItems: "center",
+              gap: "4px"
+            }}
+          >
+            {translationCredit === "Machine translation" && (
+              <AlertTriangle size={12} />
+            )}
+            {translationCredit}
+          </div>
+        )}
       </div>
 
       {/* Tags */}

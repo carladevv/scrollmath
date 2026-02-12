@@ -28,7 +28,9 @@ function matchesQuery(post, author, query) {
   if (post.tags && post.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) return true;
 
   // Search in source work title
-  const sourceTitle = (post.source && post.source.work) ? post.source.work : (post.origin && post.origin.article ? post.origin.article : "");
+  const sourceTitle = (post.work && post.work.title)
+    ? post.work.title
+    : (post.origin && post.origin.article ? post.origin.article : "");
   if (sourceTitle.toLowerCase().includes(lowerQuery)) return true;
 
   // Search in author name

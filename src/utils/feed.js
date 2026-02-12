@@ -60,9 +60,11 @@ export async function loadData() {
   const postModules = import.meta.glob("../data/posts/*.json");
   const imageModules = import.meta.glob("../data/images/*.json");
   const authorModules = import.meta.glob("../data/authors/*.json");
+  const workModules = import.meta.glob("../data/works/*.json");
 
   let allPosts = [];
   let allAuthors = [];
+  const worksById = {};
 
   for (const path in postModules) {
     const module = await postModules[path]();
@@ -80,7 +82,18 @@ export async function loadData() {
     allAuthors = [...allAuthors, ...module.default];
   }
 
-  return { posts: allPosts, authors: allAuthors };
+  for (const path in workModules) {
+    const module = await workModules[path]();
+    const work = module.default;
+    worksById[work.id] = work;
+  }
+
+  const postsWithWork = allPosts.map(post => ({
+    ...post,
+    work: post.work_id ? worksById[post.work_id] || null : null
+  }));
+
+  return { posts: postsWithWork, authors: allAuthors, works: Object.values(worksById) };
 }
 
 // -------------------------
