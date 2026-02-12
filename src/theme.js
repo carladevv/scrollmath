@@ -24,8 +24,8 @@ export const theme = {
     bodySize: "16px",
     tagSize: "13px",
     metricSize: "13px",
-    workTitleSize: "14px",
-    translationSize: "13px"
+    workTitleSize: "12px",
+    translationSize: "12px"
   },
 
   layout: {
