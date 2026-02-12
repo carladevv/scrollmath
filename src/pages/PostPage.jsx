@@ -70,9 +70,10 @@ export default function PostPage({ postId }) {
 
   return (
     <div
+      className="posts-column desktop-top-gap"
       style={{
-        padding: theme.spacing.pagePadding,
-        maxWidth: "800px"
+        display: "flex",
+        flexDirection: "column"
       }}
     >
       {post.type === "image" || post.image ? (

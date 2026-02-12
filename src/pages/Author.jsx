@@ -82,6 +82,7 @@ export default function Author({ authorId }) {
     <div
       className="posts-column desktop-top-gap"
       style={{
+        background: theme.colors.authorPageBackground,
         display: "flex",
         flexDirection: "column"
       }}

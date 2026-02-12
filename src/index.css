@@ -19,7 +19,7 @@ body {
 }
 
 .author-header-card {
-  margin: 16px;
+  margin: 0 0 16px 0;
 }
 
 @media (min-width: 1024px) {
@@ -33,7 +33,4 @@ body {
     margin-top: 0;
   }
 
-  .author-header-card {
-    margin: 0 0 16px 0;
-  }
 }
