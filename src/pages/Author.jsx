@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Post from "../components/Post";
 import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
-import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 
 export default function Author({ authorId }) {
@@ -53,12 +52,7 @@ export default function Author({ authorId }) {
 
   if (loading) {
     return (
-      <div
-        style={{
-          padding: theme.spacing.pagePadding,
-          color: theme.colors.textLight
-        }}
-      >
+      <div className="status-message">
         {uiTexts.loading}
       </div>
     );
@@ -66,12 +60,7 @@ export default function Author({ authorId }) {
 
   if (error || !author) {
     return (
-      <div
-        style={{
-          padding: theme.spacing.pagePadding,
-          color: theme.colors.textLight
-        }}
-      >
+      <div className="status-message">
         <h1>{uiTexts.authorNotFoundTitle}</h1>
         <p>{uiTexts.authorNotFoundMessage}</p>
       </div>
@@ -79,59 +68,24 @@ export default function Author({ authorId }) {
   }
 
   return (
-    <div
-      className="posts-column desktop-top-gap"
-      style={{
-        background: theme.colors.authorPageBackground,
-        display: "flex",
-        flexDirection: "column"
-      }}
-    >
+    <div className="posts-column desktop-top-gap author-page">
       {/* Author Header Card - with side padding only */}
-      <div
-        className="author-header-card"
-        style={{
-          background: theme.colors.postBackground,
-          padding: theme.spacing.postPadding,
-          borderRadius: theme.layout.postRadius,
-          marginBottom: theme.spacing.gap
-        }}
-      >
+      <div className="author-header-card">
         {/* Avatar and Info Row */}
-        <div
-          style={{
-            display: "flex",
-            gap: "16px",
-            alignItems: "flex-start",
-            marginBottom: "16px"
-          }}
-        >
+        <div className="author-header-row">
           {/* Avatar */}
           <img
             src={author.image}
             alt={author.name}
-            style={{
-              width: "80px",
-              height: "80px",
-              objectFit: "cover",
-              borderRadius: theme.layout.postRadius,
-              flexShrink: 0,
-              cursor: "pointer"
-            }}
+            className="author-avatar"
             onClick={() => (window.location.hash = `#author&${author.author_id}`)}
             title="Click to refresh profile"
           />
 
           {/* Author Info */}
-          <div style={{ flex: 1 }}>
+          <div className="author-info">
             <h1
-              style={{
-                margin: "0 0 8px 0",
-                fontSize: "20px",
-                fontWeight: 700,
-                color: theme.colors.textPrimary,
-                cursor: "pointer"
-              }}
+              className="author-name"
               onClick={() => (window.location.hash = `#author&${author.author_id}`)}
               title="Click to refresh profile"
             >
@@ -140,12 +94,7 @@ export default function Author({ authorId }) {
 
             {/* Birth/Death line */}
             {(author.born || author.died) && (
-              <div
-                style={{
-                  fontSize: theme.typography.dateSize,
-                  color: theme.colors.textSecondary
-                }}
-              >
+              <div className="author-dates">
                 {author.born && author.born.substring(0, 4)}
                 {author.born && " — "}
                 {author.died ? author.died.substring(0, 4) : "Present"}
@@ -155,32 +104,15 @@ export default function Author({ authorId }) {
         </div>
 
         {/* Bio - Full Width */}
-        <p
-          style={{
-            margin: 0,
-            fontSize: theme.typography.bodySize,
-            color: theme.colors.textPrimary,
-            lineHeight: 1.6
-          }}
-        >
+        <p className="author-bio">
           {author.bio}
         </p>
       </div>
 
       {/* Posts Section */}
-      <div>
+      <div className="author-posts">
         {posts.length === 0 ? (
-          <div
-            style={{
-              padding: theme.spacing.postPadding,
-              background: theme.colors.postBackground,
-              borderRadius: theme.layout.postRadius,
-              textAlign: "center",
-              color: theme.colors.textSecondary,
-              marginLeft: "16px",
-              marginRight: "16px"
-            }}
-          >
+          <div className="author-empty-posts">
             {uiTexts.noPostsYet}
           </div>
         ) : (

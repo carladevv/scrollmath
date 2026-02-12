@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
-import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 
 export default function PostFooter({ post }) {
@@ -21,21 +20,8 @@ export default function PostFooter({ post }) {
   };
 
   return (
-    <div
-      style={{
-        marginTop: "12px",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center"
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          gap: "24px",
-          alignItems: "center"
-        }}
-      >
+    <div className="post-footer">
+      <div className="post-footer-metrics">
         <Metric icon={<Heart size={16} />} value={post.metrics.likes} />
         <Metric icon={<Share2 size={16} />} value={post.metrics.shares} />
         <Metric icon={<MessageCircle size={16} />} value={post.metrics.comments} />
@@ -43,16 +29,7 @@ export default function PostFooter({ post }) {
 
       <button
         onClick={handleCopyLink}
-        style={{
-          background: "none",
-          border: "none",
-          cursor: "pointer",
-          padding: "4px 8px",
-          color: copied ? theme.colors.accent : theme.colors.textSecondary,
-          transition: "color 0.2s",
-          display: "flex",
-          alignItems: "center"
-        }}
+        className={`post-footer-copy ${copied ? "is-copied" : ""}`}
         title={uiTexts.copyLinkTitle}
       >
         {copied ? <Check size={16} /> : <LinkIcon size={16} />}
@@ -63,15 +40,7 @@ export default function PostFooter({ post }) {
 
 function Metric({ icon, value }) {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "6px",
-        color: theme.colors.textSecondary,
-        fontSize: theme.typography.metricSize
-      }}
-    >
+    <div className="post-footer-metric">
       {icon}
       <span>{value}</span>
     </div>

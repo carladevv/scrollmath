@@ -1,4 +1,3 @@
-import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 
 export default function Header() {
@@ -7,101 +6,34 @@ export default function Header() {
   };
 
   return (
-    <div
-      style={{
-        height: theme.layout.headerHeight,
-        background: theme.colors.header,
-        display: "flex",
-        alignItems: "center",
-        padding: `0 ${theme.spacing.pagePadding}`,
-        borderBottom: `1px solid ${theme.colors.border}`,
-        gap: theme.spacing.gap
-      }}
-    >
+    <div className="app-header">
       {/* Project Name */}
       <div
-        style={{
-          fontSize: "18px",
-          fontWeight: "bold",
-          color: theme.colors.textLight,
-          cursor: "pointer",
-          marginRight: "auto"
-        }}
+        className="app-header-brand"
         onClick={() => handleNavigation("#home")}
       >
         {uiTexts.projectName}
       </div>
 
       {/* Navigation Links */}
-      <nav
-        style={{
-          display: "flex",
-          gap: theme.spacing.gap,
-          alignItems: "center"
-        }}
-      >
+      <nav className="app-header-nav">
         <button
           onClick={() => handleNavigation("#home")}
-          style={{
-            background: "none",
-            border: "none",
-            color: theme.colors.textLight,
-            fontSize: "14px",
-            cursor: "pointer",
-            padding: "8px 12px",
-            borderRadius: "4px",
-            transition: "background-color 0.2s",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "transparent";
-          }}
+          className="app-header-nav-button"
         >
           {uiTexts.navHome}
         </button>
 
         <button
           onClick={() => handleNavigation("#search")}
-          style={{
-            background: "none",
-            border: "none",
-            color: theme.colors.textLight,
-            fontSize: "14px",
-            cursor: "pointer",
-            padding: "8px 12px",
-            borderRadius: "4px",
-            transition: "background-color 0.2s",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "transparent";
-          }}
+          className="app-header-nav-button"
         >
           {uiTexts.navSearch}
         </button>
 
         <button
           onClick={() => handleNavigation("#about")}
-          style={{
-            background: "none",
-            border: "none",
-            color: theme.colors.textLight,
-            fontSize: "14px",
-            cursor: "pointer",
-            padding: "8px 12px",
-            borderRadius: "4px",
-            transition: "background-color 0.2s",
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.backgroundColor = "transparent";
-          }}
+          className="app-header-nav-button"
         >
           {uiTexts.navAbout}
         </button>

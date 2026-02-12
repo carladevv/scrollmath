@@ -3,7 +3,6 @@ import { Search as SearchIcon } from "lucide-react";
 import Post from "../components/Post";
 import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
-import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 
 /**
@@ -28,7 +27,9 @@ function matchesQuery(post, author, query) {
   if (post.tags && post.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) return true;
 
   // Search in source work title
-  const sourceTitle = (post.source && post.source.work) ? post.source.work : (post.origin && post.origin.article ? post.origin.article : "");
+  const sourceTitle = (post.work && post.work.title)
+    ? post.work.title
+    : (post.origin && post.origin.article ? post.origin.article : "");
   if (sourceTitle.toLowerCase().includes(lowerQuery)) return true;
 
   // Search in author name
@@ -84,79 +85,35 @@ export default function Search({ initialQuery }) {
 
   if (loading) {
     return (
-      <div
-        style={{
-          padding: theme.spacing.pagePadding,
-          color: theme.colors.textLight
-        }}
-      >
+      <div className="status-message">
         {uiTexts.loading}
       </div>
     );
   }
 
   return (
-    <div
-      className="posts-column"
-      style={{
-        marginTop: "-16px",
-        padding: "16px"
-      }}
-    >
+    <div className="posts-column search-page">
       {/* Search Input */}
-      <div
-        style={{
-          marginBottom: "16px",
-          display: "flex",
-          alignItems: "center",
-          gap: "8px",
-          padding: "12px",
-          border: `1px solid ${theme.colors.border}`,
-          borderRadius: theme.layout.postRadius,
-          background: theme.colors.postBackground,
-          boxSizing: "border-box"
-        }}
-      >
-        <SearchIcon size={20} color={theme.colors.textSecondary} />
+      <div className="search-input-wrap">
+        <SearchIcon size={20} className="search-input-icon" />
         <input
           type="text"
           placeholder={uiTexts.searchPlaceholder}
           value={query}
           onChange={e => setQuery(e.target.value)}
-          style={{
-            flex: 1,
-            border: "none",
-            fontSize: theme.typography.bodySize,
-            color: theme.colors.textPrimary,
-            background: "transparent",
-            outline: "none"
-          }}
+          className="search-input"
         />
       </div>
 
       {/* Results Section */}
       <div>
         {query.trim() === "" ? null : results.length === 0 ? (
-          <div
-            style={{
-              padding: theme.spacing.postPadding,
-              background: theme.colors.postBackground,
-              borderRadius: theme.layout.postRadius,
-              color: theme.colors.textSecondary,
-              textAlign: "center"
-            }}
-          >
+          <div className="search-empty-results">
             {uiTexts.searchNoResults} "{query}"
           </div>
         ) : (
           <div>
-            <div
-              style={{
-                marginBottom: "16px",
-                fontSize: theme.typography.dateSize,
-                color: theme.colors.textSecondary
-              }}
-            >
+            <div className="search-results-count">
               {results.length} {results.length === 1 ? "result" : "results"} {uiTexts.searchFound}
             </div>
 
@@ -166,12 +123,12 @@ export default function Search({ initialQuery }) {
 
               if (post.type === "image" || post.image) {
                 return (
-                  <ImagePost key={post.id + Math.random()} post={post} author={author} postMargin="16px" />
+                  <ImagePost key={post.id + Math.random()} post={post} author={author} />
                 );
               }
 
               return (
-                <Post key={post.id + Math.random()} post={post} author={author} postMargin="16px" />
+                <Post key={post.id + Math.random()} post={post} author={author} />
               );
             })}
           </div>

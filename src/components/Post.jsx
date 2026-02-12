@@ -1,14 +1,24 @@
-import { useEffect, useRef, useState } from "react";
-import { Heart, Share2, MessageCircle, Link as LinkIcon, Check } from "lucide-react";
-import { theme } from "../theme";
-import uiTexts from "../data/ui_texts.json";
+import { useEffect, useRef } from "react";
+import { AlertTriangle } from "lucide-react";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import PostFooter from "./PostFooter";
 
+function getTranslationCredit(work) {
+  if (!work || !work.translation) return null;
 
-export default function Post({ post, author, postMargin = null }) {
+  if (work.translation.type === "human_translated" && work.translation.translator) {
+    return `Trans. ${work.translation.translator}`;
+  }
+
+  if (work.translation.type === "machine_translated") {
+    return "Machine translation";
+  }
+
+  return null;
+}
+
+export default function Post({ post, author }) {
   const contentRef = useRef(null);
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!contentRef.current) return;
@@ -22,18 +32,6 @@ export default function Post({ post, author, postMargin = null }) {
     });
   }, [post.id, post.content.html]);
 
-  const handleCopyLink = async () => {
-    const url = window.location.origin + "/#post&" + post.id;
-
-    try {
-      await navigator.clipboard.writeText(url);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    } catch (err) {
-      console.error("Failed to copy link:", err);
-    }
-  };
-
   const handleHeaderClick = () => {
     window.location.hash = "#post&" + post.id;
   };
@@ -42,25 +40,15 @@ export default function Post({ post, author, postMargin = null }) {
     window.location.hash = "#author&" + author.author_id;
   };
 
+  const workTitle = (post.work && post.work.title) || "Unknown work";
+  const translationCredit = getTranslationCredit(post.work);
+
   return (
-    <div
-      style={{
-        background: theme.colors.postBackground,
-        padding: theme.spacing.postPadding,
-        borderRadius: theme.layout.postRadius,
-        marginBottom: postMargin !== null ? postMargin : theme.spacing.gap
-      }}
-    >
+    <div className="post-card">
       {/* Header */}
       <div
         onClick={handleHeaderClick}
-        style={{
-          marginBottom: "8px",
-          display: "flex",
-          alignItems: "center",
-          gap: "8px",
-          cursor: "pointer"
-        }}
+        className="post-header"
       >
         <img
           src={author.image}
@@ -69,13 +57,7 @@ export default function Post({ post, author, postMargin = null }) {
             e.stopPropagation();
             handleAuthorClick();
           }}
-          style={{
-            width: "36px",
-            height: "36px",
-            objectFit: "cover",
-            borderRadius: "50%",
-            cursor: "pointer"
-          }}
+          className="post-author-avatar"
         />
 
         <div
@@ -83,26 +65,13 @@ export default function Post({ post, author, postMargin = null }) {
             e.stopPropagation();
             handleAuthorClick();
           }}
-          style={{
-            cursor: "pointer"
-          }}
+          className="post-author-meta"
         >
-          <div
-            style={{
-              fontSize: theme.typography.authorSize,
-              fontWeight: 600,
-              color: theme.colors.textPrimary
-            }}
-          >
+          <div className="post-author-name">
             {author.name}
           </div>
 
-          <div
-            style={{
-              fontSize: theme.typography.dateSize,
-              color: theme.colors.textSecondary
-            }}
-          >
+          <div className="post-date">
             {post.date}
           </div>
         </div>
@@ -111,36 +80,25 @@ export default function Post({ post, author, postMargin = null }) {
       {/* Content */}
       <div
         ref={contentRef}
-        style={{
-          fontSize: theme.typography.bodySize,
-          color: theme.colors.textPrimary,
-          lineHeight: 1.6
-        }}
+        className="post-content"
         dangerouslySetInnerHTML={{ __html: post.content.html }}
       />
 
       {/* Source */}
-      <div
-        style={{
-          marginTop: "12px",
-          fontSize: theme.typography.dateSize,
-          color: theme.colors.textSecondary
-        }}
-      >
-        {post.source.work}
+      <div className="post-source">
+        <div className="post-source-title">{workTitle}</div>
+        {translationCredit && (
+          <div className="post-source-translation">
+            {translationCredit === "Machine translation" && (
+              <AlertTriangle size={12} className="post-source-translation-icon" />
+            )}
+            {translationCredit}
+          </div>
+        )}
       </div>
 
       {/* Tags */}
-      <div
-        style={{
-          marginTop: "8px",
-          fontSize: theme.typography.tagSize,
-          color: theme.colors.accent,
-          display: "flex",
-          gap: "8px",
-          flexWrap: "wrap"
-        }}
-      >
+      <div className="post-tags">
         {post.tags.map(tag => (
           <button
             key={tag}
@@ -148,15 +106,7 @@ export default function Post({ post, author, postMargin = null }) {
               e.stopPropagation();
               window.location.hash = "#search&" + encodeURIComponent(tag);
             }}
-            style={{
-              background: "none",
-              border: "none",
-              padding: 0,
-              margin: 0,
-              color: theme.colors.accent,
-              cursor: "pointer",
-              fontSize: theme.typography.tagSize
-            }}
+            className="post-tag-button"
             title={`Search ${tag}`}
           >
             #{tag}

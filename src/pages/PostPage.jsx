@@ -4,7 +4,6 @@ import ImagePost from "../components/ImagePost";
 import TinyPost from "../components/TinyPost";
 import TinyImagePost from "../components/TinyImagePost";
 import { loadData } from "../utils/feed";
-import { theme } from "../theme";
 import uiTexts from "../data/ui_texts.json";
 
 export default function PostPage({ postId }) {
@@ -61,12 +60,7 @@ export default function PostPage({ postId }) {
 
   if (loading) {
     return (
-      <div
-        style={{
-          padding: theme.spacing.pagePadding,
-          color: theme.colors.textLight
-        }}
-      >
+      <div className="status-message">
         {uiTexts.loading}
       </div>
     );
@@ -74,12 +68,7 @@ export default function PostPage({ postId }) {
 
   if (error || !post || !author) {
     return (
-      <div
-        style={{
-          padding: theme.spacing.pagePadding,
-          color: theme.colors.textLight
-        }}
-      >
+      <div className="status-message">
         <h1>{uiTexts.postNotFoundTitle}</h1>
         <p>{uiTexts.postNotFoundMessage}</p>
       </div>
@@ -87,13 +76,7 @@ export default function PostPage({ postId }) {
   }
 
   return (
-    <div
-      className="posts-column desktop-top-gap"
-      style={{
-        display: "flex",
-        flexDirection: "column"
-      }}
-    >
+    <div className="posts-column desktop-top-gap post-page">
       {post.type === "image" || post.image ? (
         <ImagePost post={post} author={author} />
       ) : (
@@ -101,29 +84,11 @@ export default function PostPage({ postId }) {
       )}
 
       {relatedPosts.length > 0 && (
-        <div
-          style={{
-            marginTop: "0px",
-            marginBottom: theme.spacing.gap,
-            padding: "0 8px"
-          }}
-        >
-          <div
-            style={{
-              marginBottom: "8px",
-              fontSize: "12px",
-              color: theme.colors.textSecondary
-            }}
-          >
+        <div className="related-posts">
+          <div className="related-posts-title">
             Related posts
           </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-              gap: "8px"
-            }}
-          >
+          <div className="related-posts-grid">
             {relatedPosts.map(relatedPost => {
               const relatedAuthor = authors.find(a => a.author_id === relatedPost.author_id);
               if (!relatedAuthor) return null;

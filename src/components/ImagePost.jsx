@@ -1,10 +1,9 @@
 import { useEffect, useRef } from "react";
-import { theme } from "../theme";
 import PostFooter from "./PostFooter";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import { ExternalLink } from "lucide-react";
 
-export default function ImagePost({ post, author, postMargin = null }) {
+export default function ImagePost({ post, author }) {
   const captionRef = useRef(null);
   const handleHeaderClick = () => {
     window.location.hash = "#post&" + post.id;
@@ -26,24 +25,11 @@ export default function ImagePost({ post, author, postMargin = null }) {
   };
 
   return (
-    <div
-      style={{
-        background: theme.colors.postBackground,
-        padding: theme.spacing.postPadding,
-        borderRadius: theme.layout.postRadius,
-        marginBottom: postMargin !== null ? postMargin : theme.spacing.gap
-      }}
-    >
+    <div className="post-card">
       {/* Header */}
       <div
         onClick={handleHeaderClick}
-        style={{
-          marginBottom: "8px",
-          display: "flex",
-          alignItems: "center",
-          gap: "8px",
-          cursor: "pointer"
-        }}
+        className="post-header"
       >
         <img
           src={author.image}
@@ -52,13 +38,7 @@ export default function ImagePost({ post, author, postMargin = null }) {
             e.stopPropagation();
             handleAuthorClick();
           }}
-          style={{
-            width: "36px",
-            height: "36px",
-            objectFit: "cover",
-            borderRadius: "50%",
-            cursor: "pointer"
-          }}
+          className="post-author-avatar"
         />
 
         <div
@@ -66,49 +46,30 @@ export default function ImagePost({ post, author, postMargin = null }) {
             e.stopPropagation();
             handleAuthorClick();
           }}
-          style={{ cursor: "pointer" }}
+          className="post-author-meta"
         >
-          <div
-            style={{
-              fontSize: theme.typography.authorSize,
-              fontWeight: 600,
-              color: theme.colors.textPrimary
-            }}
-          >
+          <div className="post-author-name">
             {author.name}
           </div>
 
-          <div
-            style={{
-              fontSize: theme.typography.dateSize,
-              color: theme.colors.textSecondary
-            }}
-          >
+          <div className="post-date">
             {post.date}
           </div>
         </div>
       </div>
 
       {/* Image */}
-      <div style={{ marginBottom: "12px" }}>
+      <div className="image-post-media">
         <img
           src={post.image}
           alt={post.caption}
-          style={{
-            width: "100%",
-            borderRadius: theme.layout.postRadius,
-            objectFit: "cover"
-          }}
+          className="image-post-image"
         />
       </div>
 
       {/* Caption */}
       <div
-        style={{
-          fontSize: theme.typography.bodySize,
-          color: theme.colors.textPrimary,
-          lineHeight: 1.6
-        }}
+        className="post-content"
         ref={captionRef}
         dangerouslySetInnerHTML={{ __html: post.caption }}
       />
@@ -116,49 +77,18 @@ export default function ImagePost({ post, author, postMargin = null }) {
       
 
       {/* Origin Link */}
-      <div
-        style={{
-          marginTop: "8px",
-          fontSize: theme.typography.dateSize,
-          color: theme.colors.textSecondary
-        }}
-      >
+      <div className="image-post-origin">
         <a
           href={post.origin.link}
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            color: theme.colors.accent,
-            textDecoration: "none"
-          }}
+          className="image-post-origin-link"
         >
          {post.origin.article} <ExternalLink size={12}/> 
         </a>
       </div>
-
-      {/* Credit */}
-      {/* <div
-        style={{
-          marginTop: "4px",
-          fontSize: "12px",
-          color: theme.colors.textSecondary,
-          opacity: 0.8
-        }}
-      >
-        {post.credit}
-      </div> */}
-
       {/* Tags */}
-      <div
-        style={{
-          marginTop: "8px",
-          fontSize: theme.typography.tagSize,
-          color: theme.colors.accent,
-          display: "flex",
-          gap: "8px",
-          flexWrap: "wrap"
-        }}
-      >
+      <div className="post-tags">
         {post.tags?.map(tag => (
           <button
             key={tag}
@@ -166,15 +96,7 @@ export default function ImagePost({ post, author, postMargin = null }) {
               e.stopPropagation();
               window.location.hash = "#search&" + encodeURIComponent(tag);
             }}
-            style={{
-              background: "none",
-              border: "none",
-              padding: 0,
-              margin: 0,
-              color: theme.colors.accent,
-              cursor: "pointer",
-              fontSize: theme.typography.tagSize
-            }}
+            className="post-tag-button"
             title={`Search ${tag}`}
           >
             #{tag}

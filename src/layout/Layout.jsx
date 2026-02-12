@@ -1,43 +1,18 @@
-import { theme } from "../theme";
 import Header from "./Header";
 
 export default function Layout({ children }) {
   return (
-    <div
-      style={{
-        background: theme.colors.background,
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column"
-      }}
-    >
+    <div className="layout-root">
       {/* Header */}
       <Header />
 
       {/* Page Content */}
-      <div
-        style={{
-          flex: 1,
-          padding: theme.spacing.pagePadding,
-          overflowY: "auto"
-        }}
-      >
+      <div className="layout-content">
         {children}
       </div>
 
       {/* Footer */}
-      <div
-        style={{
-          height: theme.layout.footerHeight,
-          background: theme.colors.footer,
-          borderTop: `1px solid ${theme.colors.border}`,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontSize: "12px",
-          color: theme.colors.textSecondary
-        }}
-      >
+      <div className="layout-footer">
         © 2026 scrollmath
       </div>
     </div>

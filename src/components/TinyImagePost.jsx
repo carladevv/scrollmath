@@ -1,28 +1,13 @@
-import { theme } from "../theme";
-
 export default function TinyImagePost({ post, author }) {
   return (
     <div
       onClick={() => {
         window.location.hash = "#post&" + post.id;
       }}
-      style={{
-        background: theme.colors.postBackground,
-        borderRadius: theme.layout.postRadius,
-        padding: "8px",
-        cursor: "pointer",
-        minWidth: 0
-      }}
+      className="tiny-post"
       title="Open post"
     >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "6px",
-          marginBottom: "8px"
-        }}
-      >
+      <div className="tiny-post-header">
         <img
           src={author.image}
           alt={author.name}
@@ -30,37 +15,14 @@ export default function TinyImagePost({ post, author }) {
             e.stopPropagation();
             window.location.hash = "#author&" + author.author_id;
           }}
-          style={{
-            width: "20px",
-            height: "20px",
-            borderRadius: "50%",
-            objectFit: "cover",
-            cursor: "pointer",
-            flexShrink: 0
-          }}
+          className="tiny-post-avatar"
         />
 
-        <div style={{ minWidth: 0 }}>
-          <div
-            style={{
-              fontSize: "11px",
-              fontWeight: 600,
-              color: theme.colors.textPrimary,
-              lineHeight: 1.1,
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              whiteSpace: "nowrap"
-            }}
-          >
+        <div className="tiny-post-meta">
+          <div className="tiny-post-author">
             {author.name}
           </div>
-          <div
-            style={{
-              fontSize: "10px",
-              color: theme.colors.textSecondary,
-              lineHeight: 1.1
-            }}
-          >
+          <div className="tiny-post-date">
             {post.date}
           </div>
         </div>
@@ -69,26 +31,11 @@ export default function TinyImagePost({ post, author }) {
       <img
         src={post.image}
         alt={post.caption || "Related image post"}
-        style={{
-          width: "100%",
-          height: "64px",
-          objectFit: "cover",
-          borderRadius: theme.layout.postRadius
-        }}
+        className="tiny-image-post-image"
       />
 
       {(post.tags || []).length > 0 && (
-        <div
-          style={{
-            marginTop: "6px",
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "4px",
-            fontSize: "10px",
-            color: theme.colors.accent,
-            lineHeight: 1.2
-          }}
-        >
+        <div className="tiny-post-tags">
           {(post.tags || []).slice(0, 3).map(tag => (
             <span key={tag}>#{tag}</span>
           ))}

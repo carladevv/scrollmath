@@ -56,11 +56,7 @@ export default function Home() {
   return (
     <div
       ref={feedRef}
-      className="posts-column desktop-top-gap"
-      style={{
-        height: "100%",
-        overflowY: "auto"
-      }}
+      className="posts-column desktop-top-gap home-feed"
     >
       {feedPosts.map(post => {
         const author = authors.find(a => a.author_id === post.author_id);
