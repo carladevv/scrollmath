@@ -4,6 +4,7 @@ import Search from "../pages/Search";
 import About from "../pages/About";
 import Author from "../pages/Author";
 import PostPage from "../pages/PostPage";
+import ScrollToTopButton from "../components/ScrollToTopButton";
 import { parseLocation } from "./navigation";
 
 export default function Router() {
@@ -36,18 +37,33 @@ export default function Router() {
     };
   }, []);
 
+  let page = <Home />;
+
   switch (route) {
     case "home":
-      return <Home />;
+      page = <Home />;
+      break;
     case "search":
-      return <Search initialQuery={param} />;
+      page = <Search initialQuery={param} />;
+      break;
     case "about":
-      return <About />;
+      page = <About />;
+      break;
     case "author":
-      return <Author authorId={param} />;
+      page = <Author authorId={param} />;
+      break;
     case "post":
-      return <PostPage postId={param} />;
+      page = <PostPage postId={param} />;
+      break;
     default:
-      return <Home />;
+      page = <Home />;
+      break;
   }
+
+  return (
+    <>
+      {page}
+      <ScrollToTopButton route={route} hidden={route === "post"} />
+    </>
+  );
 }

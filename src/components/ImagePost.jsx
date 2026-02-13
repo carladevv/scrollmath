@@ -26,6 +26,28 @@ export default function ImagePost({ post, author }) {
     navigateTo(buildAuthorPath(author.author_id));
   };
 
+  const scrollSearchContainersToTop = () => {
+    const layoutContent = document.querySelector(".layout-content");
+    const homeFeed = document.querySelector(".home-feed");
+
+    if (layoutContent) {
+      layoutContent.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    if (homeFeed) {
+      homeFeed.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const handleTagClick = (e, tag) => {
+    e.stopPropagation();
+    navigateTo(buildSearchPath(tag));
+    scrollSearchContainersToTop();
+    window.requestAnimationFrame(scrollSearchContainersToTop);
+  };
+
   return (
     <div className="post-card">
       {/* Header */}
@@ -94,10 +116,7 @@ export default function ImagePost({ post, author }) {
         {post.tags?.map(tag => (
           <button
             key={tag}
-            onClick={e => {
-              e.stopPropagation();
-              navigateTo(buildSearchPath(tag));
-            }}
+            onClick={e => handleTagClick(e, tag)}
             className="post-tag-button"
             title={`Search ${tag}`}
           >
