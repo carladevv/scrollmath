@@ -3,6 +3,8 @@ export const theme = {
     background: "#0f1a2b",   // solid app background
     header: "#0b1422",
     footer: "#0b1422",
+    scrollTopButton: "#2b4f7d",
+    scrollTopButtonHover: "#3a6499",
     postBackground: "#ffffff",
     authorPageBackground: "#fafafa",
     textPrimary: "#111111",
@@ -41,6 +43,8 @@ export function applyThemeVariables() {
   root.style.setProperty("--color-background", theme.colors.background);
   root.style.setProperty("--color-header", theme.colors.header);
   root.style.setProperty("--color-footer", theme.colors.footer);
+  root.style.setProperty("--color-scroll-top-button", theme.colors.scrollTopButton);
+  root.style.setProperty("--color-scroll-top-button-hover", theme.colors.scrollTopButtonHover);
   root.style.setProperty("--color-post-background", theme.colors.postBackground);
   root.style.setProperty("--color-author-page-background", theme.colors.authorPageBackground);
   root.style.setProperty("--color-text-primary", theme.colors.textPrimary);
