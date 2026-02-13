@@ -7,6 +7,14 @@ function isWikimediaUploadUrl(value) {
   }
 }
 
+function buildThumbFilename(filename, width) {
+  const normalized = String(filename || "").toLowerCase();
+  if (normalized.endsWith(".svg") || normalized.endsWith(".svgz")) {
+    return `${width}px-${filename}.png`;
+  }
+  return `${width}px-${filename}`;
+}
+
 export function buildWikimediaThumbUrl(imageUrl, width) {
   if (!isWikimediaUploadUrl(imageUrl)) return imageUrl;
 
@@ -19,7 +27,9 @@ export function buildWikimediaThumbUrl(imageUrl, width) {
 
     if (!filename || !hashA || !hashB) return imageUrl;
 
-    return `${url.origin}/wikipedia/commons/thumb/${hashA}/${hashB}/${filename}/${width}px-${filename}`;
+    const thumbFilename = buildThumbFilename(filename, width);
+
+    return `${url.origin}/wikipedia/commons/thumb/${hashA}/${hashB}/${filename}/${thumbFilename}`;
   } catch {
     return imageUrl;
   }

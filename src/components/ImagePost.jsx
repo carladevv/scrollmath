@@ -99,6 +99,13 @@ export default function ImagePost({ post, author }) {
           alt={post.caption}
           loading="lazy"
           decoding="async"
+          onError={(e) => {
+            const img = e.currentTarget;
+            if (img.dataset.fallbackApplied === "1") return;
+            img.dataset.fallbackApplied = "1";
+            img.removeAttribute("srcset");
+            img.src = post.image;
+          }}
           className="image-post-image"
         />
       </div>
