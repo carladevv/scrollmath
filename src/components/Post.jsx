@@ -7,12 +7,20 @@ import { buildAuthorPath, buildPostPath, buildSearchPath, navigateTo } from "../
 function getTranslationCredit(work) {
   if (!work || !work.translation) return null;
 
+  const fromLanguage = work.translation.from ? ` from ${work.translation.from}` : "";
+
   if (work.translation.type === "human_translated" && work.translation.translator) {
-    return `Trans. ${work.translation.translator}`;
+    return {
+      text: `Trans. ${work.translation.translator}${fromLanguage}`,
+      isMachineTranslated: false
+    };
   }
 
   if (work.translation.type === "machine_translated") {
-    return "Machine translation";
+    return {
+      text: `Machine translated${fromLanguage}`,
+      isMachineTranslated: true
+    };
   }
 
   return null;
@@ -43,6 +51,7 @@ export default function Post({ post, author }) {
 
   const workTitle = (post.work && post.work.title) || "Unknown work";
   const translationCredit = getTranslationCredit(post.work);
+  const locationAndDate = [author.country, post.date].filter(Boolean).join(", ");
 
   return (
     <div className="post-card">
@@ -73,7 +82,7 @@ export default function Post({ post, author }) {
           </div>
 
           <div className="post-date">
-            {post.date}
+            {locationAndDate}
           </div>
         </div>
       </div>
@@ -90,10 +99,10 @@ export default function Post({ post, author }) {
         <div className="post-source-title">{workTitle}</div>
         {translationCredit && (
           <div className="post-source-translation">
-            {translationCredit === "Machine translation" && (
+            {translationCredit.isMachineTranslated && (
               <AlertTriangle size={12} className="post-source-translation-icon" />
             )}
-            {translationCredit}
+            {translationCredit.text}
           </div>
         )}
       </div>

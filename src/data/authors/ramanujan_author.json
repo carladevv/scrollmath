@@ -1,0 +1,17 @@
+[
+  {
+    "author_id": "ramanujan",
+    "name": "Srinivasa Ramanujan",
+    "original_name": {
+      "language": "Tamil",
+      "script": "ஶ்ரீநிவாஸ ராமாநுஜையங்கார்",
+      "romanized": "Śrīnivāsa Rāmānujaiyaṅgār"
+    },
+    "image": "/authors/ramanujan.jpg",
+    "header": "/headers/ramanujan.jpg",
+    "bio": "Indian mathematician known for extraordinary contributions to number theory, infinite series, and asymptotic formulas.",
+    "born": "1887-12-22",
+    "died": "1920-04-26",
+    "country": "India"
+  }
+]

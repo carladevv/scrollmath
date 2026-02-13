@@ -1,0 +1,112 @@
+[
+    {
+        "id": "a1c2f8d1-9c43-4c6b-9f72-ram1",
+        "work_id": "ramanujan_divisors_1915",
+        "author_id": "ramanujan",
+        "date": "1915-01-01",
+        "source": {
+            "chapter": null
+        },
+        "content": {
+            "html": "<p>If S be a divisor of N, then there is a conjugate divisor S' such that SS' = N. Thus we see that the number of divisors from 1 to \\( \\sqrt{N} \\) is equal to the number of divisors from \\( \\sqrt{N} \\) to N.</p>"
+        },
+        "tags": [
+            "number theory",
+            "divisors",
+            "ramanujan"
+        ],
+        "metrics": {
+            "likes": 1420,
+            "shares": 388,
+            "comments": 94
+        }
+    },
+    {
+        "id": "b3e9a221-2c4a-4fd4-b6a0-ram2",
+        "work_id": "ramanujan_divisors_1915",
+        "author_id": "ramanujan",
+        "date": "1915-01-01",
+        "source": {
+            "chapter": null
+        },
+        "content": {
+            "html": "<p>Let \\( N = p_1^{a_1} p_2^{a_2} \\dots p_n^{a_n} \\), where \\( p_1, p_2, \\dots, p_n \\) are primes. Then it is easy to see that \\( d(N) = (1+a_1)(1+a_2)\\dots(1+a_n) \\).</p>"
+        },
+        "tags": [
+            "number theory",
+            "divisor function",
+            "prime factorization"
+        ],
+        "metrics": {
+            "likes": 2984,
+            "shares": 772,
+            "comments": 211
+        }
+    },
+    {
+        "id": "c7f54d21-88f4-4d17-9e11-ram3",
+        "work_id": "ramanujan_divisors_1915",
+        "author_id": "ramanujan",
+        "date": "1915-01-01",
+        "source": {
+            "chapter": null
+        },
+        "content": {
+            "html": "<p>Since the arithmetic mean of unequal positive numbers is always greater than their geometric mean, we obtain inequalities which give a superior limit for \\( d(N) \\).</p>"
+        },
+        "tags": [
+            "number theory",
+            "inequalities",
+            "asymptotics"
+        ],
+        "metrics": {
+            "likes": 1877,
+            "shares": 503,
+            "comments": 129
+        }
+    },
+    {
+        "id": "d92ab8c3-66af-4cb7-b5a8-ram4",
+        "work_id": "ramanujan_divisors_1915",
+        "author_id": "ramanujan",
+        "date": "1915-01-01",
+        "source": {
+            "chapter": null
+        },
+        "content": {
+            "html": "<p>If \\( p \\) be the largest prime not exceeding \\( x \\), then bounds for \\( d(N) \\) may be expressed in terms of the product \\( \\log 2 \\log 3 \\log 5 \\dots \\log p \\).</p>"
+        },
+        "tags": [
+            "number theory",
+            "primes",
+            "bounds"
+        ],
+        "metrics": {
+            "likes": 1634,
+            "shares": 417,
+            "comments": 86
+        }
+    },
+    {
+        "id": "e4bdc921-11b5-4c0a-9a20-ram5",
+        "work_id": "ramanujan_divisors_1915",
+        "author_id": "ramanujan",
+        "date": "1915-01-01",
+        "source": {
+            "chapter": null
+        },
+        "content": {
+            "html": "<p>The symbol \\( O \\) is used in the following sense: \\( f(x) = O(\\phi(x)) \\) means that there is a positive constant \\( K \\) such that \\( |f(x)| \\leq K \\phi(x) \\) for all sufficiently large values of \\( x \\).</p>"
+        },
+        "tags": [
+            "number theory",
+            "asymptotics",
+            "big O notation"
+        ],
+        "metrics": {
+            "likes": 2541,
+            "shares": 618,
+            "comments": 173
+        }
+    }
+]
