@@ -12,6 +12,16 @@ export default function Author({ authorId }) {
   const [error, setError] = useState(false);
 
   useEffect(() => {
+    const layoutContent = document.querySelector(".layout-content");
+    if (layoutContent) {
+      layoutContent.scrollTo({ top: 0, behavior: "auto" });
+      return;
+    }
+
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [authorId]);
+
+  useEffect(() => {
     async function loadAuthorProfile() {
       try {
         const { posts: allPosts, authors: allAuthors } = await loadData();
