@@ -63,6 +63,13 @@ export default function TinyImagePost({ post, author }) {
         alt={post.caption || "Related image post"}
         loading="lazy"
         decoding="async"
+        onError={(e) => {
+          const img = e.currentTarget;
+          if (img.dataset.fallbackApplied === "1") return;
+          img.dataset.fallbackApplied = "1";
+          img.removeAttribute("srcset");
+          img.src = post.image;
+        }}
         className="tiny-image-post-image"
       />
 
