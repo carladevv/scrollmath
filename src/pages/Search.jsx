@@ -66,6 +66,14 @@ export default function Search({ initialQuery }) {
   useEffect(() => {
     // Update local query when route param changes
     setQuery(initialQuery || "");
+
+    const layoutContent = document.querySelector(".layout-content");
+    if (layoutContent) {
+      layoutContent.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, [initialQuery]);
 
   // Filter posts whenever query changes
