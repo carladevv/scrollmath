@@ -1,17 +1,23 @@
+import { useEffect, useRef } from "react";
+import renderMathInElement from "katex/dist/contrib/auto-render";
 import { buildAuthorPath, buildPostPath, navigateTo } from "../router/navigation";
-
-function stripHtml(html = "") {
-  return html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-}
-
-function firstWords(text = "", count = 14) {
-  const words = text.split(" ").filter(Boolean);
-  if (words.length <= count) return words.join(" ");
-  return words.slice(0, count).join(" ") + "...";
-}
+import { buildMathAwarePreviewFromHtml } from "../utils/previewText";
 
 export default function TinyPost({ post, author }) {
-  const preview = firstWords(stripHtml(post.content?.html || ""));
+  const preview = buildMathAwarePreviewFromHtml(post.content?.html || "", 14);
+  const previewRef = useRef(null);
+
+  useEffect(() => {
+    if (!previewRef.current) return;
+
+    renderMathInElement(previewRef.current, {
+      delimiters: [
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+      throwOnError: false
+    });
+  }, [post.id, preview]);
 
   return (
     <div
@@ -42,7 +48,10 @@ export default function TinyPost({ post, author }) {
         </div>
       </div>
 
-      <div className="tiny-post-preview">
+      <div
+        ref={previewRef}
+        className="tiny-post-preview"
+      >
         {preview}
       </div>
 
