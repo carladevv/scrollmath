@@ -1,6 +1,10 @@
 {
   "id": "cayley_memoir_1858",
   "title": "A Memoir on the Theory of Matrices",
+  "popularity_raw": 4290,
+  "popularity_score": 5.1,
+  "visibility_adjustment": 1.0,
+  "popularity_final": 5.1,
   "translation": {
     "type": "original_english"
   }

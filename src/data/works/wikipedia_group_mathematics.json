@@ -1,6 +1,12 @@
 {
   "id": "wikipedia_group_mathematics",
   "title": "Group (mathematics)",
+  "popularity_raw": 9714,
+  "popularity_reference_max": 71228,
+  "popularity_scale": "ratio",
+  "popularity_score": 2.2,
+  "visibility_adjustment": 1.0,
+  "popularity_final": 2.2,
   "translation": {
     "type": "original_english"
   }
