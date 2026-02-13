@@ -2,10 +2,9 @@
   "id": "euclid_elements",
   "title": "Euclid's Elements",
   "popularity_raw": 198000,
-  "popularity_score": 10.0,
   "visibility_adjustment": 1.0,
-  "popularity_final": 10.0,
   "translation": {
     "type": "original_ancient_greek"
   }
 }
+
