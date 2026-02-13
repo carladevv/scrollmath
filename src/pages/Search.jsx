@@ -5,42 +5,18 @@ import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
 import uiTexts from "../data/ui_texts.json";
 
-/**
- * Strip HTML tags from a string
- */
-function stripHTML(html) {
-  return html.replace(/<[^>]+>/g, "");
-}
-
-/**
- * Check if a post matches the search query
- */
-function matchesQuery(post, author, query) {
-  const lowerQuery = query.toLowerCase();
-
-  // Search in post content (stripped of HTML)
-  const rawContent = post.content && post.content.html ? post.content.html : (post.caption || "");
-  const content = stripHTML(rawContent).toLowerCase();
-  if (content.includes(lowerQuery)) return true;
-
-  // Search in post tags
-  if (post.tags && post.tags.some(tag => tag.toLowerCase().includes(lowerQuery))) return true;
-
-  // Search in source work title
-  const sourceTitle = (post.work && post.work.title)
-    ? post.work.title
-    : (post.origin && post.origin.article ? post.origin.article : "");
-  if (sourceTitle.toLowerCase().includes(lowerQuery)) return true;
-
-  // Search in author name
-  if (author && author.name.toLowerCase().includes(lowerQuery)) return true;
-
-  return false;
+function normalizeQuery(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 export default function Search({ initialQuery }) {
   const [query, setQuery] = useState(initialQuery || "");
-  const [posts, setPosts] = useState([]);
+  const [postsById, setPostsById] = useState({});
+  const [searchIndex, setSearchIndex] = useState([]);
   const [results, setResults] = useState([]);
   const [authorsById, setAuthorsById] = useState({});
   const [loading, setLoading] = useState(true);
@@ -49,9 +25,10 @@ export default function Search({ initialQuery }) {
   useEffect(() => {
     async function loadAllData() {
       try {
-        const { posts: allPosts, authorsById: allAuthorsById } = await loadData();
-        setPosts(allPosts);
+        const { postsById: allPostsById, authorsById: allAuthorsById, searchIndex: allSearchIndex } = await loadData();
+        setPostsById(allPostsById);
         setAuthorsById(allAuthorsById);
+        setSearchIndex(allSearchIndex);
         setLoading(false);
       } catch (err) {
         console.error("Error loading data for search:", err);
@@ -78,18 +55,19 @@ export default function Search({ initialQuery }) {
 
   // Filter posts whenever query changes
   useEffect(() => {
-    if (!query.trim()) {
+    const normalizedQuery = normalizeQuery(query);
+    if (!normalizedQuery) {
       setResults([]);
       return;
     }
 
-    const filtered = posts.filter(post => {
-      const author = authorsById[post.author_id];
-      return matchesQuery(post, author, query);
-    });
+    const filtered = searchIndex
+      .filter(item => item.text.includes(normalizedQuery))
+      .map(item => postsById[item.id])
+      .filter(Boolean);
 
     setResults(filtered);
-  }, [query, posts, authorsById]);
+  }, [query, searchIndex, postsById]);
 
   if (loading) {
     return (

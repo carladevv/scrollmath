@@ -121,6 +121,28 @@ function generateMetrics(post, popularityFinal) {
   return { likes, shares, comments };
 }
 
+function stripHtml(value) {
+  return String(value || "").replace(/<[^>]+>/g, " ");
+}
+
+function normalizeSearchText(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function buildSearchText(post, author) {
+  const rawContent = post?.content?.html || post?.caption || "";
+  const content = stripHtml(rawContent);
+  const tags = Array.isArray(post.tags) ? post.tags.join(" ") : "";
+  const workTitle = post?.work?.title || post?.origin?.article || "";
+  const authorName = author?.name || "";
+
+  return normalizeSearchText([content, tags, workTitle, authorName].join(" "));
+}
+
 async function loadJsonArrayFromDir(dirPath) {
   const entries = await fs.readdir(dirPath, { withFileTypes: true });
   const files = entries
@@ -184,12 +206,20 @@ async function main() {
       .map(post => [post.id, post])
   );
 
+  const searchIndex = posts
+    .filter(post => post?.id)
+    .map(post => ({
+      id: post.id,
+      text: buildSearchText(post, authorsById[post.author_id])
+    }));
+
   const output = {
     posts,
     authors,
     works: Object.values(normalizedWorksById),
     authorsById,
-    postsById
+    postsById,
+    searchIndex
   };
 
   await fs.mkdir(outputDir, { recursive: true });

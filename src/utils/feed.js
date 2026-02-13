@@ -70,6 +70,7 @@ async function loadPrecomputedData() {
     !Array.isArray(data.posts) ||
     !Array.isArray(data.authors) ||
     !Array.isArray(data.works) ||
+    !Array.isArray(data.searchIndex) ||
     !data.authorsById ||
     typeof data.authorsById !== "object" ||
     !data.postsById ||

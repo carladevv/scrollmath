@@ -5976,5 +5976,343 @@
         "popularity_final": 2.9
       }
     }
-  }
+  },
+  "searchIndex": [
+    {
+      "id": "91fe9690-9356-49fc-b6bd-67f90018b9e8",
+      "text": "i propose in the present memoir to consider the theory of matrices and in connection therewith the theory of linear transformations linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "bcc5dcd9-5cdf-48e7-afc1-0cf396ab29c9",
+      "text": "a matrix is formed from a rectangular array of quantities arranged in rows and columns linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "04511497-d824-4c6d-ab7d-36106606bb42",
+      "text": "two matrices may be said to be equal when the corresponding elements are equal linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "1f16d106-db40-452d-9a78-75c51f183823",
+      "text": "the addition of matrices is effected by adding together the corresponding elements linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "e168768f-2c41-4709-9aac-e62160c14907",
+      "text": "the product of two matrices is defined by a law of combination which depends upon the multiplication and addition of the elements linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "a890d714-f53a-41ee-b202-c25dda9b77cd",
+      "text": "if we denote the matrix by a and the matrix by b the product ab is in general different from ba linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "469cf9d1-e1bd-4edd-b47f-bdf9652cc2d0",
+      "text": "there exists a particular matrix which may be called the unit matrix such that its product with any other matrix leaves that matrix unaltered linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "85dd27c8-3eec-4dc1-9c7b-be7c3623fb42",
+      "text": "the determinant of a matrix is a function of its elements and plays an essential part in the theory linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "283f9b40-a27c-4ffc-b040-c5c7d7eee391",
+      "text": "the determinant vanishes when the rows or columns are linearly dependent linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "2481e3c7-5b8e-4d72-a6a6-e04e03f2aa22",
+      "text": "if the determinant of a matrix does not vanish the matrix possesses an inverse linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "05322601-ff28-4d0a-9d75-018ec61b5591",
+      "text": "the inverse matrix is that matrix which when multiplied with the original matrix produces the unit matrix linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "669a67cf-225b-4b17-bab2-0955e11819c1",
+      "text": "matrices may be considered as symbols of linear substitutions linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad",
+      "text": "the composition of two linear transformations corresponds to the multiplication of their matrices linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "7991fb62-510e-4a1d-8afe-7608c31602b0",
+      "text": "a matrix of the form begin pmatrix a b c d end pmatrix represents a linear transformation in two variables linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "09314f74-9312-40ce-a175-208699b14b0e",
+      "text": "the eigenvalues of a matrix are obtained by solving the equation det a lambda i 0 linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "ac22a001-9b20-4b1c-aa7a-4619d371205c",
+      "text": "the characteristic equation expresses a fundamental relation satisfied by the matrix itself linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "2001b499-fa2d-47f4-a8e1-2b8aa09dacb3",
+      "text": "every square matrix satisfies its own characteristic equation linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "1cdc83ce-bb6d-4282-9b9e-d617d2135047",
+      "text": "the theory of matrices thus supplies a general method for the investigation of linear transformations linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "6081f79f-73b4-4fc8-9b50-e0d383b74ef3",
+      "text": "matrices admit of powers positive and negative according to the laws of multiplication linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "9f425b26-1269-47df-b7e1-3614f468adf8",
+      "text": "the generality of the method renders it applicable to a wide class of algebraical investigations linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
+    },
+    {
+      "id": "f8793b9f-e659-4557-826d-e2eb273d058f",
+      "text": "marx devoted considerable effort during the last years of his life to the study of mathematics especially the foundations of differential calculus these studies were not incidental but reflected a deeper concern with the logical structure of scientific reasoning foundations calculus marxism marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "6b4b07a2-e0e9-419d-92bc-3e02067e4e92",
+      "text": "for marx mathematics was not politically neutral its development was shaped by historical and social forces and its concepts reflected the dialectical processes that governed material reality marxism dialectics foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "b056c5ec-3e64-4dd1-b08d-d92fc151d4b6",
+      "text": "the problem of infinitesimals had long troubled mathematicians marx was particularly interested in the logical contradictions embedded in their early formulations and sought to expose their conceptual weaknesses calculus infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "c3246a3d-9a1c-4689-bef8-c9145b317b11",
+      "text": "in examining expressions such as frac dy dx marx questioned whether infinitesimals were genuine quantities or merely symbolic devices masking deeper logical transformations calculus infinitesimals real analysis marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "c82d3525-258d-4484-885e-0509ef72dd78",
+      "text": "marx regarded the transition from finite difference quotients to derivatives as an example of dialectical transformation where quantitative change gives rise to qualitative difference dialectics calculus foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "6f8a636d-0ad7-4bb6-834c-65e03777e0cb",
+      "text": "the limit concept formalized in the nineteenth century resolved many earlier ambiguities surrounding infinitesimals yet marx s notebooks reveal that he was less concerned with formalism than with logical clarity real analysis limits foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "052d88dd-5ca1-48ab-8f69-f15b907d3203",
+      "text": "mao later embraced mathematics as a tool of revolutionary transformation insisting that theory must be united with practice mathematical education became part of broader ideological reform maoism marxism education marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "c044ba79-082b-48f7-8299-64f8b12834cf",
+      "text": "the politics of infinitesimals thus extended beyond technical mathematics they became emblematic of debates over abstraction rigor and the social function of science infinitesimals foundations philosophy of mathematics marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "d1e84fa4-8c64-4b4f-8d89-19e89100ccce",
+      "text": "expressions like lim h to 0 frac f x h f x h represent the culmination of centuries of effort to clarify the foundations of calculus limits calculus real analysis marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
+      "text": "nonstandard analysis later restored infinitesimals to mathematics in a rigorous way demonstrating that earlier conceptual difficulties could be overcome within a new logical framework nonstandard analysis infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
+      "text": "mathematics in this context becomes a field in which philosophical commitments are enacted through technical choices about definition proof and rigor philosophy of mathematics foundations marxism marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
+      "text": "the historical study of mathematics reveals that its development is neither linear nor inevitable it is shaped by intellectual struggle cultural context and philosophical debate history of mathematics foundations philosophy of mathematics marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
+      "text": "marx regarded questions about the foundations of the differential calculus as a touchstone of the application of the method of materialist dialectics to mathematics calculus foundations dialectics marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
+      "text": "during the cultural revolution mathematics was suspect for being too abstract aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society history of mathematics maoism education marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
+      "text": "marx used dialectical materialism to evaluate the history of the calculus and was especially critical of what he took to be its idealistic metaphysical foundations calculus dialectics foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
+      "text": "marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals but from a logical transformation in which the ratio delta y delta x passes to its limit and becomes dy dx calculus derivatives foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
+      "text": "according to bishop berkeley the differential dx was the ghost of a departed quantity calculus infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
+      "text": "the familiar example y x 3 served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients delta y delta x and differentials dy dx calculus derivatives foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
+      "text": "nonstandard analysis constructs a mathematical system based on infinitesimals providing another interpretation of the calculus distinct from the method of limits nonstandard analysis infinitesimals calculus marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
+      "text": "the core of nonstandard analysis shows there is an infinitesimal between zero and any positive number using the methods of mathematical logic nonstandard analysis infinitesimals logic marx mao and mathematics the politics of infinitesimals joseph w dauben"
+    },
+    {
+      "id": "caa48dca-63a0-4539-a04a-194912390ddb",
+      "text": "the reflections which form the subject of this little treatise date from the autumn of the year 1858 at that time i felt more keenly than ever before the lack of a truly scientific foundation for arithmetic this feeling of dissatisfaction was so overpowering that i formed the fixed resolve to reflect until i had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis real analysis foundations real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
+      "text": "by arithmetic i understand the science of numbers the development of arithmetic depends upon the creation of the infinite sequence of positive integers from this arise the negative and rational numbers through the demand that subtraction and division shall always be possible foundations real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
+      "text": "the rational numbers form an ordered field but they do not suffice to express every magnitude there exist magnitudes which cannot be expressed by rational numbers although they are determined by rational relations real numbers real analysis continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
+      "text": "let d be a positive integer which is not the square of an integer then there exists a positive integer lambda such that lambda 2 no rational number whose square equals d exists thus the rational numbers are insufficient to represent all magnitudes dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
+      "text": "if all points of a straight line fall into two classes such that every point of the first class lies to the left of every point of the second class then there exists one and only one point which produces this division of all points into two classes dedekind cuts real analysis continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "67f96574-8756-4561-889f-ed1e868c6e22",
+      "text": "every cut of the rational numbers into two classes such that every number of the first class is less than every number of the second determines either a rational or an irrational number dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
+      "text": "whenever a cut is given which is not produced by a rational number we create a new number corresponding to this cut which we call an irrational number thus the domain of rational numbers is extended to a new domain of numbers dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
+      "text": "the totality of all real numbers forms a complete ordered field between any two distinct real numbers there exist infinitely many others real numbers real analysis continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
+      "text": "if alpha and beta are real numbers corresponding to cuts a 1 a 2 and b 1 b 2 then their sum gamma alpha beta is defined by a corresponding cut c 1 c 2 real numbers dedekind cuts continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
+      "text": "the order of the real numbers is such that if alpha beta and beta gamma then alpha gamma this order extends that of the rational numbers without contradiction real numbers real analysis continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
+      "text": "if a variable magnitude increases continuously but remains bounded above then it approaches a limit this theorem is equivalent to the principle of continuity of the real numbers real analysis foundations continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
+      "text": "the essence of continuity lies in the completeness of the number system the arithmetical conception of the real numbers renders the appeal to geometric intuition unnecessary for the foundation of analysis real numbers real analysis foundations continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
+      "text": "i regard the whole of arithmetic as a necessary or at least natural consequence of the simplest arithmetical act that of counting and counting itself is nothing other than the successive creation of the infinite series of positive integers foundations real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3da5-2c69-26ac-901b-da3092916c24",
+      "text": "i find the essence of continuity in the following principle if all points of a straight line fall into two classes such that every point of the first lies to the left of every point of the second then there exists one and only one point which produces this division dedekind cuts foundations continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3da5-2c69-48ac-201b-da3092916c24",
+      "text": "in the property that not all cuts are produced by rational numbers consists the incompleteness or discontinuity of the domain mathbb q dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3da5-2c69-01bc-901b-da3092916c24",
+      "text": "whenever a cut a 1 a 2 is given which is not produced by a rational number we create a new number alpha which we call an irrational number and which we regard as completely defined by this cut dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3da5-7b69-48ac-901b-da3092916c24",
+      "text": "if the system of real numbers mathbb r is divided into two classes mathcal a 1 and mathcal a 2 such that every number alpha 1 in mathcal a 1 is less than every number alpha 2 in mathcal a 2 then there exists one and only one number alpha which produces this division real numbers real analysis continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ea3da5-2c69-48ac-901b-da6092916c24",
+      "text": "to define the sum gamma alpha beta it suffices to define the cut c 1 c 2 which corresponds to it reducing the operation entirely to operations among rational numbers real numbers dedekind cuts continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "e9ef3da5-2c69-48ac-901b-da3092916c24",
+      "text": "if a variable magnitude increases continuously but remains bounded then it approaches a limit this theorem is equivalent to the principle of continuity real analysis foundations continuity and irrational numbers richard dedekind"
+    },
+    {
+      "id": "a1c2f8d1-9c43-4c6b-9f72-ram1",
+      "text": "if s be a divisor of n then there is a conjugate divisor s such that ss n thus we see that the number of divisors from 1 to sqrt n is equal to the number of divisors from sqrt n to n number theory divisors ramanujan on the number of divisors of a number srinivasa ramanujan"
+    },
+    {
+      "id": "b3e9a221-2c4a-4fd4-b6a0-ram2",
+      "text": "let n p 1 a 1 p 2 a 2 dots p n a n where p 1 p 2 dots p n are primes then it is easy to see that d n 1 a 1 1 a 2 dots 1 a n number theory divisor function prime factorization on the number of divisors of a number srinivasa ramanujan"
+    },
+    {
+      "id": "c7f54d21-88f4-4d17-9e11-ram3",
+      "text": "since the arithmetic mean of unequal positive numbers is always greater than their geometric mean we obtain inequalities which give a superior limit for d n number theory inequalities asymptotics on the number of divisors of a number srinivasa ramanujan"
+    },
+    {
+      "id": "d92ab8c3-66af-4cb7-b5a8-ram4",
+      "text": "if p be the largest prime not exceeding x then bounds for d n may be expressed in terms of the product log 2 log 3 log 5 dots log p number theory primes bounds on the number of divisors of a number srinivasa ramanujan"
+    },
+    {
+      "id": "e4bdc921-11b5-4c0a-9a20-ram5",
+      "text": "the symbol o is used in the following sense f x o phi x means that there is a positive constant k such that f x leq k phi x for all sufficiently large values of x number theory asymptotics big o notation on the number of divisors of a number srinivasa ramanujan"
+    },
+    {
+      "id": "5f7df3b2-6d43-4d6d-9e44-1fbf0c8a2b10",
+      "text": "an example of change ringing with six bells one of the earliest nontrivial results in graph theory combinatorics combinatorics wikipedia"
+    },
+    {
+      "id": "c1d3c6e8-9341-4c2c-97f0-7a8fe0e2a2a7",
+      "text": "hasse diagram of the powerset of x y z ordered by inclusion combinatorics posets combinatorics wikipedia"
+    },
+    {
+      "id": "a8f1a2c5-3b92-45de-9b0e-0d6c2d9f3b66",
+      "text": "five binary trees on three vertices an example of catalan numbers combinatorics catalan numbers combinatorics wikipedia"
+    },
+    {
+      "id": "0e2f3b69-2d8e-49d1-9f8b-9b0d4d3a77b9",
+      "text": "kissing spheres are connected to both coding theory and discrete geometry combinatorics geometry combinatorics wikipedia"
+    },
+    {
+      "id": "f57f1afe-8909-41b1-be26-badccf970e94",
+      "text": "graph theory in sociology moreno sociogram 1953 graph theory graph theory wikipedia"
+    },
+    {
+      "id": "7824e47d-015b-408f-8f90-5bb27dea41c2",
+      "text": "a graph with 6 vertices and 7 edges graph theory graph theory wikipedia"
+    },
+    {
+      "id": "52e7dfd4-ef6d-4886-a6ad-677d0327b25e",
+      "text": "the seven bridges of königsberg problem graph theory graph theory wikipedia"
+    },
+    {
+      "id": "c6e9a4b4-8f2e-4e7d-9f4e-2b6a5c1d9e11",
+      "text": "the manipulations of the rubik s cube form the rubik s cube group group theory finite groups rubik s cube group mathematics wikipedia"
+    },
+    {
+      "id": "4f9b7d63-2d75-4a6f-b65f-83c9d1b8e2c4",
+      "text": "set of hours in a clock 0 1 dots 11 is isomorphic to c 12 arithmetic modulo 12 e g 9 4 1 cyclic groups modular arithmetic group theory group mathematics wikipedia"
+    },
+    {
+      "id": "9b3c2a71-5f44-4c89-91c7-0e7f3b2a9d56",
+      "text": "a periodic wallpaper pattern gives rise to a wallpaper group symmetry wallpaper groups group theory group mathematics wikipedia"
+    },
+    {
+      "id": "1a7e5c84-3b12-4d7f-8b21-4e8a9f0c6d77",
+      "text": "the fundamental group of a plane minus a point bold consists of loops around the missing point this group is isomorphic to the integers under addition mathbb z algebraic topology fundamental group group theory group mathematics wikipedia"
+    },
+    {
+      "id": "ba5122aa-02d0-497c-a227-a6ca6b2af0e6",
+      "text": "a lehmer sieve a primitive digital computer used to find primes and solve simple diophantine equations number theory number theory wikipedia"
+    },
+    {
+      "id": "288e3ed8-3f9f-490c-a0da-389f80ca5b2b",
+      "text": "corrections to an estimate of the prime counting function using zeros of the zeta function number theory number theory wikipedia"
+    },
+    {
+      "id": "0f40e84a-83d7-4d06-9023-9953f5864a3b",
+      "text": "the babylonians demonstrated an early understanding of pythagorean triples number theory number theory wikipedia"
+    },
+    {
+      "id": "33e16b29-d375-4808-b4aa-3d5fdf9383c3",
+      "text": "the action of the modular group on the upper half plane the region in grey is the standard fundamental domain number theory number theory wikipedia"
+    },
+    {
+      "id": "e4840880-5984-437d-a204-3ef01766e44e",
+      "text": "riemann zeta function zeta s in the complex plane the color of a point s gives the value of zeta s dark colors denote values close to zero and hue gives the value s argument number theory number theory wikipedia"
+    },
+    {
+      "id": "cf220614-2292-4760-9a4a-d295f088ce83",
+      "text": "fermat is sometimes considered the founder of modern number theory number theory number theory wikipedia"
+    },
+    {
+      "id": "a6a7402e-4059-4bbe-b0bc-9b2a493ed818",
+      "text": "set inclusions between the natural numbers mathbb n the integers mathbb z the rational numbers mathbb q the real numbers mathbb r and the complex numbers mathbb c real number real number wikipedia"
+    },
+    {
+      "id": "28afec76-b301-4fb3-a56d-ff8a4ee98aa8",
+      "text": "real numbers mathbb r include the rational numbers mathbb q which include the integers mathbb z which in turn include the natural numbers mathbb n real number real number wikipedia"
+    },
+    {
+      "id": "d3fdcd5a-d949-433a-9629-c48bd7e5d3d0",
+      "text": "real numbers can be thought of as all points on a number line real number real number wikipedia"
+    }
+  ]
 }
