@@ -13,7 +13,7 @@ export default function Layout({ children }) {
 
       {/* Footer */}
       <div className="layout-footer">
-        © 2026 scrollmath
+        © 2026 Carladevv
       </div>
     </div>
   );

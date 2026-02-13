@@ -1,6 +1,24 @@
+import { useEffect, useRef } from "react";
+import renderMathInElement from "katex/dist/contrib/auto-render";
 import { buildAuthorPath, buildPostPath, navigateTo } from "../router/navigation";
+import { buildMathAwarePreviewFromHtml } from "../utils/previewText";
 
 export default function TinyImagePost({ post, author }) {
+  const preview = buildMathAwarePreviewFromHtml(post.caption || "", 12);
+  const previewRef = useRef(null);
+
+  useEffect(() => {
+    if (!previewRef.current || !preview) return;
+
+    renderMathInElement(previewRef.current, {
+      delimiters: [
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+      throwOnError: false
+    });
+  }, [post.id, preview]);
+
   return (
     <div
       onClick={() => {
@@ -35,6 +53,15 @@ export default function TinyImagePost({ post, author }) {
         alt={post.caption || "Related image post"}
         className="tiny-image-post-image"
       />
+
+      {preview && (
+        <div
+          ref={previewRef}
+          className="tiny-post-preview"
+        >
+          {preview}
+        </div>
+      )}
 
       {(post.tags || []).length > 0 && (
         <div className="tiny-post-tags">
