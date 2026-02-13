@@ -65,7 +65,16 @@ async function loadPrecomputedData() {
   }
 
   const data = await response.json();
-  if (!data || !Array.isArray(data.posts) || !Array.isArray(data.authors) || !Array.isArray(data.works)) {
+  if (
+    !data ||
+    !Array.isArray(data.posts) ||
+    !Array.isArray(data.authors) ||
+    !Array.isArray(data.works) ||
+    !data.authorsById ||
+    typeof data.authorsById !== "object" ||
+    !data.postsById ||
+    typeof data.postsById !== "object"
+  ) {
     throw new Error("Invalid precomputed feed index format.");
   }
 

@@ -42,16 +42,16 @@ export default function Search({ initialQuery }) {
   const [query, setQuery] = useState(initialQuery || "");
   const [posts, setPosts] = useState([]);
   const [results, setResults] = useState([]);
-  const [authors, setAuthors] = useState([]);
+  const [authorsById, setAuthorsById] = useState({});
   const [loading, setLoading] = useState(true);
 
   // Load all posts and authors on mount
   useEffect(() => {
     async function loadAllData() {
       try {
-        const { posts: allPosts, authors: allAuthors } = await loadData();
+        const { posts: allPosts, authorsById: allAuthorsById } = await loadData();
         setPosts(allPosts);
-        setAuthors(allAuthors);
+        setAuthorsById(allAuthorsById);
         setLoading(false);
       } catch (err) {
         console.error("Error loading data for search:", err);
@@ -84,12 +84,12 @@ export default function Search({ initialQuery }) {
     }
 
     const filtered = posts.filter(post => {
-      const author = authors.find(a => a.author_id === post.author_id);
+      const author = authorsById[post.author_id];
       return matchesQuery(post, author, query);
     });
 
     setResults(filtered);
-  }, [query, posts, authors]);
+  }, [query, posts, authorsById]);
 
   if (loading) {
     return (
@@ -126,7 +126,7 @@ export default function Search({ initialQuery }) {
             </div>
 
             {results.map(post => {
-              const author = authors.find(a => a.author_id === post.author_id);
+              const author = authorsById[post.author_id];
               if (!author) return null;
 
               if (post.type === "image" || post.image) {

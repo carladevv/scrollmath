@@ -172,10 +172,24 @@ async function main() {
     )
   }));
 
+  const authorsById = Object.fromEntries(
+    authors
+      .filter(author => author?.author_id)
+      .map(author => [author.author_id, author])
+  );
+
+  const postsById = Object.fromEntries(
+    posts
+      .filter(post => post?.id)
+      .map(post => [post.id, post])
+  );
+
   const output = {
     posts,
     authors,
-    works: Object.values(normalizedWorksById)
+    works: Object.values(normalizedWorksById),
+    authorsById,
+    postsById
   };
 
   await fs.mkdir(outputDir, { recursive: true });

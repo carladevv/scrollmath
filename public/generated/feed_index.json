@@ -3049,5 +3049,2932 @@
       "popularity_score": 2.9,
       "popularity_final": 2.9
     }
-  ]
+  ],
+  "authorsById": {
+    "cayley": {
+      "author_id": "cayley",
+      "name": "Arthur Cayley",
+      "image": "/authors/cayley.jpg",
+      "header": "/headers/1.jpg",
+      "bio": "English mathematician who founded the abstract theory of matrices.",
+      "born": "1821-08-16",
+      "died": "1895-01-26",
+      "country": "United Kingdom"
+    },
+    "dauben": {
+      "author_id": "dauben",
+      "name": "Joseph W. Dauben",
+      "image": "/authors/dauben.jpg",
+      "header": "/headers/2.jpg",
+      "bio": "Historian of mathematics known for work on Marx, Mao, and the politics of infinitesimals.",
+      "born": "1944-01-01",
+      "died": null,
+      "country": "United States"
+    },
+    "dedekind": {
+      "author_id": "dedekind",
+      "name": "Richard Dedekind",
+      "image": "/authors/dedekind.jpg",
+      "header": "/headers/3.jpg",
+      "bio": "German mathematician who gave a rigorous arithmetical construction of the real numbers via cuts.",
+      "born": "1831-10-06",
+      "died": "1916-02-12",
+      "country": "Germany"
+    },
+    "ramanujan": {
+      "author_id": "ramanujan",
+      "name": "Srinivasa Ramanujan",
+      "original_name": {
+        "language": "Tamil",
+        "script": "ஶ்ரீநிவாஸ ராமாநுஜையங்கார்",
+        "romanized": "Śrīnivāsa Rāmānujaiyaṅgār"
+      },
+      "image": "/authors/ramanujan.jpg",
+      "header": "/headers/ramanujan.jpg",
+      "bio": "Indian mathematician known for extraordinary contributions to number theory, infinite series, and asymptotic formulas.",
+      "born": "1887-12-22",
+      "died": "1920-04-26",
+      "country": "India"
+    },
+    "wikipedia": {
+      "author_id": "wikipedia",
+      "name": "Wikipedia",
+      "image": "/authors/wikipedia.png",
+      "header": "/headers/2.jpg",
+      "bio": "Free online encyclopedia containing collaboratively written and edited articles.",
+      "born": "2001-01-15",
+      "died": null,
+      "country": "Global"
+    }
+  },
+  "postsById": {
+    "91fe9690-9356-49fc-b6bd-67f90018b9e8": {
+      "id": "91fe9690-9356-49fc-b6bd-67f90018b9e8",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>I propose in the present memoir to consider the theory of matrices, and in connection therewith the theory of linear transformations.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 907,
+        "shares": 112,
+        "comments": 73
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "bcc5dcd9-5cdf-48e7-afc1-0cf396ab29c9": {
+      "id": "bcc5dcd9-5cdf-48e7-afc1-0cf396ab29c9",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>A matrix is formed from a rectangular array of quantities, arranged in rows and columns.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 962,
+        "shares": 160,
+        "comments": 82
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "04511497-d824-4c6d-ab7d-36106606bb42": {
+      "id": "04511497-d824-4c6d-ab7d-36106606bb42",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Two matrices may be said to be equal when the corresponding elements are equal.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1203,
+        "shares": 190,
+        "comments": 90
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "1f16d106-db40-452d-9a78-75c51f183823": {
+      "id": "1f16d106-db40-452d-9a78-75c51f183823",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The addition of matrices is effected by adding together the corresponding elements.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 921,
+        "shares": 166,
+        "comments": 79
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "e168768f-2c41-4709-9aac-e62160c14907": {
+      "id": "e168768f-2c41-4709-9aac-e62160c14907",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The product of two matrices is defined by a law of combination which depends upon the multiplication and addition of the elements.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 829,
+        "shares": 134,
+        "comments": 43
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "a890d714-f53a-41ee-b202-c25dda9b77cd": {
+      "id": "a890d714-f53a-41ee-b202-c25dda9b77cd",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>If we denote the matrix by A, and the matrix by B, the product AB is in general different from BA.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1211,
+        "shares": 140,
+        "comments": 79
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "469cf9d1-e1bd-4edd-b47f-bdf9652cc2d0": {
+      "id": "469cf9d1-e1bd-4edd-b47f-bdf9652cc2d0",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>There exists a particular matrix, which may be called the unit-matrix, such that its product with any other matrix leaves that matrix unaltered.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 864,
+        "shares": 91,
+        "comments": 76
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "85dd27c8-3eec-4dc1-9c7b-be7c3623fb42": {
+      "id": "85dd27c8-3eec-4dc1-9c7b-be7c3623fb42",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The determinant of a matrix is a function of its elements, and plays an essential part in the theory.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 941,
+        "shares": 99,
+        "comments": 66
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "283f9b40-a27c-4ffc-b040-c5c7d7eee391": {
+      "id": "283f9b40-a27c-4ffc-b040-c5c7d7eee391",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The determinant vanishes when the rows or columns are linearly dependent.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 785,
+        "shares": 103,
+        "comments": 47
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "2481e3c7-5b8e-4d72-a6a6-e04e03f2aa22": {
+      "id": "2481e3c7-5b8e-4d72-a6a6-e04e03f2aa22",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>If the determinant of a matrix does not vanish, the matrix possesses an inverse.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 686,
+        "shares": 78,
+        "comments": 54
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "05322601-ff28-4d0a-9d75-018ec61b5591": {
+      "id": "05322601-ff28-4d0a-9d75-018ec61b5591",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The inverse matrix is that matrix which, when multiplied with the original matrix, produces the unit-matrix.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1172,
+        "shares": 186,
+        "comments": 103
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "669a67cf-225b-4b17-bab2-0955e11819c1": {
+      "id": "669a67cf-225b-4b17-bab2-0955e11819c1",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Matrices may be considered as symbols of linear substitutions.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1247,
+        "shares": 179,
+        "comments": 102
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad": {
+      "id": "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The composition of two linear transformations corresponds to the multiplication of their matrices.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1216,
+        "shares": 166,
+        "comments": 70
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "7991fb62-510e-4a1d-8afe-7608c31602b0": {
+      "id": "7991fb62-510e-4a1d-8afe-7608c31602b0",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>A matrix of the form \\( \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\) represents a linear transformation in two variables.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 838,
+        "shares": 102,
+        "comments": 75
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "09314f74-9312-40ce-a175-208699b14b0e": {
+      "id": "09314f74-9312-40ce-a175-208699b14b0e",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The eigenvalues of a matrix are obtained by solving the equation \\( \\det(A - \\lambda I) = 0 \\).</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 683,
+        "shares": 106,
+        "comments": 41
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "ac22a001-9b20-4b1c-aa7a-4619d371205c": {
+      "id": "ac22a001-9b20-4b1c-aa7a-4619d371205c",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The characteristic equation expresses a fundamental relation satisfied by the matrix itself.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 876,
+        "shares": 152,
+        "comments": 36
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "2001b499-fa2d-47f4-a8e1-2b8aa09dacb3": {
+      "id": "2001b499-fa2d-47f4-a8e1-2b8aa09dacb3",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Every square matrix satisfies its own characteristic equation.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1103,
+        "shares": 161,
+        "comments": 92
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "1cdc83ce-bb6d-4282-9b9e-d617d2135047": {
+      "id": "1cdc83ce-bb6d-4282-9b9e-d617d2135047",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The theory of matrices thus supplies a general method for the investigation of linear transformations.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1094,
+        "shares": 124,
+        "comments": 58
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "6081f79f-73b4-4fc8-9b50-e0d383b74ef3": {
+      "id": "6081f79f-73b4-4fc8-9b50-e0d383b74ef3",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Matrices admit of powers, positive and negative, according to the laws of multiplication.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 647,
+        "shares": 82,
+        "comments": 39
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "9f425b26-1269-47df-b7e1-3614f468adf8": {
+      "id": "9f425b26-1269-47df-b7e1-3614f468adf8",
+      "work_id": "cayley_memoir_1858",
+      "author_id": "cayley",
+      "date": "1858-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The generality of the method renders it applicable to a wide class of algebraical investigations.</p>"
+      },
+      "tags": [
+        "linear algebra",
+        "matrices",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1001,
+        "shares": 105,
+        "comments": 42
+      },
+      "work": {
+        "id": "cayley_memoir_1858",
+        "title": "A Memoir on the Theory of Matrices",
+        "popularity_raw": 4290,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 5.1,
+        "popularity_final": 5.1
+      }
+    },
+    "f8793b9f-e659-4557-826d-e2eb273d058f": {
+      "id": "f8793b9f-e659-4557-826d-e2eb273d058f",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Marx devoted considerable effort during the last years of his life to the study of mathematics, especially the foundations of differential calculus. These studies were not incidental but reflected a deeper concern with the logical structure of scientific reasoning.</p>"
+      },
+      "tags": [
+        "foundations",
+        "calculus",
+        "marxism"
+      ],
+      "metrics": {
+        "likes": 102,
+        "shares": 14,
+        "comments": 4
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "6b4b07a2-e0e9-419d-92bc-3e02067e4e92": {
+      "id": "6b4b07a2-e0e9-419d-92bc-3e02067e4e92",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>For Marx, mathematics was not politically neutral. Its development was shaped by historical and social forces, and its concepts reflected the dialectical processes that governed material reality.</p>"
+      },
+      "tags": [
+        "marxism",
+        "dialectics",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 133,
+        "shares": 16,
+        "comments": 4
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "b056c5ec-3e64-4dd1-b08d-d92fc151d4b6": {
+      "id": "b056c5ec-3e64-4dd1-b08d-d92fc151d4b6",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The problem of infinitesimals had long troubled mathematicians. Marx was particularly interested in the logical contradictions embedded in their early formulations and sought to expose their conceptual weaknesses.</p>"
+      },
+      "tags": [
+        "calculus",
+        "infinitesimals",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 132,
+        "shares": 17,
+        "comments": 4
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "c3246a3d-9a1c-4689-bef8-c9145b317b11": {
+      "id": "c3246a3d-9a1c-4689-bef8-c9145b317b11",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>In examining expressions such as \\(\\frac{dy}{dx}\\), Marx questioned whether infinitesimals were genuine quantities or merely symbolic devices masking deeper logical transformations.</p>"
+      },
+      "tags": [
+        "calculus",
+        "infinitesimals",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 126,
+        "shares": 18,
+        "comments": 9
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "c82d3525-258d-4484-885e-0509ef72dd78": {
+      "id": "c82d3525-258d-4484-885e-0509ef72dd78",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Marx regarded the transition from finite difference quotients to derivatives as an example of dialectical transformation, where quantitative change gives rise to qualitative difference.</p>"
+      },
+      "tags": [
+        "dialectics",
+        "calculus",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 63,
+        "shares": 8,
+        "comments": 5
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "6f8a636d-0ad7-4bb6-834c-65e03777e0cb": {
+      "id": "6f8a636d-0ad7-4bb6-834c-65e03777e0cb",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The limit concept, formalized in the nineteenth century, resolved many earlier ambiguities surrounding infinitesimals. Yet Marx’s notebooks reveal that he was less concerned with formalism than with logical clarity.</p>"
+      },
+      "tags": [
+        "real analysis",
+        "limits",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 82,
+        "shares": 8,
+        "comments": 3
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "052d88dd-5ca1-48ab-8f69-f15b907d3203": {
+      "id": "052d88dd-5ca1-48ab-8f69-f15b907d3203",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Mao later embraced mathematics as a tool of revolutionary transformation, insisting that theory must be united with practice. Mathematical education became part of broader ideological reform.</p>"
+      },
+      "tags": [
+        "maoism",
+        "marxism",
+        "education"
+      ],
+      "metrics": {
+        "likes": 98,
+        "shares": 14,
+        "comments": 5
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "c044ba79-082b-48f7-8299-64f8b12834cf": {
+      "id": "c044ba79-082b-48f7-8299-64f8b12834cf",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The politics of infinitesimals thus extended beyond technical mathematics. They became emblematic of debates over abstraction, rigor, and the social function of science.</p>"
+      },
+      "tags": [
+        "infinitesimals",
+        "foundations",
+        "philosophy of mathematics"
+      ],
+      "metrics": {
+        "likes": 97,
+        "shares": 7,
+        "comments": 7
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "d1e84fa4-8c64-4b4f-8d89-19e89100ccce": {
+      "id": "d1e84fa4-8c64-4b4f-8d89-19e89100ccce",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Expressions like \\(\\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}\\) represent the culmination of centuries of effort to clarify the foundations of calculus.</p>"
+      },
+      "tags": [
+        "limits",
+        "calculus",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 133,
+        "shares": 19,
+        "comments": 8
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "2abb6c32-900f-4fd0-ab91-4f00eeb148fa": {
+      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Nonstandard analysis later restored infinitesimals to mathematics in a rigorous way, demonstrating that earlier conceptual difficulties could be overcome within a new logical framework.</p>"
+      },
+      "tags": [
+        "nonstandard analysis",
+        "infinitesimals",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 61,
+        "shares": 6,
+        "comments": 4
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "16923c06-e878-478d-abf4-8f0a4c5c370d": {
+      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Mathematics, in this context, becomes a field in which philosophical commitments are enacted through technical choices about definition, proof, and rigor.</p>"
+      },
+      "tags": [
+        "philosophy of mathematics",
+        "foundations",
+        "marxism"
+      ],
+      "metrics": {
+        "likes": 126,
+        "shares": 16,
+        "comments": 7
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "7ecec24d-eded-4269-9859-66223d1a5267": {
+      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The historical study of mathematics reveals that its development is neither linear nor inevitable. It is shaped by intellectual struggle, cultural context, and philosophical debate.</p>"
+      },
+      "tags": [
+        "history of mathematics",
+        "foundations",
+        "philosophy of mathematics"
+      ],
+      "metrics": {
+        "likes": 88,
+        "shares": 7,
+        "comments": 4
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1": {
+      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Marx regarded questions about the foundations of the differential calculus as a “touchstone of the application of the method of materialist dialectics to mathematics.”</p>"
+      },
+      "tags": [
+        "calculus",
+        "foundations",
+        "dialectics"
+      ],
+      "metrics": {
+        "likes": 94,
+        "shares": 13,
+        "comments": 2
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41": {
+      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>During the Cultural Revolution, mathematics was suspect for being too abstract, aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society.</p>"
+      },
+      "tags": [
+        "history of mathematics",
+        "maoism",
+        "education"
+      ],
+      "metrics": {
+        "likes": 120,
+        "shares": 10,
+        "comments": 7
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a": {
+      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Marx used dialectical materialism to evaluate the history of the calculus, and was especially critical of what he took to be its idealistic, metaphysical foundations.</p>"
+      },
+      "tags": [
+        "calculus",
+        "dialectics",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 92,
+        "shares": 13,
+        "comments": 5
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90": {
+      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals, but from a logical transformation in which the ratio \\(\\Delta y / \\Delta x\\) passes to its limit and becomes \\(dy/dx\\).</p>"
+      },
+      "tags": [
+        "calculus",
+        "derivatives",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 69,
+        "shares": 7,
+        "comments": 2
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72": {
+      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>According to Bishop Berkeley, the differential \\(dx\\) was “the ghost of a departed quantity.”</p>"
+      },
+      "tags": [
+        "calculus",
+        "infinitesimals",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 124,
+        "shares": 16,
+        "comments": 7
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09": {
+      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The familiar example \\(y = x^3\\) served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients \\(\\Delta y / \\Delta x\\) and differentials \\(dy/dx\\).</p>"
+      },
+      "tags": [
+        "calculus",
+        "derivatives",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 103,
+        "shares": 9,
+        "comments": 6
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b": {
+      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Nonstandard analysis constructs a mathematical system based on infinitesimals, providing another interpretation of the calculus distinct from the method of limits.</p>"
+      },
+      "tags": [
+        "nonstandard analysis",
+        "infinitesimals",
+        "calculus"
+      ],
+      "metrics": {
+        "likes": 130,
+        "shares": 10,
+        "comments": 10
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81": {
+      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
+      "author_id": "dauben",
+      "date": "1998-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The core of nonstandard analysis shows there is an infinitesimal between zero and any positive number, using the methods of mathematical logic.</p>"
+      },
+      "tags": [
+        "nonstandard analysis",
+        "infinitesimals",
+        "logic"
+      ],
+      "metrics": {
+        "likes": 128,
+        "shares": 14,
+        "comments": 9
+      },
+      "work_id": "marx_mao_mathematics_dauben",
+      "work": {
+        "id": "marx_mao_mathematics_dauben",
+        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
+        "popularity_raw": 181,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 1,
+        "popularity_final": 1
+      }
+    },
+    "caa48dca-63a0-4539-a04a-194912390ddb": {
+      "id": "caa48dca-63a0-4539-a04a-194912390ddb",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "Preface"
+      },
+      "content": {
+        "html": "<p>The reflections which form the subject of this little treatise date from the autumn of the year 1858. At that time I felt more keenly than ever before the lack of a truly scientific foundation for arithmetic. This feeling of dissatisfaction was so overpowering that I formed the fixed resolve to reflect until I had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis.</p>"
+      },
+      "tags": [
+        "real analysis",
+        "foundations",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 1883,
+        "shares": 371,
+        "comments": 121
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "51106bc0-80d0-45fe-889c-6ceb55f0cce2": {
+      "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§1"
+      },
+      "content": {
+        "html": "<p>By arithmetic I understand the science of numbers. The development of arithmetic depends upon the creation of the infinite sequence of positive integers. From this arise the negative and rational numbers, through the demand that subtraction and division shall always be possible.</p>"
+      },
+      "tags": [
+        "foundations",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 1571,
+        "shares": 227,
+        "comments": 91
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "5372d308-df6c-46e9-afe9-2f09d33f81d3": {
+      "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§2"
+      },
+      "content": {
+        "html": "<p>The rational numbers form an ordered field; but they do not suffice to express every magnitude. There exist magnitudes which cannot be expressed by rational numbers, although they are determined by rational relations.</p>"
+      },
+      "tags": [
+        "real numbers",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 1682,
+        "shares": 248,
+        "comments": 155
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "d6a461f2-939d-499d-8c7d-c5a6ff623e79": {
+      "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§3"
+      },
+      "content": {
+        "html": "<p>Let D be a positive integer which is not the square of an integer. Then there exists a positive integer \\(\\lambda\\) such that</p><p>\\[ \\lambda^2 < D < (\\lambda + 1)^2. \\]</p><p>No rational number whose square equals D exists. Thus the rational numbers are insufficient to represent all magnitudes.</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 2409,
+        "shares": 399,
+        "comments": 232
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "f8b545dd-9842-4666-8357-fd9de34ae6ff": {
+      "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§3"
+      },
+      "content": {
+        "html": "<p>If all points of a straight line fall into two classes such that every point of the first class lies to the left of every point of the second class, then there exists one and only one point which produces this division of all points into two classes.</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 2280,
+        "shares": 287,
+        "comments": 201
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "67f96574-8756-4561-889f-ed1e868c6e22": {
+      "id": "67f96574-8756-4561-889f-ed1e868c6e22",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§4"
+      },
+      "content": {
+        "html": "<p>Every cut of the rational numbers into two classes, such that every number of the first class is less than every number of the second, determines either a rational or an irrational number.</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 1645,
+        "shares": 204,
+        "comments": 96
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "f726991b-e76b-4945-ad4a-86415f0b99dc": {
+      "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§4"
+      },
+      "content": {
+        "html": "<p>Whenever a cut is given which is not produced by a rational number, we create a new number corresponding to this cut, which we call an irrational number. Thus the domain of rational numbers is extended to a new domain of numbers.</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 2599,
+        "shares": 480,
+        "comments": 230
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "b5fa4b20-aaca-4644-bde6-49862b25ae25": {
+      "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§5"
+      },
+      "content": {
+        "html": "<p>The totality of all real numbers forms a complete ordered field. Between any two distinct real numbers there exist infinitely many others.</p>"
+      },
+      "tags": [
+        "real numbers",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 1657,
+        "shares": 241,
+        "comments": 112
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd": {
+      "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§6"
+      },
+      "content": {
+        "html": "<p>If \\(\\alpha\\) and \\(\\beta\\) are real numbers corresponding to cuts \\((A_1, A_2)\\) and \\((B_1, B_2)\\), then their sum \\(\\gamma = \\alpha + \\beta\\) is defined by a corresponding cut \\((C_1, C_2)\\).</p>"
+      },
+      "tags": [
+        "real numbers",
+        "dedekind cuts"
+      ],
+      "metrics": {
+        "likes": 2577,
+        "shares": 508,
+        "comments": 179
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "c69124a2-f2d6-4ab6-8ed6-8185af0c244e": {
+      "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§6"
+      },
+      "content": {
+        "html": "<p>The order of the real numbers is such that if \\(\\alpha > \\beta\\) and \\(\\beta > \\gamma\\), then \\(\\alpha > \\gamma\\). This order extends that of the rational numbers without contradiction.</p>"
+      },
+      "tags": [
+        "real numbers",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 1955,
+        "shares": 363,
+        "comments": 169
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "cde3949d-b941-4267-a9c9-a19b56442a46": {
+      "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§7"
+      },
+      "content": {
+        "html": "<p>If a variable magnitude increases continuously but remains bounded above, then it approaches a limit. This theorem is equivalent to the principle of continuity of the real numbers.</p>"
+      },
+      "tags": [
+        "real analysis",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 2278,
+        "shares": 352,
+        "comments": 185
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3da5-2c69-48ac-901b-da3092916c24": {
+      "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
+      "author_id": "dedekind",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "Conclusion"
+      },
+      "content": {
+        "html": "<p>The essence of continuity lies in the completeness of the number system. The arithmetical conception of the real numbers renders the appeal to geometric intuition unnecessary for the foundation of analysis.</p>"
+      },
+      "tags": [
+        "real numbers",
+        "real analysis",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1336,
+        "shares": 177,
+        "comments": 75
+      },
+      "work_id": "dedekind_continuity_1872",
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3df5-3c69-48ac-901b-da3092916c24": {
+      "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§1"
+      },
+      "content": {
+        "html": "<p>I regard the whole of arithmetic as a necessary or at least natural consequence of the simplest arithmetical act, that of counting; and counting itself is nothing other than the successive creation of the infinite series of positive integers.</p>"
+      },
+      "tags": [
+        "foundations",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 2698,
+        "shares": 514,
+        "comments": 179
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3da5-2c69-26ac-901b-da3092916c24": {
+      "id": "e9ea3da5-2c69-26ac-901b-da3092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§3"
+      },
+      "content": {
+        "html": "<p>I find the essence of continuity in the following principle: If all points of a straight line fall into two classes such that every point of the first lies to the left of every point of the second, then there exists one and only one point which produces this division.</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1450,
+        "shares": 208,
+        "comments": 133
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3da5-2c69-48ac-201b-da3092916c24": {
+      "id": "e9ea3da5-2c69-48ac-201b-da3092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§4"
+      },
+      "content": {
+        "html": "<p>In the property that not all cuts are produced by rational numbers consists the incompleteness or discontinuity of the domain \\(\\mathbb{Q}\\).</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 2884,
+        "shares": 410,
+        "comments": 249
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3da5-2c69-01bc-901b-da3092916c24": {
+      "id": "e9ea3da5-2c69-01bc-901b-da3092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§4"
+      },
+      "content": {
+        "html": "<p>Whenever a cut \\((A_1, A_2)\\) is given which is not produced by a rational number, we create a new number \\(\\alpha\\), which we call an irrational number, and which we regard as completely defined by this cut.</p>"
+      },
+      "tags": [
+        "dedekind cuts",
+        "real numbers"
+      ],
+      "metrics": {
+        "likes": 1692,
+        "shares": 310,
+        "comments": 156
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3da5-7b69-48ac-901b-da3092916c24": {
+      "id": "e9ea3da5-7b69-48ac-901b-da3092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§5"
+      },
+      "content": {
+        "html": "<p>If the system of real numbers \\(\\mathbb{R}\\) is divided into two classes \\(\\mathcal{A}_1\\) and \\(\\mathcal{A}_2\\) such that every number \\(\\alpha_1\\) in \\(\\mathcal{A}_1\\) is less than every number \\(\\alpha_2\\) in \\(\\mathcal{A}_2\\), then there exists one and only one number \\(\\alpha\\) which produces this division.</p>"
+      },
+      "tags": [
+        "real numbers",
+        "real analysis"
+      ],
+      "metrics": {
+        "likes": 1814,
+        "shares": 272,
+        "comments": 98
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ea3da5-2c69-48ac-901b-da6092916c24": {
+      "id": "e9ea3da5-2c69-48ac-901b-da6092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§6"
+      },
+      "content": {
+        "html": "<p>To define the sum \\(\\gamma = \\alpha + \\beta\\), it suffices to define the cut \\((C_1, C_2)\\) which corresponds to it, reducing the operation entirely to operations among rational numbers.</p>"
+      },
+      "tags": [
+        "real numbers",
+        "dedekind cuts"
+      ],
+      "metrics": {
+        "likes": 2505,
+        "shares": 432,
+        "comments": 168
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "e9ef3da5-2c69-48ac-901b-da3092916c24": {
+      "id": "e9ef3da5-2c69-48ac-901b-da3092916c24",
+      "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
+      "date": "1872-03-20",
+      "source": {
+        "chapter": "§7"
+      },
+      "content": {
+        "html": "<p>If a variable magnitude increases continuously but remains bounded, then it approaches a limit. This theorem is equivalent to the principle of continuity.</p>"
+      },
+      "tags": [
+        "real analysis",
+        "foundations"
+      ],
+      "metrics": {
+        "likes": 1753,
+        "shares": 344,
+        "comments": 132
+      },
+      "work": {
+        "id": "dedekind_continuity_1872",
+        "title": "Continuity and Irrational Numbers",
+        "popularity_raw": 29300,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "machine_translated",
+          "from": "German",
+          "to": "English"
+        },
+        "popularity_score": 7.5,
+        "popularity_final": 7.5
+      }
+    },
+    "a1c2f8d1-9c43-4c6b-9f72-ram1": {
+      "id": "a1c2f8d1-9c43-4c6b-9f72-ram1",
+      "work_id": "ramanujan_divisors_1915",
+      "author_id": "ramanujan",
+      "date": "1915-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>If S be a divisor of N, then there is a conjugate divisor S' such that SS' = N. Thus we see that the number of divisors from 1 to \\( \\sqrt{N} \\) is equal to the number of divisors from \\( \\sqrt{N} \\) to N.</p>"
+      },
+      "tags": [
+        "number theory",
+        "divisors",
+        "ramanujan"
+      ],
+      "metrics": {
+        "likes": 1943,
+        "shares": 238,
+        "comments": 97
+      },
+      "work": {
+        "id": "ramanujan_divisors_1915",
+        "title": "On the Number of Divisors of a Number",
+        "popularity_raw": 10900,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 6.3,
+        "popularity_final": 6.3
+      }
+    },
+    "b3e9a221-2c4a-4fd4-b6a0-ram2": {
+      "id": "b3e9a221-2c4a-4fd4-b6a0-ram2",
+      "work_id": "ramanujan_divisors_1915",
+      "author_id": "ramanujan",
+      "date": "1915-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Let \\( N = p_1^{a_1} p_2^{a_2} \\dots p_n^{a_n} \\), where \\( p_1, p_2, \\dots, p_n \\) are primes. Then it is easy to see that \\( d(N) = (1+a_1)(1+a_2)\\dots(1+a_n) \\).</p>"
+      },
+      "tags": [
+        "number theory",
+        "divisor function",
+        "prime factorization"
+      ],
+      "metrics": {
+        "likes": 1160,
+        "shares": 168,
+        "comments": 56
+      },
+      "work": {
+        "id": "ramanujan_divisors_1915",
+        "title": "On the Number of Divisors of a Number",
+        "popularity_raw": 10900,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 6.3,
+        "popularity_final": 6.3
+      }
+    },
+    "c7f54d21-88f4-4d17-9e11-ram3": {
+      "id": "c7f54d21-88f4-4d17-9e11-ram3",
+      "work_id": "ramanujan_divisors_1915",
+      "author_id": "ramanujan",
+      "date": "1915-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>Since the arithmetic mean of unequal positive numbers is always greater than their geometric mean, we obtain inequalities which give a superior limit for \\( d(N) \\).</p>"
+      },
+      "tags": [
+        "number theory",
+        "inequalities",
+        "asymptotics"
+      ],
+      "metrics": {
+        "likes": 1087,
+        "shares": 145,
+        "comments": 57
+      },
+      "work": {
+        "id": "ramanujan_divisors_1915",
+        "title": "On the Number of Divisors of a Number",
+        "popularity_raw": 10900,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 6.3,
+        "popularity_final": 6.3
+      }
+    },
+    "d92ab8c3-66af-4cb7-b5a8-ram4": {
+      "id": "d92ab8c3-66af-4cb7-b5a8-ram4",
+      "work_id": "ramanujan_divisors_1915",
+      "author_id": "ramanujan",
+      "date": "1915-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>If \\( p \\) be the largest prime not exceeding \\( x \\), then bounds for \\( d(N) \\) may be expressed in terms of the product \\( \\log 2 \\log 3 \\log 5 \\dots \\log p \\).</p>"
+      },
+      "tags": [
+        "number theory",
+        "primes",
+        "bounds"
+      ],
+      "metrics": {
+        "likes": 1222,
+        "shares": 201,
+        "comments": 71
+      },
+      "work": {
+        "id": "ramanujan_divisors_1915",
+        "title": "On the Number of Divisors of a Number",
+        "popularity_raw": 10900,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 6.3,
+        "popularity_final": 6.3
+      }
+    },
+    "e4bdc921-11b5-4c0a-9a20-ram5": {
+      "id": "e4bdc921-11b5-4c0a-9a20-ram5",
+      "work_id": "ramanujan_divisors_1915",
+      "author_id": "ramanujan",
+      "date": "1915-01-01",
+      "source": {
+        "chapter": null
+      },
+      "content": {
+        "html": "<p>The symbol \\( O \\) is used in the following sense: \\( f(x) = O(\\phi(x)) \\) means that there is a positive constant \\( K \\) such that \\( |f(x)| \\leq K \\phi(x) \\) for all sufficiently large values of \\( x \\).</p>"
+      },
+      "tags": [
+        "number theory",
+        "asymptotics",
+        "big O notation"
+      ],
+      "metrics": {
+        "likes": 984,
+        "shares": 151,
+        "comments": 47
+      },
+      "work": {
+        "id": "ramanujan_divisors_1915",
+        "title": "On the Number of Divisors of a Number",
+        "popularity_raw": 10900,
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 6.3,
+        "popularity_final": 6.3
+      }
+    },
+    "5f7df3b2-6d43-4d6d-9e44-1fbf0c8a2b10": {
+      "id": "5f7df3b2-6d43-4d6d-9e44-1fbf0c8a2b10",
+      "type": "image",
+      "work_id": "wikipedia_combinatorics",
+      "author_id": "wikipedia",
+      "date": "2006-01-29",
+      "image": "/images/Plain-bob-minor_2.png",
+      "caption": "An example of change ringing (with six bells), one of the earliest nontrivial results in graph theory.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Plain-bob-minor_2.png",
+        "article": "Combinatorics"
+      },
+      "credit": "Public domain (PD-self). Commons lists: source assumed own work; author assumed Andrew Hyde (based on copyright claims).",
+      "tags": [
+        "combinatorics"
+      ],
+      "metrics": {
+        "likes": 125,
+        "shares": 20,
+        "comments": 10
+      },
+      "work": {
+        "id": "wikipedia_combinatorics",
+        "title": "Combinatorics",
+        "popularity_raw": 8886,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.1,
+        "popularity_final": 2.1
+      }
+    },
+    "c1d3c6e8-9341-4c2c-97f0-7a8fe0e2a2a7": {
+      "id": "c1d3c6e8-9341-4c2c-97f0-7a8fe0e2a2a7",
+      "type": "image",
+      "work_id": "wikipedia_combinatorics",
+      "author_id": "wikipedia",
+      "date": "2004-07-24",
+      "image": "/images/Hasse_diagram_of_powerset_of_3.svg.png",
+      "caption": "Hasse diagram of the powerset of \\( \\{x,y,z\\} \\) ordered by inclusion.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Hasse_diagram_of_powerset_of_3.svg",
+        "article": "Combinatorics"
+      },
+      "credit": "Created by KSmrq; self-made using graphviz's dot. Licensed under CC BY-SA 3.0 (also offered under other free licenses on the Commons page).",
+      "tags": [
+        "combinatorics",
+        "posets"
+      ],
+      "metrics": {
+        "likes": 232,
+        "shares": 23,
+        "comments": 17
+      },
+      "work": {
+        "id": "wikipedia_combinatorics",
+        "title": "Combinatorics",
+        "popularity_raw": 8886,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.1,
+        "popularity_final": 2.1
+      }
+    },
+    "a8f1a2c5-3b92-45de-9b0e-0d6c2d9f3b66": {
+      "id": "a8f1a2c5-3b92-45de-9b0e-0d6c2d9f3b66",
+      "type": "image",
+      "work_id": "wikipedia_combinatorics",
+      "author_id": "wikipedia",
+      "date": "2006-03-11",
+      "image": "/images/Catalan_4_leaves_binary_tree_example.svg.png",
+      "caption": "Five binary trees on three vertices, an example of Catalan numbers.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Catalan_4_leaves_binary_tree_example.svg",
+        "article": "Combinatorics"
+      },
+      "credit": "Transferred from Spanish Wikipedia to Commons. Commons lists the original uploader as Jasampler; file page indicates public domain status for this simple-geometry diagram.",
+      "tags": [
+        "combinatorics",
+        "catalan numbers"
+      ],
+      "metrics": {
+        "likes": 129,
+        "shares": 16,
+        "comments": 4
+      },
+      "work": {
+        "id": "wikipedia_combinatorics",
+        "title": "Combinatorics",
+        "popularity_raw": 8886,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.1,
+        "popularity_final": 2.1
+      }
+    },
+    "0e2f3b69-2d8e-49d1-9f8b-9b0d4d3a77b9": {
+      "id": "0e2f3b69-2d8e-49d1-9f8b-9b0d4d3a77b9",
+      "type": "image",
+      "work_id": "wikipedia_combinatorics",
+      "author_id": "wikipedia",
+      "date": "2008-02-20",
+      "image": "/images/Kissing-3d.png",
+      "caption": "Kissing spheres are connected to both coding theory and discrete geometry.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Combinatorics#/media/File:Kissing-3d.png",
+        "article": "Combinatorics"
+      },
+      "credit": "Transferred from English Wikipedia to Commons; Commons lists the original uploader as Robertwb. Licensed under CC BY-SA 3.0.",
+      "tags": [
+        "combinatorics",
+        "geometry"
+      ],
+      "metrics": {
+        "likes": 203,
+        "shares": 16,
+        "comments": 6
+      },
+      "work": {
+        "id": "wikipedia_combinatorics",
+        "title": "Combinatorics",
+        "popularity_raw": 8886,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.1,
+        "popularity_final": 2.1
+      }
+    },
+    "f57f1afe-8909-41b1-be26-badccf970e94": {
+      "id": "f57f1afe-8909-41b1-be26-badccf970e94",
+      "type": "image",
+      "work_id": "wikipedia_graph_theory",
+      "author_id": "wikipedia",
+      "date": "2015-05-04",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Moreno_Sociogram_2nd_Grade.png",
+      "caption": "Graph theory in sociology: Moreno Sociogram (1953).",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Graph_theory#/media/File%3AMoreno_Sociogram_2nd_Grade.png",
+        "article": "Graph theory"
+      },
+      "credit": "Own work",
+      "tags": [
+        "graph_theory"
+      ],
+      "metrics": {
+        "likes": 219,
+        "shares": 35,
+        "comments": 9
+      },
+      "creator": "Martin Grandjean",
+      "license": "CC BY-SA 4.0",
+      "work": {
+        "id": "wikipedia_graph_theory",
+        "title": "Graph theory",
+        "popularity_raw": 15070,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.9,
+        "popularity_final": 2.9
+      }
+    },
+    "7824e47d-015b-408f-8f90-5bb27dea41c2": {
+      "id": "7824e47d-015b-408f-8f90-5bb27dea41c2",
+      "type": "image",
+      "work_id": "wikipedia_graph_theory",
+      "author_id": "wikipedia",
+      "date": "2024-08-24",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Example_of_simple_undirected_graph_3.svg",
+      "caption": "A graph with 6 vertices and 7 edges.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Graph_theory#/media/File%3AExample_of_simple_undirected_graph_3.svg",
+        "article": "Graph theory"
+      },
+      "credit": "Own work",
+      "tags": [
+        "graph_theory"
+      ],
+      "metrics": {
+        "likes": 378,
+        "shares": 54,
+        "comments": 21
+      },
+      "creator": "Michel Bakni",
+      "license": "CC BY-SA 4.0",
+      "work": {
+        "id": "wikipedia_graph_theory",
+        "title": "Graph theory",
+        "popularity_raw": 15070,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.9,
+        "popularity_final": 2.9
+      }
+    },
+    "52e7dfd4-ef6d-4886-a6ad-677d0327b25e": {
+      "id": "52e7dfd4-ef6d-4886-a6ad-677d0327b25e",
+      "type": "image",
+      "work_id": "wikipedia_graph_theory",
+      "author_id": "wikipedia",
+      "date": "2005-04-18",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png",
+      "caption": "The Seven Bridges of Königsberg problem.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Graph_theory#/media/File%3AKonigsberg_bridges.png",
+        "article": "Graph theory"
+      },
+      "credit": "Public domain (PD), based on the image.",
+      "tags": [
+        "graph_theory"
+      ],
+      "metrics": {
+        "likes": 421,
+        "shares": 61,
+        "comments": 30
+      },
+      "creator": "Bogdan Giuşcă",
+      "license": "CC BY-SA 3.0",
+      "work": {
+        "id": "wikipedia_graph_theory",
+        "title": "Graph theory",
+        "popularity_raw": 15070,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.9,
+        "popularity_final": 2.9
+      }
+    },
+    "c6e9a4b4-8f2e-4e7d-9f4e-2b6a5c1d9e11": {
+      "id": "c6e9a4b4-8f2e-4e7d-9f4e-2b6a5c1d9e11",
+      "type": "image",
+      "work_id": "wikipedia_group_mathematics",
+      "author_id": "wikipedia",
+      "date": "2000-01-01",
+      "image": "/images/Rubik's_cube.svg.png",
+      "caption": "The manipulations of the Rubik's Cube form the Rubik's Cube group.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Rubik%27s_cube.svg",
+        "article": "Group (mathematics)"
+      },
+      "credit": "Created by RTCNCA, licensed under CC BY-SA 3.0 via Wikimedia Commons",
+      "tags": [
+        "group theory",
+        "finite groups",
+        "rubik's cube"
+      ],
+      "metrics": {
+        "likes": 173,
+        "shares": 22,
+        "comments": 9
+      },
+      "work": {
+        "id": "wikipedia_group_mathematics",
+        "title": "Group (mathematics)",
+        "popularity_raw": 9714,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.2,
+        "popularity_final": 2.2
+      }
+    },
+    "4f9b7d63-2d75-4a6f-b65f-83c9d1b8e2c4": {
+      "id": "4f9b7d63-2d75-4a6f-b65f-83c9d1b8e2c4",
+      "type": "image",
+      "work_id": "wikipedia_group_mathematics",
+      "author_id": "wikipedia",
+      "date": "2000-01-01",
+      "image": "/images/Clock_group.svg.png",
+      "caption": "Set of hours in a clock, \\( \\{0,1,\\dots,11\\} \\), is isomorphic to \\( C_{12} \\) (arithmetic modulo 12) e.g. \\( 9 + 4 = 1 \\).",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Clock_group.svg",
+        "article": "Group (mathematics)"
+      },
+      "credit": "Uploaded by Spindled, licensed under CC BY-SA 3.0 via Wikimedia Commons",
+      "tags": [
+        "cyclic groups",
+        "modular arithmetic",
+        "group theory"
+      ],
+      "metrics": {
+        "likes": 161,
+        "shares": 22,
+        "comments": 10
+      },
+      "work": {
+        "id": "wikipedia_group_mathematics",
+        "title": "Group (mathematics)",
+        "popularity_raw": 9714,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.2,
+        "popularity_final": 2.2
+      }
+    },
+    "9b3c2a71-5f44-4c89-91c7-0e7f3b2a9d56": {
+      "id": "9b3c2a71-5f44-4c89-91c7-0e7f3b2a9d56",
+      "type": "image",
+      "work_id": "wikipedia_group_mathematics",
+      "author_id": "wikipedia",
+      "date": "2000-01-01",
+      "image": "/images/Wallpaper_group-cm-6.jpg",
+      "caption": "A periodic wallpaper pattern gives rise to a wallpaper group.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Wallpaper_group-cm-6.jpg",
+        "article": "Group (mathematics)"
+      },
+      "credit": "Public domain; originally by Owen Jones, from The Grammar of Ornament (1856), via Wikimedia Commons",
+      "tags": [
+        "symmetry",
+        "wallpaper groups",
+        "group theory"
+      ],
+      "metrics": {
+        "likes": 252,
+        "shares": 21,
+        "comments": 9
+      },
+      "work": {
+        "id": "wikipedia_group_mathematics",
+        "title": "Group (mathematics)",
+        "popularity_raw": 9714,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.2,
+        "popularity_final": 2.2
+      }
+    },
+    "1a7e5c84-3b12-4d7f-8b21-4e8a9f0c6d77": {
+      "id": "1a7e5c84-3b12-4d7f-8b21-4e8a9f0c6d77",
+      "type": "image",
+      "work_id": "wikipedia_group_mathematics",
+      "author_id": "wikipedia",
+      "date": "2000-01-01",
+      "image": "/images/Fundamental_group.svg.png",
+      "caption": "The fundamental group of a plane minus a point (bold) consists of loops around the missing point. This group is isomorphic to the integers under addition \\( \\mathbb{Z} \\).",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Group_(mathematics)#/media/File:Fundamental_group.svg",
+        "article": "Group (mathematics)"
+      },
+      "credit": "Created by Jakob.scholbach (original) and redrawn by Pbroks13, licensed under CC BY-SA 3.0 via Wikimedia Commons",
+      "tags": [
+        "algebraic topology",
+        "fundamental group",
+        "group theory"
+      ],
+      "metrics": {
+        "likes": 146,
+        "shares": 12,
+        "comments": 11
+      },
+      "work": {
+        "id": "wikipedia_group_mathematics",
+        "title": "Group (mathematics)",
+        "popularity_raw": 9714,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.2,
+        "popularity_final": 2.2
+      }
+    },
+    "ba5122aa-02d0-497c-a227-a6ca6b2af0e6": {
+      "id": "ba5122aa-02d0-497c-a227-a6ca6b2af0e6",
+      "type": "image",
+      "work_id": "wikipedia_number_theory",
+      "author_id": "wikipedia",
+      "date": "2019-07-26",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Computer_History_Museum_%284145886786%29.jpg",
+      "caption": "A Lehmer sieve, a primitive digital computer used to find primes and solve simple Diophantine equations.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3AComputer_History_Museum_%284145886786%29.jpg",
+        "article": "Number theory"
+      },
+      "credit": "Flickr",
+      "tags": [
+        "number_theory"
+      ],
+      "metrics": {
+        "likes": 281,
+        "shares": 41,
+        "comments": 20
+      },
+      "creator": "Marcin Wichary from San Francisco, Calif.",
+      "license": "CC BY 2.0",
+      "work": {
+        "id": "wikipedia_number_theory",
+        "title": "Number theory",
+        "popularity_raw": 11382,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.4,
+        "popularity_final": 2.4
+      }
+    },
+    "288e3ed8-3f9f-490c-a0da-389f80ca5b2b": {
+      "id": "288e3ed8-3f9f-490c-a0da-389f80ca5b2b",
+      "type": "image",
+      "work_id": "wikipedia_number_theory",
+      "author_id": "wikipedia",
+      "date": "2018-01-08",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Riemann_Explicit_Formula.gif",
+      "caption": "Corrections to an estimate of the prime-counting function using zeros of the zeta function.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3ARiemann_Explicit_Formula.gif",
+        "article": "Number theory"
+      },
+      "credit": "Own work.",
+      "tags": [
+        "number_theory"
+      ],
+      "metrics": {
+        "likes": 292,
+        "shares": 36,
+        "comments": 14
+      },
+      "creator": "Daniel Hutama",
+      "license": "CC BY-SA 4.0",
+      "work": {
+        "id": "wikipedia_number_theory",
+        "title": "Number theory",
+        "popularity_raw": 11382,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.4,
+        "popularity_final": 2.4
+      }
+    },
+    "0f40e84a-83d7-4d06-9023-9953f5864a3b": {
+      "id": "0f40e84a-83d7-4d06-9023-9953f5864a3b",
+      "type": "image",
+      "work_id": "wikipedia_number_theory",
+      "author_id": "wikipedia",
+      "date": "2022-05-27",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Plimpton_322.jpg",
+      "caption": "The Babylonians demonstrated an early understanding of Pythagorean triples.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3APlimpton_322.jpg",
+        "article": "Number theory"
+      },
+      "credit": "Image copied from http://www.math.ubc.ca/~cass/courses/m446-03/pl322/pl322.html.",
+      "tags": [
+        "number_theory"
+      ],
+      "metrics": {
+        "likes": 167,
+        "shares": 22,
+        "comments": 9
+      },
+      "creator": "photo author unknown",
+      "license": "Public domain",
+      "work": {
+        "id": "wikipedia_number_theory",
+        "title": "Number theory",
+        "popularity_raw": 11382,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.4,
+        "popularity_final": 2.4
+      }
+    },
+    "33e16b29-d375-4808-b4aa-3d5fdf9383c3": {
+      "id": "33e16b29-d375-4808-b4aa-3d5fdf9383c3",
+      "type": "image",
+      "work_id": "wikipedia_number_theory",
+      "author_id": "wikipedia",
+      "date": "2022-06-06",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/ModularGroup-FundamentalDomain.svg",
+      "caption": "The action of the modular group on the upper half plane. The region in grey is the standard fundamental domain.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3AModularGroup-FundamentalDomain.svg",
+        "article": "Number theory"
+      },
+      "credit": "Own work based on: ModularGroup-FundamentalDomain-01.png.",
+      "tags": [
+        "number_theory"
+      ],
+      "metrics": {
+        "likes": 200,
+        "shares": 20,
+        "comments": 7
+      },
+      "creator": "Original: Kilom691; Vector: Alexander Hulpke",
+      "license": "CC BY-SA 4.0",
+      "work": {
+        "id": "wikipedia_number_theory",
+        "title": "Number theory",
+        "popularity_raw": 11382,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.4,
+        "popularity_final": 2.4
+      }
+    },
+    "e4840880-5984-437d-a204-3ef01766e44e": {
+      "id": "e4840880-5984-437d-a204-3ef01766e44e",
+      "type": "image",
+      "work_id": "wikipedia_number_theory",
+      "author_id": "wikipedia",
+      "date": "2007-08-03",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Complex_zeta.jpg",
+      "caption": "Riemann zeta function \\( \\zeta(s) \\) in the complex plane. The color of a point \\( s \\) gives the value of \\( \\zeta(s) \\): dark colors denote values close to zero and hue gives the value's argument.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3AComplex_zeta.jpg",
+        "article": "Number theory"
+      },
+      "credit": "Made with Mathematica; own work.",
+      "tags": [
+        "number_theory"
+      ],
+      "metrics": {
+        "likes": 198,
+        "shares": 19,
+        "comments": 6
+      },
+      "creator": "Jan Homann",
+      "license": "Public domain",
+      "work": {
+        "id": "wikipedia_number_theory",
+        "title": "Number theory",
+        "popularity_raw": 11382,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.4,
+        "popularity_final": 2.4
+      }
+    },
+    "cf220614-2292-4760-9a4a-d295f088ce83": {
+      "id": "cf220614-2292-4760-9a4a-d295f088ce83",
+      "type": "image",
+      "work_id": "wikipedia_number_theory",
+      "author_id": "wikipedia",
+      "date": "2005-08-05",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Pierre_de_Fermat.png",
+      "caption": "Fermat is sometimes considered the founder of modern number theory.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Number_theory#/media/File%3APierre_de_Fermat.png",
+        "article": "Number theory"
+      },
+      "credit": "",
+      "tags": [
+        "number_theory"
+      ],
+      "metrics": {
+        "likes": 254,
+        "shares": 40,
+        "comments": 17
+      },
+      "creator": "",
+      "license": "Public domain",
+      "work": {
+        "id": "wikipedia_number_theory",
+        "title": "Number theory",
+        "popularity_raw": 11382,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.4,
+        "popularity_final": 2.4
+      }
+    },
+    "a6a7402e-4059-4bbe-b0bc-9b2a493ed818": {
+      "id": "a6a7402e-4059-4bbe-b0bc-9b2a493ed818",
+      "type": "image",
+      "work_id": "wikipedia_real_number",
+      "author_id": "wikipedia",
+      "date": "2021-09-07",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Number-systems_%28NZQRC%29.svg",
+      "caption": "Set inclusions between the natural numbers (\\( \\mathbb{N} \\)), the integers (\\( \\mathbb{Z} \\)), the rational numbers (\\( \\mathbb{Q} \\)), the real numbers (\\( \\mathbb{R} \\)), and the complex numbers (\\( \\mathbb{C} \\)).",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Real_number#/media/File%3ANumber-systems_%28NZQRC%29.svg",
+        "article": "Real number"
+      },
+      "credit": "Own work based on: Number-systems with C.png.",
+      "tags": [
+        "real_number"
+      ],
+      "metrics": {
+        "likes": 212,
+        "shares": 30,
+        "comments": 12
+      },
+      "creator": "Mortalmoth",
+      "license": "Public domain",
+      "work": {
+        "id": "wikipedia_real_number",
+        "title": "Real number",
+        "popularity_raw": 15197,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.9,
+        "popularity_final": 2.9
+      }
+    },
+    "28afec76-b301-4fb3-a56d-ff8a4ee98aa8": {
+      "id": "28afec76-b301-4fb3-a56d-ff8a4ee98aa8",
+      "type": "image",
+      "work_id": "wikipedia_real_number",
+      "author_id": "wikipedia",
+      "date": "2021-05-27",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Number-systems.svg",
+      "caption": "Real numbers \\( \\mathbb{R} \\) include the rational numbers \\( \\mathbb{Q} \\), which include the integers \\( \\mathbb{Z} \\), which in turn include the natural numbers \\( \\mathbb{N} \\).",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Real_number#/media/File%3ANumber-systems.svg",
+        "article": "Real number"
+      },
+      "credit": "Own work.",
+      "tags": [
+        "real_number"
+      ],
+      "metrics": {
+        "likes": 427,
+        "shares": 44,
+        "comments": 28
+      },
+      "creator": "Mortalmoth",
+      "license": "Public domain",
+      "work": {
+        "id": "wikipedia_real_number",
+        "title": "Real number",
+        "popularity_raw": 15197,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.9,
+        "popularity_final": 2.9
+      }
+    },
+    "d3fdcd5a-d949-433a-9629-c48bd7e5d3d0": {
+      "id": "d3fdcd5a-d949-433a-9629-c48bd7e5d3d0",
+      "type": "image",
+      "work_id": "wikipedia_real_number",
+      "author_id": "wikipedia",
+      "date": "2018-11-29",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Real_number_line.svg",
+      "caption": "Real numbers can be thought of as all points on a number line.",
+      "origin": {
+        "link": "https://en.wikipedia.org/wiki/Real_number#/media/File%3AReal_number_line.svg",
+        "article": "Real number"
+      },
+      "credit": "Own work.",
+      "tags": [
+        "real_number"
+      ],
+      "metrics": {
+        "likes": 316,
+        "shares": 39,
+        "comments": 21
+      },
+      "creator": "User:Phrood~commonswiki",
+      "license": "Public domain",
+      "work": {
+        "id": "wikipedia_real_number",
+        "title": "Real number",
+        "popularity_raw": 15197,
+        "popularity_reference_max": 71228,
+        "popularity_scale": "ratio",
+        "visibility_adjustment": 1,
+        "translation": {
+          "type": "original_english"
+        },
+        "popularity_score": 2.9,
+        "popularity_final": 2.9
+      }
+    }
+  }
 }
