@@ -6,6 +6,7 @@ import { buildAuthorPath, buildPostPath, buildSearchPath, navigateTo } from "../
 
 export default function ImagePost({ post, author }) {
   const captionRef = useRef(null);
+  const locationAndDate = [author.country, post.date].filter(Boolean).join(", ");
   const handleHeaderClick = () => {
     navigateTo(buildPostPath(post.id));
   };
@@ -54,7 +55,7 @@ export default function ImagePost({ post, author }) {
           </div>
 
           <div className="post-date">
-            {post.date}
+            {locationAndDate}
           </div>
         </div>
       </div>

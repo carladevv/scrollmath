@@ -68,6 +68,12 @@ export default function Author({ authorId }) {
     );
   }
 
+  const hasOriginalName = author.original_name && (author.original_name.script || author.original_name.romanized);
+  const bornYear = author.born ? author.born.substring(0, 4) : null;
+  const diedYear = author.died ? author.died.substring(0, 4) : "Present";
+  const lifespan = bornYear ? `${bornYear} — ${diedYear}` : null;
+  const countryAndDates = [author.country, lifespan].filter(Boolean).join(", ");
+
   return (
     <div className="posts-column desktop-top-gap author-page">
       {/* Author Header Card - with side padding only */}
@@ -93,12 +99,18 @@ export default function Author({ authorId }) {
               {author.name}
             </h1>
 
-            {/* Birth/Death line */}
-            {(author.born || author.died) && (
+            {hasOriginalName && (
+              <div className="author-original-name">
+                {author.original_name.script}
+                {author.original_name.romanized && (
+                  <>{" "}({author.original_name.romanized})</>
+                )}
+              </div>
+            )}
+
+            {(author.country || lifespan) && (
               <div className="author-dates">
-                {author.born && author.born.substring(0, 4)}
-                {author.born && " — "}
-                {author.died ? author.died.substring(0, 4) : "Present"}
+                {countryAndDates}
               </div>
             )}
           </div>

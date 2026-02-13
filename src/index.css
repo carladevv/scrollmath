@@ -161,6 +161,12 @@ body {
   cursor: pointer;
 }
 
+.author-original-name {
+  margin-bottom: 2px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
 .author-dates {
   font-size: var(--text-date-size);
   color: var(--color-text-secondary);
