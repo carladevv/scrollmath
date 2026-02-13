@@ -3,10 +3,14 @@ import PostFooter from "./PostFooter";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import { ExternalLink } from "lucide-react";
 import { buildAuthorPath, buildPostPath, buildSearchPath, navigateTo } from "../router/navigation";
+import { buildWikimediaThumbSrcSet, buildWikimediaThumbUrl } from "../utils/image";
 
 export default function ImagePost({ post, author }) {
   const captionRef = useRef(null);
   const locationAndDate = [author.country, post.date].filter(Boolean).join(", ");
+  const authorImage = author.image_small || author.image;
+  const imageSrc = buildWikimediaThumbUrl(post.image, 960);
+  const imageSrcSet = buildWikimediaThumbSrcSet(post.image, [480, 800, 960, 1200]);
   const handleHeaderClick = () => {
     navigateTo(buildPostPath(post.id));
   };
@@ -56,8 +60,12 @@ export default function ImagePost({ post, author }) {
         className="post-header"
       >
         <img
-          src={author.image}
+          src={authorImage}
           alt={author.name}
+          width="36"
+          height="36"
+          loading="lazy"
+          decoding="async"
           onClick={(e) => {
             e.stopPropagation();
             handleAuthorClick();
@@ -85,8 +93,12 @@ export default function ImagePost({ post, author }) {
       {/* Image */}
       <div className="image-post-media">
         <img
-          src={post.image}
+          src={imageSrc}
+          srcSet={imageSrcSet}
+          sizes="(max-width: 640px) 100vw, 600px"
           alt={post.caption}
+          loading="lazy"
+          decoding="async"
           className="image-post-image"
         />
       </div>

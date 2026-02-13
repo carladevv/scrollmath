@@ -3,6 +3,8 @@
     "author_id": "cayley",
     "name": "Arthur Cayley",
     "image": "/authors/cayley.jpg",
+    "image_small": "/authors/cayley-36.webp",
+    "image_medium": "/authors/cayley-80.webp",
     "header": "/headers/1.jpg",
     "bio": "English mathematician who founded the abstract theory of matrices.",
     "born": "1821-08-16",

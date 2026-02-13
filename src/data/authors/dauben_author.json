@@ -3,6 +3,8 @@
     "author_id": "dauben",
     "name": "Joseph W. Dauben",
     "image": "/authors/dauben.jpg",
+    "image_small": "/authors/dauben-36.webp",
+    "image_medium": "/authors/dauben-80.webp",
     "header": "/headers/2.jpg",
     "bio": "Historian of mathematics known for work on Marx, Mao, and the politics of infinitesimals.",
     "born": "1944-01-01",

@@ -73,6 +73,7 @@ export default function Author({ authorId }) {
   const diedYear = author.died ? author.died.substring(0, 4) : "Present";
   const lifespan = bornYear ? `${bornYear} — ${diedYear}` : null;
   const countryAndDates = [author.country, lifespan].filter(Boolean).join(", ");
+  const authorProfileImage = author.image_medium || author.image;
 
   return (
     <div className="posts-column desktop-top-gap author-page">
@@ -82,8 +83,12 @@ export default function Author({ authorId }) {
         <div className="author-header-row">
           {/* Avatar */}
           <img
-            src={author.image}
+            src={authorProfileImage}
             alt={author.name}
+            width="80"
+            height="80"
+            loading="eager"
+            decoding="async"
             className="author-avatar"
             onClick={() => navigateTo(buildAuthorPath(author.author_id))}
             title="Click to refresh profile"

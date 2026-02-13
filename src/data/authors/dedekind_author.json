@@ -3,6 +3,8 @@
     "author_id": "dedekind",
     "name": "Richard Dedekind",
     "image": "/authors/dedekind.jpg",
+    "image_small": "/authors/dedekind-36.webp",
+    "image_medium": "/authors/dedekind-80.webp",
     "header": "/headers/3.jpg",
     "bio": "German mathematician who gave a rigorous arithmetical construction of the real numbers via cuts.",
     "born": "1831-10-06",
