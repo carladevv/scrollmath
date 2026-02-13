@@ -6,6 +6,7 @@ import { buildMathAwarePreviewFromHtml } from "../utils/previewText";
 export default function TinyPost({ post, author }) {
   const preview = buildMathAwarePreviewFromHtml(post.content?.html || "", 14);
   const previewRef = useRef(null);
+  const authorImage = author.image_small || author.image;
 
   useEffect(() => {
     if (!previewRef.current) return;
@@ -29,8 +30,12 @@ export default function TinyPost({ post, author }) {
     >
       <div className="tiny-post-header">
         <img
-          src={author.image}
+          src={authorImage}
           alt={author.name}
+          width="20"
+          height="20"
+          loading="lazy"
+          decoding="async"
           onClick={e => {
             e.stopPropagation();
             navigateTo(buildAuthorPath(author.author_id));

@@ -5,11 +5,11 @@
     "type":  "module",
     "scripts":  {
                     "dev":  "vite",
-                    "predev":  "node scripts/generate-social-pages.mjs",
+                    "predev":  "node scripts/generate-social-pages.mjs && node scripts/generate-feed-index.mjs",
                     "build":  "vite build",
                     "lint":  "eslint .",
                     "preview":  "vite preview",
-                    "prebuild":  "node scripts/generate-social-pages.mjs"
+                    "prebuild":  "node scripts/generate-social-pages.mjs && node scripts/generate-feed-index.mjs"
                 },
     "dependencies":  {
                          "katex":  "^0.16.28",

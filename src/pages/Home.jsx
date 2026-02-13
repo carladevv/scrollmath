@@ -5,7 +5,7 @@ import { buildFeed, loadData, initializeFeed } from "../utils/feed";
 
 export default function Home() {
   const [rawPosts, setRawPosts] = useState([]);
-  const [authors, setAuthors] = useState([]);
+  const [authorsById, setAuthorsById] = useState({});
   const [feedPosts, setFeedPosts] = useState([]);
   const feedRef = useRef(null);
 
@@ -14,9 +14,9 @@ export default function Home() {
   // -------------------------
   useEffect(() => {
     async function load() {
-      const { posts, authors } = await loadData();
+      const { posts, authorsById: allAuthorsById } = await loadData();
       setRawPosts(posts);
-      setAuthors(authors);
+      setAuthorsById(allAuthorsById);
     }
 
     load();
@@ -59,7 +59,7 @@ export default function Home() {
       className="posts-column desktop-top-gap home-feed"
     >
       {feedPosts.map(post => {
-        const author = authors.find(a => a.author_id === post.author_id);
+        const author = authorsById[post.author_id];
         if (!author) return null;
 
         // Render image posts with ImagePost, otherwise use regular Post

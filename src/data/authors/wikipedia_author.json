@@ -3,6 +3,8 @@
     "author_id": "wikipedia",
     "name": "Wikipedia",
     "image": "/authors/wikipedia.png",
+    "image_small": "/authors/wikipedia-36.webp",
+    "image_medium": "/authors/wikipedia-80.webp",
     "header": "/headers/2.jpg",
     "bio": "Free online encyclopedia containing collaboratively written and edited articles.",
     "born": "2001-01-15",

@@ -9,7 +9,7 @@ import uiTexts from "../data/ui_texts.json";
 export default function PostPage({ postId }) {
   const [post, setPost] = useState(null);
   const [author, setAuthor] = useState(null);
-  const [authors, setAuthors] = useState([]);
+  const [authorsById, setAuthorsById] = useState({});
   const [relatedPosts, setRelatedPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -17,10 +17,10 @@ export default function PostPage({ postId }) {
   useEffect(() => {
     async function loadPost() {
       try {
-        const { posts, authors } = await loadData();
+        const { posts, postsById, authorsById: allAuthorsById } = await loadData();
 
         // Find matching post
-        const foundPost = posts.find(p => p.id === postId);
+        const foundPost = postsById[postId];
 
         if (!foundPost) {
           setError(true);
@@ -29,7 +29,7 @@ export default function PostPage({ postId }) {
         }
 
         // Find matching author
-        const foundAuthor = authors.find(a => a.author_id === foundPost.author_id);
+        const foundAuthor = allAuthorsById[foundPost.author_id];
 
         const currentTags = new Set(foundPost.tags || []);
         const related = posts
@@ -45,7 +45,7 @@ export default function PostPage({ postId }) {
 
         setPost(foundPost);
         setAuthor(foundAuthor);
-        setAuthors(authors);
+        setAuthorsById(allAuthorsById);
         setRelatedPosts(related);
         setLoading(false);
       } catch (err) {
@@ -90,7 +90,7 @@ export default function PostPage({ postId }) {
           </div>
           <div className="related-posts-grid">
             {relatedPosts.map(relatedPost => {
-              const relatedAuthor = authors.find(a => a.author_id === relatedPost.author_id);
+              const relatedAuthor = authorsById[relatedPost.author_id];
               if (!relatedAuthor) return null;
 
               if (relatedPost.type === "image" || relatedPost.image) {

@@ -8,6 +8,8 @@
       "romanized": "Śrīnivāsa Rāmānujaiyaṅgār"
     },
     "image": "/authors/ramanujan.jpg",
+    "image_small": "/authors/ramanujan-36.webp",
+    "image_medium": "/authors/ramanujan-80.webp",
     "header": "/headers/ramanujan.jpg",
     "bio": "Indian mathematician known for extraordinary contributions to number theory, infinite series, and asymptotic formulas.",
     "born": "1887-12-22",

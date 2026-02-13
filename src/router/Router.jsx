@@ -8,8 +8,10 @@ import ScrollToTopButton from "../components/ScrollToTopButton";
 import { parseLocation } from "./navigation";
 
 export default function Router() {
-  const [route, setRoute] = useState("home");
-  const [param, setParam] = useState(null);
+  const initialLocation = parseLocation(window.location);
+  const [route, setRoute] = useState(initialLocation.route);
+  const [param, setParam] = useState(initialLocation.param);
+  const [hasMountedHome, setHasMountedHome] = useState(initialLocation.route === "home");
 
   useEffect(() => {
     const handleRouteChange = () => {
@@ -17,6 +19,9 @@ export default function Router() {
 
       setRoute(newRoute);
       setParam(newParam);
+      if (newRoute === "home") {
+        setHasMountedHome(true);
+      }
 
       if (canonicalPath) {
         const current = `${window.location.pathname}${window.location.search}${window.location.hash}`;
@@ -25,8 +30,6 @@ export default function Router() {
         }
       }
     };
-
-    handleRouteChange();
 
     window.addEventListener("hashchange", handleRouteChange);
     window.addEventListener("popstate", handleRouteChange);
@@ -37,32 +40,19 @@ export default function Router() {
     };
   }, []);
 
-  let page = <Home />;
-
-  switch (route) {
-    case "home":
-      page = <Home />;
-      break;
-    case "search":
-      page = <Search initialQuery={param} />;
-      break;
-    case "about":
-      page = <About />;
-      break;
-    case "author":
-      page = <Author authorId={param} />;
-      break;
-    case "post":
-      page = <PostPage postId={param} />;
-      break;
-    default:
-      page = <Home />;
-      break;
-  }
-
   return (
     <>
-      {page}
+      {hasMountedHome && (
+        <div style={{ display: route === "home" ? "block" : "none" }}>
+          <Home />
+        </div>
+      )}
+
+      {route === "search" && <Search initialQuery={param} />}
+      {route === "about" && <About />}
+      {route === "author" && <Author authorId={param} />}
+      {route === "post" && <PostPage postId={param} />}
+
       <ScrollToTopButton route={route} hidden={route === "post"} />
     </>
   );

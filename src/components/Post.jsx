@@ -28,6 +28,7 @@ function getTranslationCredit(work) {
 
 export default function Post({ post, author }) {
   const contentRef = useRef(null);
+  const authorImage = author.image_small || author.image;
 
   useEffect(() => {
     if (!contentRef.current) return;
@@ -83,8 +84,12 @@ export default function Post({ post, author }) {
         className="post-header"
       >
         <img
-          src={author.image}
+          src={authorImage}
           alt={author.name}
+          width="36"
+          height="36"
+          loading="lazy"
+          decoding="async"
           onClick={e => {
             e.stopPropagation();
             handleAuthorClick();

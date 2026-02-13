@@ -2,10 +2,14 @@ import { useEffect, useRef } from "react";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import { buildAuthorPath, buildPostPath, navigateTo } from "../router/navigation";
 import { buildMathAwarePreviewFromHtml } from "../utils/previewText";
+import { buildWikimediaThumbSrcSet, buildWikimediaThumbUrl } from "../utils/image";
 
 export default function TinyImagePost({ post, author }) {
   const preview = buildMathAwarePreviewFromHtml(post.caption || "", 12);
   const previewRef = useRef(null);
+  const authorImage = author.image_small || author.image;
+  const imageSrc = buildWikimediaThumbUrl(post.image, 400);
+  const imageSrcSet = buildWikimediaThumbSrcSet(post.image, [240, 320, 400]);
 
   useEffect(() => {
     if (!previewRef.current || !preview) return;
@@ -29,8 +33,12 @@ export default function TinyImagePost({ post, author }) {
     >
       <div className="tiny-post-header">
         <img
-          src={author.image}
+          src={authorImage}
           alt={author.name}
+          width="20"
+          height="20"
+          loading="lazy"
+          decoding="async"
           onClick={e => {
             e.stopPropagation();
             navigateTo(buildAuthorPath(author.author_id));
@@ -49,8 +57,12 @@ export default function TinyImagePost({ post, author }) {
       </div>
 
       <img
-        src={post.image}
+        src={imageSrc}
+        srcSet={imageSrcSet}
+        sizes="180px"
         alt={post.caption || "Related image post"}
+        loading="lazy"
+        decoding="async"
         className="tiny-image-post-image"
       />
 
