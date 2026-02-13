@@ -1,6 +1,12 @@
 {
   "id": "wikipedia_combinatorics",
   "title": "Combinatorics",
+  "popularity_raw": 8886,
+  "popularity_reference_max": 71228,
+  "popularity_scale": "ratio",
+  "popularity_score": 2.1,
+  "visibility_adjustment": 1.0,
+  "popularity_final": 2.1,
   "translation": {
     "type": "original_english"
   }

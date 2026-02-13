@@ -1,6 +1,12 @@
 {
   "id": "wikipedia_number_theory",
   "title": "Number theory",
+  "popularity_raw": 11382,
+  "popularity_reference_max": 71228,
+  "popularity_scale": "ratio",
+  "popularity_score": 2.4,
+  "visibility_adjustment": 1.0,
+  "popularity_final": 2.4,
   "translation": {
     "type": "original_english"
   }
