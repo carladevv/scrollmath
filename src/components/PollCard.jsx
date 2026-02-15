@@ -26,7 +26,6 @@ export default function PollCard({ postId, poll }) {
 
   return (
     <section className="poll-card" ref={contentRef} aria-label="Quick poll">
-      <div className="poll-title">Quick poll</div>
       <div className="poll-question">{poll.question}</div>
 
       <div className="poll-options">

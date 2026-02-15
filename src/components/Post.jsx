@@ -84,7 +84,7 @@ export default function Post({ post, author, showPollEligible = false }) {
 
   return (
     <>
-      <div className="post-card">
+      <div className={`post-card ${showPoll ? "has-attached-poll" : ""}`.trim()}>
         {/* Header */}
         <div
           onClick={handleHeaderClick}
