@@ -452,14 +452,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "According to Dauben, why did Marx study the foundations of calculus so intensely?",
         "options": [
-          "foundations",
-          "divisors",
-          "ramanujan"
+          "He aimed to compute new numerical tables.",
+          "He saw foundational questions as revealing the logical structure of scientific reasoning.",
+          "He wanted to replace Newton’s physics."
         ],
-        "correctIndex": 0,
-        "difficulty": "easy"
+        "correctIndex": 1,
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -495,14 +495,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "What larger claim is Dauben attributing to Marx here?",
         "options": [
-          "limits",
-          "marxism",
-          "maoism"
+          "Mathematical concepts are historically and socially conditioned.",
+          "Mathematics should avoid philosophy.",
+          "Mathematics is purely objective and timeless."
         ],
-        "correctIndex": 1,
-        "difficulty": "easy"
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -538,14 +538,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which concept is most directly referenced in this passage?",
+        "question": "What logical difficulty made infinitesimals controversial?",
         "options": [
-          "big o notation",
-          "asymptotics",
-          "calculus"
+          "They contradicted number theory.",
+          "They were too computationally complex.",
+          "They were treated as both zero and non-zero simultaneously."
         ],
         "correctIndex": 2,
-        "difficulty": "hard"
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -581,14 +581,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "What issue does the expression \\(\\frac{dy}{dx}\\) raise in Marx’s analysis?",
         "options": [
-          "derivatives",
-          "calculus",
-          "divisor function"
+          "Whether division is commutative.",
+          "Whether it represents a true ratio of quantities or the result of a limiting process.",
+          "Whether functions are continuous."
         ],
         "correctIndex": 1,
-        "difficulty": "easy"
+        "difficulty": "hard"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -624,14 +624,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "In dialectical terms, what does the passage from \\(\\Delta y/\\Delta x\\) to \\(dy/dx\\) represent?",
         "options": [
-          "dialectics",
-          "nonstandard analysis",
-          "ramanujan"
+          "A numerical approximation.",
+          "A qualitative transformation emerging from quantitative variation.",
+          "A simple algebraic simplification."
         ],
-        "correctIndex": 0,
-        "difficulty": "easy"
+        "correctIndex": 1,
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -667,11 +667,11 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "How did nineteenth-century limit theory change the status of infinitesimals?",
         "options": [
-          "dedekind cuts",
-          "maoism",
-          "real analysis"
+          "It eliminated derivatives.",
+          "It proved infinitesimals are prime numbers.",
+          "It replaced them with rigorously defined limiting processes."
         ],
         "correctIndex": 2,
         "difficulty": "medium"
@@ -710,11 +710,11 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "What tension during the Cultural Revolution shaped attitudes toward mathematics?",
         "options": [
-          "real numbers",
-          "maoism",
-          "ramanujan"
+          "Conflict between geometry and algebra.",
+          "Suspicion of abstraction versus demand for practical application.",
+          "Rejection of arithmetic."
         ],
         "correctIndex": 1,
         "difficulty": "medium"
@@ -753,13 +753,13 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "Why did infinitesimals become politically significant in China?",
         "options": [
-          "asymptotics",
-          "nonstandard analysis",
-          "infinitesimals"
+          "They symbolized deeper debates about abstraction and ideology in science.",
+          "They simplified computation.",
+          "They were used in military engineering."
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "difficulty": "medium"
       },
       "work": {
@@ -796,487 +796,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "What conceptual advance does this limit expression embody?",
         "options": [
-          "limits",
-          "logic",
-          "philosophy of mathematics"
-        ],
-        "correctIndex": 0,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Nonstandard analysis later restored infinitesimals to mathematics in a rigorous way, demonstrating that earlier conceptual difficulties could be overcome within a new logical framework.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 61,
-        "shares": 6,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "primes",
-          "number theory",
-          "nonstandard analysis"
+          "Introducing complex numbers.",
+          "Eliminating functions.",
+          "Replacing infinitesimal ratios with a rigorously defined limiting process."
         ],
         "correctIndex": 2,
         "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Mathematics, in this context, becomes a field in which philosophical commitments are enacted through technical choices about definition, proof, and rigor.</p>"
-      },
-      "tags": [
-        "philosophy of mathematics",
-        "foundations",
-        "marxism"
-      ],
-      "metrics": {
-        "likes": 126,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "philosophy of mathematics",
-          "real numbers",
-          "matrices"
-        ],
-        "correctIndex": 0,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The historical study of mathematics reveals that its development is neither linear nor inevitable. It is shaped by intellectual struggle, cultural context, and philosophical debate.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "foundations",
-        "philosophy of mathematics"
-      ],
-      "metrics": {
-        "likes": 88,
-        "shares": 7,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "dedekind cuts",
-          "history of mathematics",
-          "divisor function"
-        ],
-        "correctIndex": 1,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx regarded questions about the foundations of the differential calculus as a “touchstone of the application of the method of materialist dialectics to mathematics.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "foundations",
-        "dialectics"
-      ],
-      "metrics": {
-        "likes": 94,
-        "shares": 13,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which topic is central to this math excerpt?",
-        "options": [
-          "dedekind cuts",
-          "calculus",
-          "nonstandard analysis"
-        ],
-        "correctIndex": 1,
-        "difficulty": "easy"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>During the Cultural Revolution, mathematics was suspect for being too abstract, aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "maoism",
-        "education"
-      ],
-      "metrics": {
-        "likes": 120,
-        "shares": 10,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which concept is most directly referenced in this passage?",
-        "options": [
-          "divisor function",
-          "history of mathematics",
-          "calculus"
-        ],
-        "correctIndex": 1,
-        "difficulty": "hard"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx used dialectical materialism to evaluate the history of the calculus, and was especially critical of what he took to be its idealistic, metaphysical foundations.</p>"
-      },
-      "tags": [
-        "calculus",
-        "dialectics",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 92,
-        "shares": 13,
-        "comments": 5
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which concept is most directly referenced in this passage?",
-        "options": [
-          "primes",
-          "divisor function",
-          "calculus"
-        ],
-        "correctIndex": 2,
-        "difficulty": "hard"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals, but from a logical transformation in which the ratio \\(\\Delta y / \\Delta x\\) passes to its limit and becomes \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 69,
-        "shares": 7,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which topic is central to this math excerpt?",
-        "options": [
-          "calculus",
-          "matrices",
-          "asymptotics"
-        ],
-        "correctIndex": 0,
-        "difficulty": "easy"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>According to Bishop Berkeley, the differential \\(dx\\) was “the ghost of a departed quantity.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 124,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "calculus",
-          "logic",
-          "maoism"
-        ],
-        "correctIndex": 0,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The familiar example \\(y = x^3\\) served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients \\(\\Delta y / \\Delta x\\) and differentials \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 103,
-        "shares": 9,
-        "comments": 6
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "asymptotics",
-          "number theory",
-          "calculus"
-        ],
-        "correctIndex": 2,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Nonstandard analysis constructs a mathematical system based on infinitesimals, providing another interpretation of the calculus distinct from the method of limits.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "calculus"
-      ],
-      "metrics": {
-        "likes": 130,
-        "shares": 10,
-        "comments": 10
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "maoism",
-          "nonstandard analysis",
-          "education"
-        ],
-        "correctIndex": 1,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The core of nonstandard analysis shows there is an infinitesimal between zero and any positive number, using the methods of mathematical logic.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "logic"
-      ],
-      "metrics": {
-        "likes": 128,
-        "shares": 14,
-        "comments": 9
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which topic is central to this math excerpt?",
-        "options": [
-          "dialectics",
-          "nonstandard analysis",
-          "real analysis"
-        ],
-        "correctIndex": 1,
-        "difficulty": "easy"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -1314,11 +841,11 @@
       "poll": {
         "question": "What foundational theorem does Dedekind later show is equivalent to the principle of continuity?",
         "options": [
-          "That every bounded increasing sequence has a limit.",
           "That every polynomial has a root.",
+          "That every bounded increasing sequence has a limit.",
           "That every rational number has a decimal expansion."
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "difficulty": "hard"
       },
       "work": {
@@ -1446,11 +973,11 @@
       "poll": {
         "question": "Why does this example lead to a Dedekind cut without a greatest element?",
         "options": [
-          "Because rationals with square less than D have no maximum.",
           "Because D is prime.",
-          "Because the rationals are finite."
+          "Because the rationals are finite.",
+          "Because rationals with square less than D have no maximum."
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "difficulty": "hard"
       },
       "work": {
@@ -1490,11 +1017,11 @@
       "poll": {
         "question": "What is remarkable about Dedekind’s treatment of this statement?",
         "options": [
-          "He declares it an axiom defining continuity.",
           "He proves it using calculus.",
+          "He declares it an axiom defining continuity.",
           "He derives it from geometry."
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "difficulty": "medium"
       },
       "work": {
@@ -1534,11 +1061,11 @@
       "poll": {
         "question": "What guarantees that each cut corresponds to exactly one number?",
         "options": [
-          "The definition of equality via identical lower sets.",
           "Decimal expansions.",
-          "Prime factorization."
+          "Prime factorization.",
+          "The definition of equality via identical lower sets."
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "difficulty": "hard"
       },
       "work": {
@@ -3393,14 +2920,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "According to Dauben, why did Marx study the foundations of calculus so intensely?",
         "options": [
-          "foundations",
-          "divisors",
-          "ramanujan"
+          "He aimed to compute new numerical tables.",
+          "He saw foundational questions as revealing the logical structure of scientific reasoning.",
+          "He wanted to replace Newton’s physics."
         ],
-        "correctIndex": 0,
-        "difficulty": "easy"
+        "correctIndex": 1,
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -3436,14 +2963,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "What larger claim is Dauben attributing to Marx here?",
         "options": [
-          "limits",
-          "marxism",
-          "maoism"
+          "Mathematical concepts are historically and socially conditioned.",
+          "Mathematics should avoid philosophy.",
+          "Mathematics is purely objective and timeless."
         ],
-        "correctIndex": 1,
-        "difficulty": "easy"
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -3479,14 +3006,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which concept is most directly referenced in this passage?",
+        "question": "What logical difficulty made infinitesimals controversial?",
         "options": [
-          "big o notation",
-          "asymptotics",
-          "calculus"
+          "They contradicted number theory.",
+          "They were too computationally complex.",
+          "They were treated as both zero and non-zero simultaneously."
         ],
         "correctIndex": 2,
-        "difficulty": "hard"
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -3522,14 +3049,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "What issue does the expression \\(\\frac{dy}{dx}\\) raise in Marx’s analysis?",
         "options": [
-          "derivatives",
-          "calculus",
-          "divisor function"
+          "Whether division is commutative.",
+          "Whether it represents a true ratio of quantities or the result of a limiting process.",
+          "Whether functions are continuous."
         ],
         "correctIndex": 1,
-        "difficulty": "easy"
+        "difficulty": "hard"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -3565,14 +3092,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which topic is central to this math excerpt?",
+        "question": "In dialectical terms, what does the passage from \\(\\Delta y/\\Delta x\\) to \\(dy/dx\\) represent?",
         "options": [
-          "dialectics",
-          "nonstandard analysis",
-          "ramanujan"
+          "A numerical approximation.",
+          "A qualitative transformation emerging from quantitative variation.",
+          "A simple algebraic simplification."
         ],
-        "correctIndex": 0,
-        "difficulty": "easy"
+        "correctIndex": 1,
+        "difficulty": "medium"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -3608,11 +3135,11 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "How did nineteenth-century limit theory change the status of infinitesimals?",
         "options": [
-          "dedekind cuts",
-          "maoism",
-          "real analysis"
+          "It eliminated derivatives.",
+          "It proved infinitesimals are prime numbers.",
+          "It replaced them with rigorously defined limiting processes."
         ],
         "correctIndex": 2,
         "difficulty": "medium"
@@ -3651,11 +3178,11 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "What tension during the Cultural Revolution shaped attitudes toward mathematics?",
         "options": [
-          "real numbers",
-          "maoism",
-          "ramanujan"
+          "Conflict between geometry and algebra.",
+          "Suspicion of abstraction versus demand for practical application.",
+          "Rejection of arithmetic."
         ],
         "correctIndex": 1,
         "difficulty": "medium"
@@ -3694,13 +3221,13 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "Why did infinitesimals become politically significant in China?",
         "options": [
-          "asymptotics",
-          "nonstandard analysis",
-          "infinitesimals"
+          "They symbolized deeper debates about abstraction and ideology in science.",
+          "They simplified computation.",
+          "They were used in military engineering."
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "difficulty": "medium"
       },
       "work": {
@@ -3737,487 +3264,14 @@
       },
       "work_id": "marx_mao_mathematics_dauben",
       "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
+        "question": "What conceptual advance does this limit expression embody?",
         "options": [
-          "limits",
-          "logic",
-          "philosophy of mathematics"
-        ],
-        "correctIndex": 0,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "2abb6c32-900f-4fd0-ab91-4f00eeb148fa": {
-      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Nonstandard analysis later restored infinitesimals to mathematics in a rigorous way, demonstrating that earlier conceptual difficulties could be overcome within a new logical framework.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 61,
-        "shares": 6,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "primes",
-          "number theory",
-          "nonstandard analysis"
+          "Introducing complex numbers.",
+          "Eliminating functions.",
+          "Replacing infinitesimal ratios with a rigorously defined limiting process."
         ],
         "correctIndex": 2,
         "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "16923c06-e878-478d-abf4-8f0a4c5c370d": {
-      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Mathematics, in this context, becomes a field in which philosophical commitments are enacted through technical choices about definition, proof, and rigor.</p>"
-      },
-      "tags": [
-        "philosophy of mathematics",
-        "foundations",
-        "marxism"
-      ],
-      "metrics": {
-        "likes": 126,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "philosophy of mathematics",
-          "real numbers",
-          "matrices"
-        ],
-        "correctIndex": 0,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "7ecec24d-eded-4269-9859-66223d1a5267": {
-      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The historical study of mathematics reveals that its development is neither linear nor inevitable. It is shaped by intellectual struggle, cultural context, and philosophical debate.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "foundations",
-        "philosophy of mathematics"
-      ],
-      "metrics": {
-        "likes": 88,
-        "shares": 7,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "dedekind cuts",
-          "history of mathematics",
-          "divisor function"
-        ],
-        "correctIndex": 1,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1": {
-      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx regarded questions about the foundations of the differential calculus as a “touchstone of the application of the method of materialist dialectics to mathematics.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "foundations",
-        "dialectics"
-      ],
-      "metrics": {
-        "likes": 94,
-        "shares": 13,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which topic is central to this math excerpt?",
-        "options": [
-          "dedekind cuts",
-          "calculus",
-          "nonstandard analysis"
-        ],
-        "correctIndex": 1,
-        "difficulty": "easy"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41": {
-      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>During the Cultural Revolution, mathematics was suspect for being too abstract, aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "maoism",
-        "education"
-      ],
-      "metrics": {
-        "likes": 120,
-        "shares": 10,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which concept is most directly referenced in this passage?",
-        "options": [
-          "divisor function",
-          "history of mathematics",
-          "calculus"
-        ],
-        "correctIndex": 1,
-        "difficulty": "hard"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a": {
-      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx used dialectical materialism to evaluate the history of the calculus, and was especially critical of what he took to be its idealistic, metaphysical foundations.</p>"
-      },
-      "tags": [
-        "calculus",
-        "dialectics",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 92,
-        "shares": 13,
-        "comments": 5
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which concept is most directly referenced in this passage?",
-        "options": [
-          "primes",
-          "divisor function",
-          "calculus"
-        ],
-        "correctIndex": 2,
-        "difficulty": "hard"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90": {
-      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals, but from a logical transformation in which the ratio \\(\\Delta y / \\Delta x\\) passes to its limit and becomes \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 69,
-        "shares": 7,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which topic is central to this math excerpt?",
-        "options": [
-          "calculus",
-          "matrices",
-          "asymptotics"
-        ],
-        "correctIndex": 0,
-        "difficulty": "easy"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72": {
-      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>According to Bishop Berkeley, the differential \\(dx\\) was “the ghost of a departed quantity.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 124,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "calculus",
-          "logic",
-          "maoism"
-        ],
-        "correctIndex": 0,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09": {
-      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The familiar example \\(y = x^3\\) served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients \\(\\Delta y / \\Delta x\\) and differentials \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 103,
-        "shares": 9,
-        "comments": 6
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "asymptotics",
-          "number theory",
-          "calculus"
-        ],
-        "correctIndex": 2,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b": {
-      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Nonstandard analysis constructs a mathematical system based on infinitesimals, providing another interpretation of the calculus distinct from the method of limits.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "calculus"
-      ],
-      "metrics": {
-        "likes": 130,
-        "shares": 10,
-        "comments": 10
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which tag best matches the main mathematical idea in this post?",
-        "options": [
-          "maoism",
-          "nonstandard analysis",
-          "education"
-        ],
-        "correctIndex": 1,
-        "difficulty": "medium"
-      },
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81": {
-      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The core of nonstandard analysis shows there is an infinitesimal between zero and any positive number, using the methods of mathematical logic.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "logic"
-      ],
-      "metrics": {
-        "likes": 128,
-        "shares": 14,
-        "comments": 9
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "poll": {
-        "question": "Which topic is central to this math excerpt?",
-        "options": [
-          "dialectics",
-          "nonstandard analysis",
-          "real analysis"
-        ],
-        "correctIndex": 1,
-        "difficulty": "easy"
       },
       "work": {
         "id": "marx_mao_mathematics_dauben",
@@ -4255,11 +3309,11 @@
       "poll": {
         "question": "What foundational theorem does Dedekind later show is equivalent to the principle of continuity?",
         "options": [
-          "That every bounded increasing sequence has a limit.",
           "That every polynomial has a root.",
+          "That every bounded increasing sequence has a limit.",
           "That every rational number has a decimal expansion."
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "difficulty": "hard"
       },
       "work": {
@@ -4387,11 +3441,11 @@
       "poll": {
         "question": "Why does this example lead to a Dedekind cut without a greatest element?",
         "options": [
-          "Because rationals with square less than D have no maximum.",
           "Because D is prime.",
-          "Because the rationals are finite."
+          "Because the rationals are finite.",
+          "Because rationals with square less than D have no maximum."
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "difficulty": "hard"
       },
       "work": {
@@ -4431,11 +3485,11 @@
       "poll": {
         "question": "What is remarkable about Dedekind’s treatment of this statement?",
         "options": [
-          "He declares it an axiom defining continuity.",
           "He proves it using calculus.",
+          "He declares it an axiom defining continuity.",
           "He derives it from geometry."
         ],
-        "correctIndex": 0,
+        "correctIndex": 1,
         "difficulty": "medium"
       },
       "work": {
@@ -4475,11 +3529,11 @@
       "poll": {
         "question": "What guarantees that each cut corresponds to exactly one number?",
         "options": [
-          "The definition of equality via identical lower sets.",
           "Decimal expansions.",
-          "Prime factorization."
+          "Prime factorization.",
+          "The definition of equality via identical lower sets."
         ],
-        "correctIndex": 0,
+        "correctIndex": 2,
         "difficulty": "hard"
       },
       "work": {
@@ -5699,50 +4753,6 @@
     {
       "id": "d1e84fa4-8c64-4b4f-8d89-19e89100ccce",
       "text": "expressions like lim h to 0 frac f x h f x h represent the culmination of centuries of effort to clarify the foundations of calculus limits calculus real analysis marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
-      "text": "nonstandard analysis later restored infinitesimals to mathematics in a rigorous way demonstrating that earlier conceptual difficulties could be overcome within a new logical framework nonstandard analysis infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
-      "text": "mathematics in this context becomes a field in which philosophical commitments are enacted through technical choices about definition proof and rigor philosophy of mathematics foundations marxism marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
-      "text": "the historical study of mathematics reveals that its development is neither linear nor inevitable it is shaped by intellectual struggle cultural context and philosophical debate history of mathematics foundations philosophy of mathematics marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
-      "text": "marx regarded questions about the foundations of the differential calculus as a touchstone of the application of the method of materialist dialectics to mathematics calculus foundations dialectics marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
-      "text": "during the cultural revolution mathematics was suspect for being too abstract aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society history of mathematics maoism education marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
-      "text": "marx used dialectical materialism to evaluate the history of the calculus and was especially critical of what he took to be its idealistic metaphysical foundations calculus dialectics foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
-      "text": "marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals but from a logical transformation in which the ratio delta y delta x passes to its limit and becomes dy dx calculus derivatives foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
-      "text": "according to bishop berkeley the differential dx was the ghost of a departed quantity calculus infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
-      "text": "the familiar example y x 3 served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients delta y delta x and differentials dy dx calculus derivatives foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
-      "text": "nonstandard analysis constructs a mathematical system based on infinitesimals providing another interpretation of the calculus distinct from the method of limits nonstandard analysis infinitesimals calculus marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
-      "text": "the core of nonstandard analysis shows there is an infinitesimal between zero and any positive number using the methods of mathematical logic nonstandard analysis infinitesimals logic marx mao and mathematics the politics of infinitesimals joseph w dauben"
     },
     {
       "id": "caa48dca-63a0-4539-a04a-194912390ddb",

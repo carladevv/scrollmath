@@ -73,18 +73,26 @@ export function generatePollResults({ postId, correctIndex, difficulty }) {
   const safeCorrectIndex = Math.max(0, Math.min(2, toInt(correctIndex) || 0));
   const safeDifficulty = POLL_DIFFICULTIES.includes(difficulty) ? difficulty : POLL_DIFFICULTY.MEDIUM;
   const random = seededRandom(`${POLL_SESSION_SEED}:${postId}:${safeCorrectIndex}:${safeDifficulty}:results`);
-
-  // Difficulty is accepted now for forward compatibility; weighting stays random for this phase.
   const totalVotes = 90 + Math.floor(random() * 900);
-  const raw = [random() + 0.01, random() + 0.01, random() + 0.01];
-  const rawTotal = raw[0] + raw[1] + raw[2];
-  const counts = raw.map(value => Math.floor((value / rawTotal) * totalVotes));
+  const ratioRangeByDifficulty = {
+    [POLL_DIFFICULTY.EASY]: { min: 0.55, max: 0.7 },
+    [POLL_DIFFICULTY.MEDIUM]: { min: 0.7, max: 0.85 },
+    [POLL_DIFFICULTY.HARD]: { min: 0.85, max: 1 }
+  };
 
-  let assigned = counts[0] + counts[1] + counts[2];
-  while (assigned < totalVotes) {
-    counts[Math.floor(random() * 3)] += 1;
-    assigned += 1;
-  }
+  const range = ratioRangeByDifficulty[safeDifficulty];
+  const correctRatio = range.min + (range.max - range.min) * random();
+  const correctVotes = Math.max(0, Math.min(totalVotes, Math.round(totalVotes * correctRatio)));
+  const remainingVotes = totalVotes - correctVotes;
+
+  const wrongIndices = [0, 1, 2].filter(index => index !== safeCorrectIndex);
+  const wrongVotesA = remainingVotes === 0 ? 0 : Math.floor(remainingVotes * random());
+  const wrongVotesB = remainingVotes - wrongVotesA;
+
+  const counts = [0, 0, 0];
+  counts[safeCorrectIndex] = correctVotes;
+  counts[wrongIndices[0]] = wrongVotesA;
+  counts[wrongIndices[1]] = wrongVotesB;
 
   const percentages = counts.map(count => (count / totalVotes) * 100);
 
