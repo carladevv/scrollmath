@@ -5,7 +5,7 @@ const POLL_DIFFICULTY = {
 };
 
 const POLL_DIFFICULTIES = Object.values(POLL_DIFFICULTY);
-const POLL_SHOW_CHANCE = 0.1;
+const POLL_SHOW_CHANCE = 0.15;
 const POLL_SESSION_SEED = Math.random().toString(36).slice(2);
 
 function hashString(input) {

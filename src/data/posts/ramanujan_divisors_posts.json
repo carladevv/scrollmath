@@ -4,31 +4,21 @@
     "work_id": "ramanujan_divisors_1915",
     "author_id": "ramanujan",
     "date": "1915-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>If S be a divisor of N, then there is a conjugate divisor S' such that SS' = N. Thus we see that the number of divisors from 1 to \\( \\sqrt{N} \\) is equal to the number of divisors from \\( \\sqrt{N} \\) to N.</p>"
     },
-    "tags": [
-      "number theory",
-      "divisors",
-      "ramanujan"
-    ],
-    "metrics": {
-      "likes": 1420,
-      "shares": 388,
-      "comments": 94
-    },
+    "tags": ["number theory", "divisors", "ramanujan"],
+    "metrics": { "likes": 1420, "shares": 388, "comments": 94 },
     "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
+      "question": "Why does Ramanujan restrict attention to divisors up to \\( \\sqrt{N} \\)?",
       "options": [
-        "number theory",
-        "philosophy of mathematics",
-        "marxism"
+        "Because every divisor greater than \\( \\sqrt{N} \\) is paired with a unique conjugate divisor less than \\( \\sqrt{N} \\).",
+        "Because all divisors of N are less than or equal to \\( \\sqrt{N} \\).",
+        "Because prime divisors must lie below \\( \\sqrt{N} \\)."
       ],
       "correctIndex": 0,
-      "difficulty": "hard"
+      "difficulty": "medium"
     }
   },
   {
@@ -36,31 +26,21 @@
     "work_id": "ramanujan_divisors_1915",
     "author_id": "ramanujan",
     "date": "1915-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>Let \\( N = p_1^{a_1} p_2^{a_2} \\dots p_n^{a_n} \\), where \\( p_1, p_2, \\dots, p_n \\) are primes. Then it is easy to see that \\( d(N) = (1+a_1)(1+a_2)\\dots(1+a_n) \\).</p>"
     },
-    "tags": [
-      "number theory",
-      "divisor function",
-      "prime factorization"
-    ],
-    "metrics": {
-      "likes": 2984,
-      "shares": 772,
-      "comments": 211
-    },
+    "tags": ["number theory", "divisor function", "prime factorization"],
+    "metrics": { "likes": 2984, "shares": 772, "comments": 211 },
     "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
+      "question": "If \\( N = p^4 q^2 \\), what does Ramanujan’s formula give for \\( d(N) \\)?",
       "options": [
-        "real numbers",
-        "maoism",
-        "number theory"
+        "6",
+        "12",
+        "15"
       ],
       "correctIndex": 2,
-      "difficulty": "medium"
+      "difficulty": "easy"
     }
   },
   {
@@ -68,31 +48,21 @@
     "work_id": "ramanujan_divisors_1915",
     "author_id": "ramanujan",
     "date": "1915-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>Since the arithmetic mean of unequal positive numbers is always greater than their geometric mean, we obtain inequalities which give a superior limit for \\( d(N) \\).</p>"
     },
-    "tags": [
-      "number theory",
-      "inequalities",
-      "asymptotics"
-    ],
-    "metrics": {
-      "likes": 1877,
-      "shares": 503,
-      "comments": 129
-    },
+    "tags": ["number theory", "inequalities", "asymptotics"],
+    "metrics": { "likes": 1877, "shares": 503, "comments": 129 },
     "poll": {
-      "question": "Which topic is central to this math excerpt?",
+      "question": "What is the purpose of invoking the arithmetic–geometric mean inequality here?",
       "options": [
-        "education",
-        "nonstandard analysis",
-        "number theory"
+        "To compute \\( d(N) \\) exactly.",
+        "To prove that primes are infinite.",
+        "To derive an upper bound for \\( d(N) \\)."
       ],
       "correctIndex": 2,
-      "difficulty": "easy"
+      "difficulty": "medium"
     }
   },
   {
@@ -100,31 +70,21 @@
     "work_id": "ramanujan_divisors_1915",
     "author_id": "ramanujan",
     "date": "1915-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>If \\( p \\) be the largest prime not exceeding \\( x \\), then bounds for \\( d(N) \\) may be expressed in terms of the product \\( \\log 2 \\log 3 \\log 5 \\dots \\log p \\).</p>"
     },
-    "tags": [
-      "number theory",
-      "primes",
-      "bounds"
-    ],
-    "metrics": {
-      "likes": 1634,
-      "shares": 417,
-      "comments": 86
-    },
+    "tags": ["number theory", "primes", "bounds"],
+    "metrics": { "likes": 1634, "shares": 417, "comments": 86 },
     "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
+      "question": "Why do logarithms of primes appear in Ramanujan’s bound?",
       "options": [
-        "big o notation",
-        "real numbers",
-        "number theory"
+        "Because \\( \\log(p_1 p_2 \\dots p_n) = \\log p_1 + \\dots + \\log p_n \\), allowing multiplicative structure to be analyzed additively.",
+        "Because logarithms count divisors directly.",
+        "Because primes are defined using logarithms."
       ],
-      "correctIndex": 2,
-      "difficulty": "medium"
+      "correctIndex": 0,
+      "difficulty": "hard"
     }
   },
   {
@@ -132,31 +92,21 @@
     "work_id": "ramanujan_divisors_1915",
     "author_id": "ramanujan",
     "date": "1915-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>The symbol \\( O \\) is used in the following sense: \\( f(x) = O(\\phi(x)) \\) means that there is a positive constant \\( K \\) such that \\( |f(x)| \\leq K \\phi(x) \\) for all sufficiently large values of \\( x \\).</p>"
     },
-    "tags": [
-      "number theory",
-      "asymptotics",
-      "big O notation"
-    ],
-    "metrics": {
-      "likes": 2541,
-      "shares": 618,
-      "comments": 173
-    },
+    "tags": ["number theory", "asymptotics", "big O notation"],
+    "metrics": { "likes": 2541, "shares": 618, "comments": 173 },
     "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
+      "question": "According to Ramanujan’s definition, what does \\( f(x) = O(\\phi(x)) \\) guarantee?",
       "options": [
-        "history of mathematics",
-        "number theory",
-        "matrices"
+        "That \\( f(x) = \\phi(x) \\) for all x.",
+        "That \\( f(x) \\) eventually grows no faster than a constant multiple of \\( \\phi(x) \\).",
+        "That \\( f(x) \\) is bounded for all x."
       ],
       "correctIndex": 1,
-      "difficulty": "hard"
+      "difficulty": "medium"
     }
   }
 ]

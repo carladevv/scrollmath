@@ -4,31 +4,21 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>I propose in the present memoir to consider the theory of matrices, and in connection therewith the theory of linear transformations.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 210,
-      "shares": 268,
-      "comments": 359
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 210, "shares": 268, "comments": 359 },
     "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
+      "question": "Why does Cayley immediately connect matrices with linear transformations?",
       "options": [
-        "asymptotics",
-        "linear algebra",
-        "divisors"
+        "Because matrices encode systems of linear equations as single algebraic objects.",
+        "Because matrices were originally invented for calculus.",
+        "Because determinants only apply to transformations."
       ],
-      "correctIndex": 1,
-      "difficulty": "hard"
+      "correctIndex": 0,
+      "difficulty": "medium"
     }
   },
   {
@@ -36,28 +26,18 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>A matrix is formed from a rectangular array of quantities, arranged in rows and columns.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 2909,
-      "shares": 863,
-      "comments": 101
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 2909, "shares": 863, "comments": 101 },
     "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
+      "question": "What conceptual shift does this definition introduce?",
       "options": [
-        "linear algebra",
-        "nonstandard analysis",
-        "prime factorization"
+        "Treating an array of numbers as a single algebraic entity.",
+        "Restricting matrices to square form only.",
+        "Defining determinants implicitly."
       ],
       "correctIndex": 0,
       "difficulty": "medium"
@@ -68,30 +48,20 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>Two matrices may be said to be equal when the corresponding elements are equal.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 2984,
-      "shares": 193,
-      "comments": 122
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 2984, "shares": 193, "comments": 122 },
     "poll": {
-      "question": "Which topic is central to this math excerpt?",
+      "question": "What structure does this equality preserve?",
       "options": [
-        "real analysis",
-        "ramanujan",
-        "linear algebra"
+        "Entrywise structure of the array.",
+        "Only determinant value.",
+        "Only trace value."
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "difficulty": "easy"
     }
   },
@@ -100,30 +70,20 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>The addition of matrices is effected by adding together the corresponding elements.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 2043,
-      "shares": 403,
-      "comments": 11
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 2043, "shares": 403, "comments": 11 },
     "poll": {
-      "question": "Which topic is central to this math excerpt?",
+      "question": "Why is matrix addition commutative?",
       "options": [
-        "big o notation",
-        "linear algebra",
-        "asymptotics"
+        "Because real number addition is commutative entrywise.",
+        "Because determinants commute.",
+        "Because matrix multiplication is commutative."
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "difficulty": "easy"
     }
   },
@@ -132,31 +92,21 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>The product of two matrices is defined by a law of combination which depends upon the multiplication and addition of the elements.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 1889,
-      "shares": 469,
-      "comments": 167
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 1889, "shares": 469, "comments": 167 },
     "poll": {
-      "question": "Which topic is central to this math excerpt?",
+      "question": "Why is matrix multiplication not generally commutative?",
       "options": [
-        "linear algebra",
-        "marxism",
-        "inequalities"
+        "Because row-by-column combination depends on order.",
+        "Because determinants change sign.",
+        "Because addition fails."
       ],
       "correctIndex": 0,
-      "difficulty": "easy"
+      "difficulty": "medium"
     }
   },
   {
@@ -164,31 +114,21 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>If we denote the matrix by A, and the matrix by B, the product AB is in general different from BA.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 2602,
-      "shares": 772,
-      "comments": 156
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 2602, "shares": 772, "comments": 156 },
     "poll": {
-      "question": "Which topic is central to this math excerpt?",
+      "question": "What deeper idea is hinted at here?",
       "options": [
-        "linear algebra",
-        "derivatives",
-        "ramanujan"
+        "Matrices form a non-commutative algebra.",
+        "Matrices cannot be added.",
+        "Matrices are scalars."
       ],
       "correctIndex": 0,
-      "difficulty": "easy"
+      "difficulty": "medium"
     }
   },
   {
@@ -196,31 +136,21 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>There exists a particular matrix, which may be called the unit-matrix, such that its product with any other matrix leaves that matrix unaltered.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 2036,
-      "shares": 745,
-      "comments": 178
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 2036, "shares": 745, "comments": 178 },
     "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
+      "question": "What algebraic role does the unit-matrix play?",
       "options": [
-        "dialectics",
-        "maoism",
-        "linear algebra"
+        "Multiplicative identity.",
+        "Additive identity.",
+        "Zero divisor."
       ],
-      "correctIndex": 2,
-      "difficulty": "medium"
+      "correctIndex": 0,
+      "difficulty": "easy"
     }
   },
   {
@@ -228,63 +158,21 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The determinant of a matrix is a function of its elements, and plays an essential part in the theory.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 763,
-      "shares": 530,
-      "comments": 204
-    },
-    "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
-      "options": [
-        "dedekind cuts",
-        "divisor function",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "medium"
-    }
-  },
-  {
-    "id": "283f9b40-a27c-4ffc-b040-c5c7d7eee391",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>The determinant vanishes when the rows or columns are linearly dependent.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 234,
-      "shares": 617,
-      "comments": 185
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 234, "shares": 617, "comments": 185 },
     "poll": {
-      "question": "Which topic is central to this math excerpt?",
+      "question": "What does a vanishing determinant imply?",
       "options": [
-        "maoism",
-        "linear algebra",
-        "logic"
+        "The matrix is not invertible.",
+        "The matrix equals zero.",
+        "The trace is zero."
       ],
-      "correctIndex": 1,
-      "difficulty": "easy"
+      "correctIndex": 0,
+      "difficulty": "medium"
     }
   },
   {
@@ -292,220 +180,18 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>If the determinant of a matrix does not vanish, the matrix possesses an inverse.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 3076,
-      "shares": 90,
-      "comments": 232
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 3076, "shares": 90, "comments": 232 },
     "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
+      "question": "Why does non-zero determinant guarantee an inverse?",
       "options": [
-        "prime factorization",
-        "logic",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "hard"
-    }
-  },
-  {
-    "id": "05322601-ff28-4d0a-9d75-018ec61b5591",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The inverse matrix is that matrix which, when multiplied with the original matrix, produces the unit-matrix.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 1013,
-      "shares": 653,
-      "comments": 136
-    },
-    "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
-      "options": [
-        "marxism",
-        "divisor function",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "medium"
-    }
-  },
-  {
-    "id": "669a67cf-225b-4b17-bab2-0955e11819c1",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>Matrices may be considered as symbols of linear substitutions.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 1085,
-      "shares": 628,
-      "comments": 54
-    },
-    "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
-      "options": [
-        "linear algebra",
-        "dialectics",
-        "infinitesimals"
-      ],
-      "correctIndex": 0,
-      "difficulty": "hard"
-    }
-  },
-  {
-    "id": "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The composition of two linear transformations corresponds to the multiplication of their matrices.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 1402,
-      "shares": 810,
-      "comments": 35
-    },
-    "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
-      "options": [
-        "linear algebra",
-        "asymptotics",
-        "history of mathematics"
-      ],
-      "correctIndex": 0,
-      "difficulty": "hard"
-    }
-  },
-  {
-    "id": "7991fb62-510e-4a1d-8afe-7608c31602b0",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>A matrix of the form \\( \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\) represents a linear transformation in two variables.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 1785,
-      "shares": 63,
-      "comments": 111
-    },
-    "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
-      "options": [
-        "education",
-        "linear algebra",
-        "limits"
-      ],
-      "correctIndex": 1,
-      "difficulty": "hard"
-    }
-  },
-  {
-    "id": "09314f74-9312-40ce-a175-208699b14b0e",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The eigenvalues of a matrix are obtained by solving the equation \\( \\det(A - \\lambda I) = 0 \\).</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 661,
-      "shares": 56,
-      "comments": 63
-    },
-    "poll": {
-      "question": "Which topic is central to this math excerpt?",
-      "options": [
-        "maoism",
-        "divisors",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "easy"
-    }
-  },
-  {
-    "id": "ac22a001-9b20-4b1c-aa7a-4619d371205c",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The characteristic equation expresses a fundamental relation satisfied by the matrix itself.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 1443,
-      "shares": 443,
-      "comments": 392
-    },
-    "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
-      "options": [
-        "linear algebra",
-        "inequalities",
-        "infinitesimals"
+        "Because the matrix equation \\( AX = I \\) has a unique solution.",
+        "Because the trace is non-zero.",
+        "Because rows are identical."
       ],
       "correctIndex": 0,
       "difficulty": "hard"
@@ -516,127 +202,21 @@
     "work_id": "cayley_memoir_1858",
     "author_id": "cayley",
     "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
+    "source": { "chapter": null },
     "content": {
       "html": "<p>Every square matrix satisfies its own characteristic equation.</p>"
     },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 998,
-      "shares": 868,
-      "comments": 102
-    },
+    "tags": ["linear algebra", "matrices", "foundations"],
+    "metrics": { "likes": 998, "shares": 868, "comments": 102 },
     "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
+      "question": "This statement is now known as:",
       "options": [
-        "divisor function",
-        "bounds",
-        "linear algebra"
+        "The Cayley–Hamilton theorem.",
+        "The fundamental theorem of algebra.",
+        "Cramer’s rule."
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "difficulty": "medium"
-    }
-  },
-  {
-    "id": "1cdc83ce-bb6d-4282-9b9e-d617d2135047",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The theory of matrices thus supplies a general method for the investigation of linear transformations.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 3019,
-      "shares": 166,
-      "comments": 9
-    },
-    "poll": {
-      "question": "Which concept is most directly referenced in this passage?",
-      "options": [
-        "real analysis",
-        "philosophy of mathematics",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "hard"
-    }
-  },
-  {
-    "id": "6081f79f-73b4-4fc8-9b50-e0d383b74ef3",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>Matrices admit of powers, positive and negative, according to the laws of multiplication.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 390,
-      "shares": 95,
-      "comments": 84
-    },
-    "poll": {
-      "question": "Which tag best matches the main mathematical idea in this post?",
-      "options": [
-        "history of mathematics",
-        "philosophy of mathematics",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "medium"
-    }
-  },
-  {
-    "id": "9f425b26-1269-47df-b7e1-3614f468adf8",
-    "work_id": "cayley_memoir_1858",
-    "author_id": "cayley",
-    "date": "1858-01-01",
-    "source": {
-      "chapter": null
-    },
-    "content": {
-      "html": "<p>The generality of the method renders it applicable to a wide class of algebraical investigations.</p>"
-    },
-    "tags": [
-      "linear algebra",
-      "matrices",
-      "foundations"
-    ],
-    "metrics": {
-      "likes": 2955,
-      "shares": 74,
-      "comments": 188
-    },
-    "poll": {
-      "question": "Which topic is central to this math excerpt?",
-      "options": [
-        "limits",
-        "philosophy of mathematics",
-        "linear algebra"
-      ],
-      "correctIndex": 2,
-      "difficulty": "easy"
     }
   }
 ]
