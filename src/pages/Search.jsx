@@ -1,5 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { Search as SearchIcon } from "lucide-react";
+import renderMathInElement from "katex/dist/contrib/auto-render";
 import Post from "../components/Post";
 import ImagePost from "../components/ImagePost";
 import { loadData } from "../utils/feed";
@@ -19,6 +20,7 @@ export default function Search({ initialQuery }) {
   const [searchIndex, setSearchIndex] = useState([]);
   const [authorsById, setAuthorsById] = useState({});
   const [loading, setLoading] = useState(true);
+  const resultsRef = useRef(null);
 
   // Load all posts and authors on mount
   useEffect(() => {
@@ -61,6 +63,18 @@ export default function Search({ initialQuery }) {
       .filter(Boolean);
   }, [query, searchIndex, postsById]);
 
+  useLayoutEffect(() => {
+    if (!resultsRef.current || results.length === 0) return;
+
+    renderMathInElement(resultsRef.current, {
+      delimiters: [
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+      throwOnError: false
+    });
+  }, [results]);
+
   if (loading) {
     return (
       <div className="status-message">
@@ -84,7 +98,7 @@ export default function Search({ initialQuery }) {
       </div>
 
       {/* Results Section */}
-      <div>
+      <div ref={resultsRef}>
         {query.trim() === "" ? null : results.length === 0 ? (
           <div className="search-empty-results">
             {uiTexts.searchNoResults} "{query}"
