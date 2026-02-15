@@ -48,7 +48,7 @@ export default function Router() {
         </div>
       )}
 
-      {route === "search" && <Search initialQuery={param} />}
+      {route === "search" && <Search key={param || ""} initialQuery={param} />}
       {route === "about" && <About />}
       {route === "author" && <Author authorId={param} />}
       {route === "post" && <PostPage postId={param} />}

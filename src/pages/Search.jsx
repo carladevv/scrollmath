@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Search as SearchIcon } from "lucide-react";
 import Post from "../components/Post";
 import ImagePost from "../components/ImagePost";
@@ -17,7 +17,6 @@ export default function Search({ initialQuery }) {
   const [query, setQuery] = useState(initialQuery || "");
   const [postsById, setPostsById] = useState({});
   const [searchIndex, setSearchIndex] = useState([]);
-  const [results, setResults] = useState([]);
   const [authorsById, setAuthorsById] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -39,11 +38,8 @@ export default function Search({ initialQuery }) {
     loadAllData();
   }, []);
 
-  // Filter posts whenever query changes
+  // Keep UX behavior: scroll to top when search route query changes
   useEffect(() => {
-    // Update local query when route param changes
-    setQuery(initialQuery || "");
-
     const layoutContent = document.querySelector(".layout-content");
     if (layoutContent) {
       layoutContent.scrollTo({ top: 0, behavior: "smooth" });
@@ -53,20 +49,16 @@ export default function Search({ initialQuery }) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [initialQuery]);
 
-  // Filter posts whenever query changes
-  useEffect(() => {
+  const results = useMemo(() => {
     const normalizedQuery = normalizeQuery(query);
     if (!normalizedQuery) {
-      setResults([]);
-      return;
+      return [];
     }
 
-    const filtered = searchIndex
+    return searchIndex
       .filter(item => item.text.includes(normalizedQuery))
       .map(item => postsById[item.id])
       .filter(Boolean);
-
-    setResults(filtered);
   }, [query, searchIndex, postsById]);
 
   if (loading) {
@@ -109,12 +101,12 @@ export default function Search({ initialQuery }) {
 
               if (post.type === "image" || post.image) {
                 return (
-                  <ImagePost key={post.id + Math.random()} post={post} author={author} />
+                  <ImagePost key={post.id} post={post} author={author} />
                 );
               }
 
               return (
-                <Post key={post.id + Math.random()} post={post} author={author} />
+                <Post key={post.id} post={post} author={author} />
               );
             })}
           </div>

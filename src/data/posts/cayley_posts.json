@@ -19,6 +19,16 @@
       "likes": 210,
       "shares": 268,
       "comments": 359
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "asymptotics",
+        "linear algebra",
+        "divisors"
+      ],
+      "correctIndex": 1,
+      "difficulty": "hard"
     }
   },
   {
@@ -41,6 +51,16 @@
       "likes": 2909,
       "shares": 863,
       "comments": 101
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "linear algebra",
+        "nonstandard analysis",
+        "prime factorization"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medium"
     }
   },
   {
@@ -63,6 +83,16 @@
       "likes": 2984,
       "shares": 193,
       "comments": 122
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "real analysis",
+        "ramanujan",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "easy"
     }
   },
   {
@@ -85,6 +115,16 @@
       "likes": 2043,
       "shares": 403,
       "comments": 11
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "big o notation",
+        "linear algebra",
+        "asymptotics"
+      ],
+      "correctIndex": 1,
+      "difficulty": "easy"
     }
   },
   {
@@ -107,6 +147,16 @@
       "likes": 1889,
       "shares": 469,
       "comments": 167
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "linear algebra",
+        "marxism",
+        "inequalities"
+      ],
+      "correctIndex": 0,
+      "difficulty": "easy"
     }
   },
   {
@@ -129,6 +179,16 @@
       "likes": 2602,
       "shares": 772,
       "comments": 156
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "linear algebra",
+        "derivatives",
+        "ramanujan"
+      ],
+      "correctIndex": 0,
+      "difficulty": "easy"
     }
   },
   {
@@ -151,6 +211,16 @@
       "likes": 2036,
       "shares": 745,
       "comments": 178
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "dialectics",
+        "maoism",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
     }
   },
   {
@@ -173,6 +243,16 @@
       "likes": 763,
       "shares": 530,
       "comments": 204
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "dedekind cuts",
+        "divisor function",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
     }
   },
   {
@@ -195,6 +275,16 @@
       "likes": 234,
       "shares": 617,
       "comments": 185
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "maoism",
+        "linear algebra",
+        "logic"
+      ],
+      "correctIndex": 1,
+      "difficulty": "easy"
     }
   },
   {
@@ -217,6 +307,16 @@
       "likes": 3076,
       "shares": 90,
       "comments": 232
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "prime factorization",
+        "logic",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "hard"
     }
   },
   {
@@ -239,6 +339,16 @@
       "likes": 1013,
       "shares": 653,
       "comments": 136
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "marxism",
+        "divisor function",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
     }
   },
   {
@@ -261,6 +371,16 @@
       "likes": 1085,
       "shares": 628,
       "comments": 54
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "linear algebra",
+        "dialectics",
+        "infinitesimals"
+      ],
+      "correctIndex": 0,
+      "difficulty": "hard"
     }
   },
   {
@@ -283,6 +403,16 @@
       "likes": 1402,
       "shares": 810,
       "comments": 35
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "linear algebra",
+        "asymptotics",
+        "history of mathematics"
+      ],
+      "correctIndex": 0,
+      "difficulty": "hard"
     }
   },
   {
@@ -305,6 +435,16 @@
       "likes": 1785,
       "shares": 63,
       "comments": 111
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "education",
+        "linear algebra",
+        "limits"
+      ],
+      "correctIndex": 1,
+      "difficulty": "hard"
     }
   },
   {
@@ -327,6 +467,16 @@
       "likes": 661,
       "shares": 56,
       "comments": 63
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "maoism",
+        "divisors",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "easy"
     }
   },
   {
@@ -349,6 +499,16 @@
       "likes": 1443,
       "shares": 443,
       "comments": 392
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "linear algebra",
+        "inequalities",
+        "infinitesimals"
+      ],
+      "correctIndex": 0,
+      "difficulty": "hard"
     }
   },
   {
@@ -371,6 +531,16 @@
       "likes": 998,
       "shares": 868,
       "comments": 102
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "divisor function",
+        "bounds",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
     }
   },
   {
@@ -393,6 +563,16 @@
       "likes": 3019,
       "shares": 166,
       "comments": 9
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "real analysis",
+        "philosophy of mathematics",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "hard"
     }
   },
   {
@@ -415,6 +595,16 @@
       "likes": 390,
       "shares": 95,
       "comments": 84
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "history of mathematics",
+        "philosophy of mathematics",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
     }
   },
   {
@@ -437,6 +627,16 @@
       "likes": 2955,
       "shares": 74,
       "comments": 188
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "limits",
+        "philosophy of mathematics",
+        "linear algebra"
+      ],
+      "correctIndex": 2,
+      "difficulty": "easy"
     }
   }
 ]

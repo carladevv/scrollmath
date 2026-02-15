@@ -21,6 +21,16 @@
         "shares": 112,
         "comments": 73
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "asymptotics",
+          "linear algebra",
+          "divisors"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -53,6 +63,16 @@
         "likes": 962,
         "shares": 160,
         "comments": 82
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "linear algebra",
+          "nonstandard analysis",
+          "prime factorization"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -87,6 +107,16 @@
         "shares": 190,
         "comments": 90
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "real analysis",
+          "ramanujan",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -119,6 +149,16 @@
         "likes": 921,
         "shares": 166,
         "comments": 79
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "big o notation",
+          "linear algebra",
+          "asymptotics"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -153,6 +193,16 @@
         "shares": 134,
         "comments": 43
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "linear algebra",
+          "marxism",
+          "inequalities"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -185,6 +235,16 @@
         "likes": 1211,
         "shares": 140,
         "comments": 79
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "linear algebra",
+          "derivatives",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -219,6 +279,16 @@
         "shares": 91,
         "comments": 76
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dialectics",
+          "maoism",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -251,6 +321,16 @@
         "likes": 941,
         "shares": 99,
         "comments": 66
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "divisor function",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -285,6 +365,16 @@
         "shares": 103,
         "comments": 47
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "maoism",
+          "linear algebra",
+          "logic"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -317,6 +407,16 @@
         "likes": 686,
         "shares": 78,
         "comments": 54
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "prime factorization",
+          "logic",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -351,6 +451,16 @@
         "shares": 186,
         "comments": 103
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "marxism",
+          "divisor function",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -383,6 +493,16 @@
         "likes": 1247,
         "shares": 179,
         "comments": 102
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "linear algebra",
+          "dialectics",
+          "infinitesimals"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -417,6 +537,16 @@
         "shares": 166,
         "comments": 70
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "linear algebra",
+          "asymptotics",
+          "history of mathematics"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -449,6 +579,16 @@
         "likes": 838,
         "shares": 102,
         "comments": 75
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "education",
+          "linear algebra",
+          "limits"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -483,6 +623,16 @@
         "shares": 106,
         "comments": 41
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "maoism",
+          "divisors",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -515,6 +665,16 @@
         "likes": 876,
         "shares": 152,
         "comments": 36
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "linear algebra",
+          "inequalities",
+          "infinitesimals"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -549,6 +709,16 @@
         "shares": 161,
         "comments": 92
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "divisor function",
+          "bounds",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -581,6 +751,16 @@
         "likes": 1094,
         "shares": 124,
         "comments": 58
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "real analysis",
+          "philosophy of mathematics",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -615,6 +795,16 @@
         "shares": 82,
         "comments": 39
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "history of mathematics",
+          "philosophy of mathematics",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -647,6 +837,16 @@
         "likes": 1001,
         "shares": 105,
         "comments": 42
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "limits",
+          "philosophy of mathematics",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -681,6 +881,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "foundations",
+          "divisors",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -714,6 +924,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "limits",
+          "marxism",
+          "maoism"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -747,6 +967,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "big o notation",
+          "asymptotics",
+          "calculus"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -780,6 +1010,16 @@
         "comments": 9
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "derivatives",
+          "calculus",
+          "divisor function"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -813,6 +1053,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dialectics",
+          "nonstandard analysis",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -846,6 +1096,16 @@
         "comments": 3
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "maoism",
+          "real analysis"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -879,6 +1139,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "maoism",
+          "ramanujan"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -912,6 +1182,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "asymptotics",
+          "nonstandard analysis",
+          "infinitesimals"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -945,6 +1225,16 @@
         "comments": 8
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "limits",
+          "logic",
+          "philosophy of mathematics"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -978,6 +1268,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "primes",
+          "number theory",
+          "nonstandard analysis"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1011,6 +1311,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "philosophy of mathematics",
+          "real numbers",
+          "matrices"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1044,6 +1354,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "history of mathematics",
+          "divisor function"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1077,6 +1397,16 @@
         "comments": 2
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dedekind cuts",
+          "calculus",
+          "nonstandard analysis"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1110,6 +1440,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "divisor function",
+          "history of mathematics",
+          "calculus"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1143,6 +1483,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "primes",
+          "divisor function",
+          "calculus"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1176,6 +1526,16 @@
         "comments": 2
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "calculus",
+          "matrices",
+          "asymptotics"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1209,6 +1569,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "calculus",
+          "logic",
+          "maoism"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1242,6 +1612,16 @@
         "comments": 6
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "asymptotics",
+          "number theory",
+          "calculus"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1275,6 +1655,16 @@
         "comments": 10
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "maoism",
+          "nonstandard analysis",
+          "education"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1308,6 +1698,16 @@
         "comments": 9
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dialectics",
+          "nonstandard analysis",
+          "real analysis"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1341,6 +1741,16 @@
         "comments": 121
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "ramanujan",
+          "real analysis"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1375,6 +1785,16 @@
         "comments": 91
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "history of mathematics",
+          "derivatives",
+          "foundations"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1409,6 +1829,16 @@
         "comments": 155
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "nonstandard analysis",
+          "foundations",
+          "real numbers"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1443,6 +1873,16 @@
         "comments": 232
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "derivatives",
+          "dedekind cuts",
+          "primes"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1477,6 +1917,16 @@
         "comments": 201
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "derivatives",
+          "dedekind cuts",
+          "divisor function"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1511,6 +1961,16 @@
         "comments": 96
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "philosophy of mathematics",
+          "infinitesimals",
+          "dedekind cuts"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1545,6 +2005,16 @@
         "comments": 230
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "matrices",
+          "dedekind cuts",
+          "infinitesimals"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1579,6 +2049,16 @@
         "comments": 112
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "real numbers",
+          "derivatives",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1613,6 +2093,16 @@
         "comments": 179
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "real numbers",
+          "divisors",
+          "maoism"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1647,6 +2137,16 @@
         "comments": 169
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "maoism",
+          "linear algebra"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1681,6 +2181,16 @@
         "comments": 185
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "real analysis",
+          "big o notation",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1716,6 +2226,16 @@
         "comments": 75
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "inequalities",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1749,6 +2269,16 @@
         "likes": 2698,
         "shares": 514,
         "comments": 179
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "foundations",
+          "number theory",
+          "dedekind cuts"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -1784,6 +2314,16 @@
         "shares": 208,
         "comments": 133
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "maoism",
+          "dedekind cuts",
+          "bounds"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1817,6 +2357,16 @@
         "likes": 2884,
         "shares": 410,
         "comments": 249
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dedekind cuts",
+          "dialectics",
+          "nonstandard analysis"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -1852,6 +2402,16 @@
         "shares": 310,
         "comments": 156
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "dedekind cuts",
+          "number theory",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1885,6 +2445,16 @@
         "likes": 1814,
         "shares": 272,
         "comments": 98
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "inequalities",
+          "real numbers",
+          "infinitesimals"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -1920,6 +2490,16 @@
         "shares": 432,
         "comments": 168
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "real numbers",
+          "linear algebra",
+          "inequalities"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1953,6 +2533,16 @@
         "likes": 1753,
         "shares": 344,
         "comments": 132
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real analysis",
+          "nonstandard analysis",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -1989,6 +2579,16 @@
         "shares": 238,
         "comments": 97
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "number theory",
+          "philosophy of mathematics",
+          "marxism"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -2021,6 +2621,16 @@
         "likes": 1160,
         "shares": 168,
         "comments": 56
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "maoism",
+          "number theory"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -2055,6 +2665,16 @@
         "shares": 145,
         "comments": 57
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "education",
+          "nonstandard analysis",
+          "number theory"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -2088,6 +2708,16 @@
         "shares": 201,
         "comments": 71
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "big o notation",
+          "real numbers",
+          "number theory"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -2120,6 +2750,16 @@
         "likes": 984,
         "shares": 151,
         "comments": 47
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "history of mathematics",
+          "number theory",
+          "matrices"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -3149,6 +3789,16 @@
         "shares": 112,
         "comments": 73
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "asymptotics",
+          "linear algebra",
+          "divisors"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3181,6 +3831,16 @@
         "likes": 962,
         "shares": 160,
         "comments": 82
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "linear algebra",
+          "nonstandard analysis",
+          "prime factorization"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3215,6 +3875,16 @@
         "shares": 190,
         "comments": 90
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "real analysis",
+          "ramanujan",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3247,6 +3917,16 @@
         "likes": 921,
         "shares": 166,
         "comments": 79
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "big o notation",
+          "linear algebra",
+          "asymptotics"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3281,6 +3961,16 @@
         "shares": 134,
         "comments": 43
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "linear algebra",
+          "marxism",
+          "inequalities"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3313,6 +4003,16 @@
         "likes": 1211,
         "shares": 140,
         "comments": 79
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "linear algebra",
+          "derivatives",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3347,6 +4047,16 @@
         "shares": 91,
         "comments": 76
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dialectics",
+          "maoism",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3379,6 +4089,16 @@
         "likes": 941,
         "shares": 99,
         "comments": 66
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "divisor function",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3413,6 +4133,16 @@
         "shares": 103,
         "comments": 47
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "maoism",
+          "linear algebra",
+          "logic"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3445,6 +4175,16 @@
         "likes": 686,
         "shares": 78,
         "comments": 54
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "prime factorization",
+          "logic",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3479,6 +4219,16 @@
         "shares": 186,
         "comments": 103
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "marxism",
+          "divisor function",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3511,6 +4261,16 @@
         "likes": 1247,
         "shares": 179,
         "comments": 102
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "linear algebra",
+          "dialectics",
+          "infinitesimals"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3545,6 +4305,16 @@
         "shares": 166,
         "comments": 70
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "linear algebra",
+          "asymptotics",
+          "history of mathematics"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3577,6 +4347,16 @@
         "likes": 838,
         "shares": 102,
         "comments": 75
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "education",
+          "linear algebra",
+          "limits"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3611,6 +4391,16 @@
         "shares": 106,
         "comments": 41
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "maoism",
+          "divisors",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3643,6 +4433,16 @@
         "likes": 876,
         "shares": 152,
         "comments": 36
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "linear algebra",
+          "inequalities",
+          "infinitesimals"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3677,6 +4477,16 @@
         "shares": 161,
         "comments": 92
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "divisor function",
+          "bounds",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3709,6 +4519,16 @@
         "likes": 1094,
         "shares": 124,
         "comments": 58
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "real analysis",
+          "philosophy of mathematics",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3743,6 +4563,16 @@
         "shares": 82,
         "comments": 39
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "history of mathematics",
+          "philosophy of mathematics",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3775,6 +4605,16 @@
         "likes": 1001,
         "shares": 105,
         "comments": 42
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "limits",
+          "philosophy of mathematics",
+          "linear algebra"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3809,6 +4649,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "foundations",
+          "divisors",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3842,6 +4692,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "limits",
+          "marxism",
+          "maoism"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3875,6 +4735,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "big o notation",
+          "asymptotics",
+          "calculus"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3908,6 +4778,16 @@
         "comments": 9
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "derivatives",
+          "calculus",
+          "divisor function"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3941,6 +4821,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dialectics",
+          "nonstandard analysis",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3974,6 +4864,16 @@
         "comments": 3
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "maoism",
+          "real analysis"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4007,6 +4907,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "maoism",
+          "ramanujan"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4040,6 +4950,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "asymptotics",
+          "nonstandard analysis",
+          "infinitesimals"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4073,6 +4993,16 @@
         "comments": 8
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "limits",
+          "logic",
+          "philosophy of mathematics"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4106,6 +5036,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "primes",
+          "number theory",
+          "nonstandard analysis"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4139,6 +5079,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "philosophy of mathematics",
+          "real numbers",
+          "matrices"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4172,6 +5122,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "history of mathematics",
+          "divisor function"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4205,6 +5165,16 @@
         "comments": 2
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dedekind cuts",
+          "calculus",
+          "nonstandard analysis"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4238,6 +5208,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "divisor function",
+          "history of mathematics",
+          "calculus"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4271,6 +5251,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "primes",
+          "divisor function",
+          "calculus"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4304,6 +5294,16 @@
         "comments": 2
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "calculus",
+          "matrices",
+          "asymptotics"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4337,6 +5337,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "calculus",
+          "logic",
+          "maoism"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4370,6 +5380,16 @@
         "comments": 6
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "asymptotics",
+          "number theory",
+          "calculus"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4403,6 +5423,16 @@
         "comments": 10
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "maoism",
+          "nonstandard analysis",
+          "education"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4436,6 +5466,16 @@
         "comments": 9
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dialectics",
+          "nonstandard analysis",
+          "real analysis"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4469,6 +5509,16 @@
         "comments": 121
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "dedekind cuts",
+          "ramanujan",
+          "real analysis"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4503,6 +5553,16 @@
         "comments": 91
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "history of mathematics",
+          "derivatives",
+          "foundations"
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4537,6 +5597,16 @@
         "comments": 155
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "nonstandard analysis",
+          "foundations",
+          "real numbers"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4571,6 +5641,16 @@
         "comments": 232
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "derivatives",
+          "dedekind cuts",
+          "primes"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4605,6 +5685,16 @@
         "comments": 201
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "derivatives",
+          "dedekind cuts",
+          "divisor function"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4639,6 +5729,16 @@
         "comments": 96
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "philosophy of mathematics",
+          "infinitesimals",
+          "dedekind cuts"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4673,6 +5773,16 @@
         "comments": 230
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "matrices",
+          "dedekind cuts",
+          "infinitesimals"
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4707,6 +5817,16 @@
         "comments": 112
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "real numbers",
+          "derivatives",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4741,6 +5861,16 @@
         "comments": 179
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "real numbers",
+          "divisors",
+          "maoism"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4775,6 +5905,16 @@
         "comments": 169
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "maoism",
+          "linear algebra"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4809,6 +5949,16 @@
         "comments": 185
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "real analysis",
+          "big o notation",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4844,6 +5994,16 @@
         "comments": 75
       },
       "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "inequalities",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4877,6 +6037,16 @@
         "likes": 2698,
         "shares": 514,
         "comments": 179
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "foundations",
+          "number theory",
+          "dedekind cuts"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -4912,6 +6082,16 @@
         "shares": 208,
         "comments": 133
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "maoism",
+          "dedekind cuts",
+          "bounds"
+        ],
+        "correctIndex": 1,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4945,6 +6125,16 @@
         "likes": 2884,
         "shares": 410,
         "comments": 249
+      },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "dedekind cuts",
+          "dialectics",
+          "nonstandard analysis"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -4980,6 +6170,16 @@
         "shares": 310,
         "comments": 156
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "dedekind cuts",
+          "number theory",
+          "ramanujan"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -5013,6 +6213,16 @@
         "likes": 1814,
         "shares": 272,
         "comments": 98
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "inequalities",
+          "real numbers",
+          "infinitesimals"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -5048,6 +6258,16 @@
         "shares": 432,
         "comments": 168
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "real numbers",
+          "linear algebra",
+          "inequalities"
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -5081,6 +6301,16 @@
         "likes": 1753,
         "shares": 344,
         "comments": 132
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real analysis",
+          "nonstandard analysis",
+          "bounds"
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -5117,6 +6347,16 @@
         "shares": 238,
         "comments": 97
       },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "number theory",
+          "philosophy of mathematics",
+          "marxism"
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -5149,6 +6389,16 @@
         "likes": 1160,
         "shares": 168,
         "comments": 56
+      },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "real numbers",
+          "maoism",
+          "number theory"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -5183,6 +6433,16 @@
         "shares": 145,
         "comments": 57
       },
+      "poll": {
+        "question": "Which topic is central to this math excerpt?",
+        "options": [
+          "education",
+          "nonstandard analysis",
+          "number theory"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -5216,6 +6476,16 @@
         "shares": 201,
         "comments": 71
       },
+      "poll": {
+        "question": "Which tag best matches the main mathematical idea in this post?",
+        "options": [
+          "big o notation",
+          "real numbers",
+          "number theory"
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -5248,6 +6518,16 @@
         "likes": 984,
         "shares": 151,
         "comments": 47
+      },
+      "poll": {
+        "question": "Which concept is most directly referenced in this passage?",
+        "options": [
+          "history of mathematics",
+          "number theory",
+          "matrices"
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
       },
       "work": {
         "id": "ramanujan_divisors_1915",

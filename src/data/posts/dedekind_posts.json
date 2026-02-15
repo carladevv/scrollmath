@@ -19,7 +19,17 @@
       "shares": 130,
       "comments": 133
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "dedekind cuts",
+        "ramanujan",
+        "real analysis"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
@@ -40,7 +50,17 @@
       "shares": 274,
       "comments": 146
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "history of mathematics",
+        "derivatives",
+        "foundations"
+      ],
+      "correctIndex": 2,
+      "difficulty": "hard"
+    }
   },
   {
     "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
@@ -61,7 +81,17 @@
       "shares": 69,
       "comments": 100
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "nonstandard analysis",
+        "foundations",
+        "real numbers"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
@@ -82,7 +112,17 @@
       "shares": 77,
       "comments": 38
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "derivatives",
+        "dedekind cuts",
+        "primes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
@@ -103,7 +143,17 @@
       "shares": 131,
       "comments": 13
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "derivatives",
+        "dedekind cuts",
+        "divisor function"
+      ],
+      "correctIndex": 1,
+      "difficulty": "hard"
+    }
   },
   {
     "id": "67f96574-8756-4561-889f-ed1e868c6e22",
@@ -124,7 +174,17 @@
       "shares": 216,
       "comments": 28
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "philosophy of mathematics",
+        "infinitesimals",
+        "dedekind cuts"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
@@ -145,7 +205,17 @@
       "shares": 12,
       "comments": 91
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "matrices",
+        "dedekind cuts",
+        "infinitesimals"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
@@ -166,7 +236,17 @@
       "shares": 157,
       "comments": 29
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "real numbers",
+        "derivatives",
+        "bounds"
+      ],
+      "correctIndex": 0,
+      "difficulty": "hard"
+    }
   },
   {
     "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
@@ -187,7 +267,17 @@
       "shares": 288,
       "comments": 98
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "real numbers",
+        "divisors",
+        "maoism"
+      ],
+      "correctIndex": 0,
+      "difficulty": "hard"
+    }
   },
   {
     "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
@@ -208,7 +298,17 @@
       "shares": 16,
       "comments": 97
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "real numbers",
+        "maoism",
+        "linear algebra"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
@@ -229,7 +329,17 @@
       "shares": 235,
       "comments": 105
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "real analysis",
+        "big o notation",
+        "bounds"
+      ],
+      "correctIndex": 0,
+      "difficulty": "easy"
+    }
   },
   {
     "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
@@ -251,7 +361,17 @@
       "shares": 284,
       "comments": 145
     },
-    "work_id": "dedekind_continuity_1872"
+    "work_id": "dedekind_continuity_1872",
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "real numbers",
+        "inequalities",
+        "bounds"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medium"
+    }
   },
   {
     "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
@@ -272,6 +392,16 @@
       "likes": 842,
       "shares": 201,
       "comments": 77
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "foundations",
+        "number theory",
+        "dedekind cuts"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medium"
     }
   },
   {
@@ -293,6 +423,16 @@
       "likes": 1324,
       "shares": 310,
       "comments": 91
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "maoism",
+        "dedekind cuts",
+        "bounds"
+      ],
+      "correctIndex": 1,
+      "difficulty": "easy"
     }
   },
   {
@@ -314,6 +454,16 @@
       "likes": 657,
       "shares": 140,
       "comments": 43
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "dedekind cuts",
+        "dialectics",
+        "nonstandard analysis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "easy"
     }
   },
   {
@@ -335,6 +485,16 @@
       "likes": 905,
       "shares": 188,
       "comments": 60
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "dedekind cuts",
+        "number theory",
+        "ramanujan"
+      ],
+      "correctIndex": 0,
+      "difficulty": "hard"
     }
   },
   {
@@ -356,6 +516,16 @@
       "likes": 1112,
       "shares": 247,
       "comments": 84
+    },
+    "poll": {
+      "question": "Which concept is most directly referenced in this passage?",
+      "options": [
+        "inequalities",
+        "real numbers",
+        "infinitesimals"
+      ],
+      "correctIndex": 1,
+      "difficulty": "hard"
     }
   },
   {
@@ -377,6 +547,16 @@
       "likes": 734,
       "shares": 119,
       "comments": 52
+    },
+    "poll": {
+      "question": "Which topic is central to this math excerpt?",
+      "options": [
+        "real numbers",
+        "linear algebra",
+        "inequalities"
+      ],
+      "correctIndex": 0,
+      "difficulty": "easy"
     }
   },
   {
@@ -398,6 +578,16 @@
       "likes": 1186,
       "shares": 289,
       "comments": 101
+    },
+    "poll": {
+      "question": "Which tag best matches the main mathematical idea in this post?",
+      "options": [
+        "real analysis",
+        "nonstandard analysis",
+        "bounds"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medium"
     }
   }
 ]

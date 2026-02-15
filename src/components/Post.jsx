@@ -2,7 +2,9 @@ import { useEffect, useRef } from "react";
 import { AlertTriangle } from "lucide-react";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import PostFooter from "./PostFooter";
+import PollCard from "./PollCard";
 import { buildAuthorPath, buildPostPath, buildSearchPath, navigateTo } from "../router/navigation";
+import { shouldRenderPoll } from "../utils/poll";
 
 function getTranslationCredit(work) {
   if (!work || !work.translation) return null;
@@ -26,7 +28,7 @@ function getTranslationCredit(work) {
   return null;
 }
 
-export default function Post({ post, author }) {
+export default function Post({ post, author, showPollEligible = false }) {
   const contentRef = useRef(null);
   const authorImage = author.image_small || author.image;
 
@@ -75,81 +77,88 @@ export default function Post({ post, author }) {
   const workTitle = (post.work && post.work.title) || "Unknown work";
   const translationCredit = getTranslationCredit(post.work);
   const locationAndDate = [author.country, post.date].filter(Boolean).join(", ");
+  const showPoll = showPollEligible && post.poll && shouldRenderPoll({ postId: post.id });
 
   return (
-    <div className="post-card">
-      {/* Header */}
-      <div
-        onClick={handleHeaderClick}
-        className="post-header"
-      >
-        <img
-          src={authorImage}
-          alt={author.name}
-          width="36"
-          height="36"
-          loading="lazy"
-          decoding="async"
-          onClick={e => {
-            e.stopPropagation();
-            handleAuthorClick();
-          }}
-          className="post-author-avatar"
-        />
-
+    <>
+      <div className="post-card">
+        {/* Header */}
         <div
-          onClick={e => {
-            e.stopPropagation();
-            handleAuthorClick();
-          }}
-          className="post-author-meta"
+          onClick={handleHeaderClick}
+          className="post-header"
         >
-          <div className="post-author-name">
-            {author.name}
-          </div>
+          <img
+            src={authorImage}
+            alt={author.name}
+            width="36"
+            height="36"
+            loading="lazy"
+            decoding="async"
+            onClick={e => {
+              e.stopPropagation();
+              handleAuthorClick();
+            }}
+            className="post-author-avatar"
+          />
 
-          <div className="post-date">
-            {locationAndDate}
+          <div
+            onClick={e => {
+              e.stopPropagation();
+              handleAuthorClick();
+            }}
+            className="post-author-meta"
+          >
+            <div className="post-author-name">
+              {author.name}
+            </div>
+
+            <div className="post-date">
+              {locationAndDate}
+            </div>
           </div>
         </div>
+
+        {/* Content */}
+        <div
+          ref={contentRef}
+          className="post-content"
+          dangerouslySetInnerHTML={{ __html: post.content.html }}
+        />
+
+        {/* Source */}
+        <div className="post-source">
+          <div className="post-source-title">{workTitle}</div>
+          {translationCredit && (
+            <div className="post-source-translation">
+              {translationCredit.isMachineTranslated && (
+                <AlertTriangle size={12} className="post-source-translation-icon" />
+              )}
+              {translationCredit.text}
+            </div>
+          )}
+        </div>
+
+        {/* Tags */}
+        <div className="post-tags">
+          {post.tags.map(tag => (
+            <button
+              key={tag}
+              onClick={e => handleTagClick(e, tag)}
+              className="post-tag-button"
+              title={`Search ${tag}`}
+            >
+              #{tag}
+            </button>
+          ))}
+        </div>
+
+        {/* Metrics */}
+        <PostFooter post={post} />
       </div>
 
-      {/* Content */}
-      <div
-        ref={contentRef}
-        className="post-content"
-        dangerouslySetInnerHTML={{ __html: post.content.html }}
-      />
-
-      {/* Source */}
-      <div className="post-source">
-        <div className="post-source-title">{workTitle}</div>
-        {translationCredit && (
-          <div className="post-source-translation">
-            {translationCredit.isMachineTranslated && (
-              <AlertTriangle size={12} className="post-source-translation-icon" />
-            )}
-            {translationCredit.text}
-          </div>
-        )}
-      </div>
-
-      {/* Tags */}
-      <div className="post-tags">
-        {post.tags.map(tag => (
-          <button
-            key={tag}
-            onClick={e => handleTagClick(e, tag)}
-            className="post-tag-button"
-            title={`Search ${tag}`}
-          >
-            #{tag}
-          </button>
-        ))}
-      </div>
-
-      {/* Metrics */}
-      <PostFooter post={post} />
-    </div>
+      {showPoll && (
+        <PollCard postId={post.id} poll={post.poll} />
+      )}
+    </>
   );
 }
