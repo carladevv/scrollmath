@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import PostFooter from "./PostFooter";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import { ExternalLink } from "lucide-react";
@@ -15,9 +15,13 @@ export default function ImagePost({ post, author }) {
     navigateTo(buildPostPath(post.id));
   };
 
-  useEffect(() => {
-    if (!captionRef.current) return;
-    renderMathInElement(captionRef.current, {
+  useLayoutEffect(() => {
+    const captionElement = captionRef.current;
+    if (!captionElement) return;
+
+    // Keep math rendering stable when this component remounts across routes.
+    captionElement.innerHTML = post.caption;
+    renderMathInElement(captionElement, {
       delimiters: [
         { left: "\\(", right: "\\)", display: false },
         { left: "\\[", right: "\\]", display: true }

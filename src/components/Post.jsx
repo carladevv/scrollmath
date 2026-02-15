@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { AlertTriangle } from "lucide-react";
 import renderMathInElement from "katex/dist/contrib/auto-render";
 import PostFooter from "./PostFooter";
@@ -32,10 +32,13 @@ export default function Post({ post, author, showPollEligible = false }) {
   const contentRef = useRef(null);
   const authorImage = author.image_small || author.image;
 
-  useEffect(() => {
-    if (!contentRef.current) return;
+  useLayoutEffect(() => {
+    const contentElement = contentRef.current;
+    if (!contentElement) return;
 
-    renderMathInElement(contentRef.current, {
+    // Reset to source HTML before each math pass so route/component remounts stay consistent.
+    contentElement.innerHTML = post.content.html;
+    renderMathInElement(contentElement, {
       delimiters: [
         { left: "\\(", right: "\\)", display: false },
         { left: "\\[", right: "\\]", display: true }
