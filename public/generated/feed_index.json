@@ -21,6 +21,16 @@
         "shares": 112,
         "comments": 73
       },
+      "poll": {
+        "question": "Why does Cayley immediately connect matrices with linear transformations?",
+        "options": [
+          "Because matrices encode systems of linear equations as single algebraic objects.",
+          "Because matrices were originally invented for calculus.",
+          "Because determinants only apply to transformations."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -53,6 +63,16 @@
         "likes": 962,
         "shares": 160,
         "comments": 82
+      },
+      "poll": {
+        "question": "What conceptual shift does this definition introduce?",
+        "options": [
+          "Treating an array of numbers as a single algebraic entity.",
+          "Restricting matrices to square form only.",
+          "Defining determinants implicitly."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -87,6 +107,16 @@
         "shares": 190,
         "comments": 90
       },
+      "poll": {
+        "question": "What structure does this equality preserve?",
+        "options": [
+          "Entrywise structure of the array.",
+          "Only determinant value.",
+          "Only trace value."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -119,6 +149,16 @@
         "likes": 921,
         "shares": 166,
         "comments": 79
+      },
+      "poll": {
+        "question": "Why is matrix addition commutative?",
+        "options": [
+          "Because real number addition is commutative entrywise.",
+          "Because determinants commute.",
+          "Because matrix multiplication is commutative."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -153,6 +193,16 @@
         "shares": 134,
         "comments": 43
       },
+      "poll": {
+        "question": "Why is matrix multiplication not generally commutative?",
+        "options": [
+          "Because row-by-column combination depends on order.",
+          "Because determinants change sign.",
+          "Because addition fails."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -185,6 +235,16 @@
         "likes": 1211,
         "shares": 140,
         "comments": 79
+      },
+      "poll": {
+        "question": "What deeper idea is hinted at here?",
+        "options": [
+          "Matrices form a non-commutative algebra.",
+          "Matrices cannot be added.",
+          "Matrices are scalars."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -219,6 +279,16 @@
         "shares": 91,
         "comments": 76
       },
+      "poll": {
+        "question": "What algebraic role does the unit-matrix play?",
+        "options": [
+          "Multiplicative identity.",
+          "Additive identity.",
+          "Zero divisor."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -240,7 +310,7 @@
         "chapter": null
       },
       "content": {
-        "html": "<p>The determinant of a matrix is a function of its elements, and plays an essential part in the theory.</p>"
+        "html": "<p>The determinant vanishes when the rows or columns are linearly dependent.</p>"
       },
       "tags": [
         "linear algebra",
@@ -252,38 +322,15 @@
         "shares": 99,
         "comments": 66
       },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "283f9b40-a27c-4ffc-b040-c5c7d7eee391",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The determinant vanishes when the rows or columns are linearly dependent.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 785,
-        "shares": 103,
-        "comments": 47
+      "poll": {
+        "question": "What does a vanishing determinant imply?",
+        "options": [
+          "The matrix is not invertible.",
+          "The matrix equals zero.",
+          "The trace is zero."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -318,203 +365,15 @@
         "shares": 78,
         "comments": 54
       },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "05322601-ff28-4d0a-9d75-018ec61b5591",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The inverse matrix is that matrix which, when multiplied with the original matrix, produces the unit-matrix.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1172,
-        "shares": 186,
-        "comments": 103
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "669a67cf-225b-4b17-bab2-0955e11819c1",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Matrices may be considered as symbols of linear substitutions.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1247,
-        "shares": 179,
-        "comments": 102
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The composition of two linear transformations corresponds to the multiplication of their matrices.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1216,
-        "shares": 166,
-        "comments": 70
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "7991fb62-510e-4a1d-8afe-7608c31602b0",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>A matrix of the form \\( \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\) represents a linear transformation in two variables.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 838,
-        "shares": 102,
-        "comments": 75
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "09314f74-9312-40ce-a175-208699b14b0e",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The eigenvalues of a matrix are obtained by solving the equation \\( \\det(A - \\lambda I) = 0 \\).</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 683,
-        "shares": 106,
-        "comments": 41
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "ac22a001-9b20-4b1c-aa7a-4619d371205c",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The characteristic equation expresses a fundamental relation satisfied by the matrix itself.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 876,
-        "shares": 152,
-        "comments": 36
+      "poll": {
+        "question": "Why does non-zero determinant guarantee an inverse?",
+        "options": [
+          "Because the matrix equation \\( AX = I \\) has a unique solution.",
+          "Because the trace is non-zero.",
+          "Because rows are identical."
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -549,104 +408,15 @@
         "shares": 161,
         "comments": 92
       },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "1cdc83ce-bb6d-4282-9b9e-d617d2135047",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The theory of matrices thus supplies a general method for the investigation of linear transformations.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1094,
-        "shares": 124,
-        "comments": 58
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "6081f79f-73b4-4fc8-9b50-e0d383b74ef3",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Matrices admit of powers, positive and negative, according to the laws of multiplication.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 647,
-        "shares": 82,
-        "comments": 39
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    {
-      "id": "9f425b26-1269-47df-b7e1-3614f468adf8",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The generality of the method renders it applicable to a wide class of algebraical investigations.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1001,
-        "shares": 105,
-        "comments": 42
+      "poll": {
+        "question": "This statement is now known as:",
+        "options": [
+          "The Cayley–Hamilton theorem.",
+          "The fundamental theorem of algebra.",
+          "Cramer’s rule."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -681,6 +451,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "According to Dauben, why did Marx study the foundations of calculus so intensely?",
+        "options": [
+          "He aimed to compute new numerical tables.",
+          "He saw foundational questions as revealing the logical structure of scientific reasoning.",
+          "He wanted to replace Newton’s physics."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -714,6 +494,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What larger claim is Dauben attributing to Marx here?",
+        "options": [
+          "Mathematical concepts are historically and socially conditioned.",
+          "Mathematics should avoid philosophy.",
+          "Mathematics is purely objective and timeless."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -747,6 +537,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What logical difficulty made infinitesimals controversial?",
+        "options": [
+          "They contradicted number theory.",
+          "They were too computationally complex.",
+          "They were treated as both zero and non-zero simultaneously."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -780,6 +580,16 @@
         "comments": 9
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What issue does the expression \\(\\frac{dy}{dx}\\) raise in Marx’s analysis?",
+        "options": [
+          "Whether division is commutative.",
+          "Whether it represents a true ratio of quantities or the result of a limiting process.",
+          "Whether functions are continuous."
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -813,6 +623,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "In dialectical terms, what does the passage from \\(\\Delta y/\\Delta x\\) to \\(dy/dx\\) represent?",
+        "options": [
+          "A numerical approximation.",
+          "A qualitative transformation emerging from quantitative variation.",
+          "A simple algebraic simplification."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -846,6 +666,16 @@
         "comments": 3
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "How did nineteenth-century limit theory change the status of infinitesimals?",
+        "options": [
+          "It eliminated derivatives.",
+          "It proved infinitesimals are prime numbers.",
+          "It replaced them with rigorously defined limiting processes."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -879,6 +709,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What tension during the Cultural Revolution shaped attitudes toward mathematics?",
+        "options": [
+          "Conflict between geometry and algebra.",
+          "Suspicion of abstraction versus demand for practical application.",
+          "Rejection of arithmetic."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -912,6 +752,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Why did infinitesimals become politically significant in China?",
+        "options": [
+          "They symbolized deeper debates about abstraction and ideology in science.",
+          "They simplified computation.",
+          "They were used in military engineering."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -945,369 +795,16 @@
         "comments": 8
       },
       "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
+      "poll": {
+        "question": "What conceptual advance does this limit expression embody?",
+        "options": [
+          "Introducing complex numbers.",
+          "Eliminating functions.",
+          "Replacing infinitesimal ratios with a rigorously defined limiting process."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
       },
-      "content": {
-        "html": "<p>Nonstandard analysis later restored infinitesimals to mathematics in a rigorous way, demonstrating that earlier conceptual difficulties could be overcome within a new logical framework.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 61,
-        "shares": 6,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Mathematics, in this context, becomes a field in which philosophical commitments are enacted through technical choices about definition, proof, and rigor.</p>"
-      },
-      "tags": [
-        "philosophy of mathematics",
-        "foundations",
-        "marxism"
-      ],
-      "metrics": {
-        "likes": 126,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The historical study of mathematics reveals that its development is neither linear nor inevitable. It is shaped by intellectual struggle, cultural context, and philosophical debate.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "foundations",
-        "philosophy of mathematics"
-      ],
-      "metrics": {
-        "likes": 88,
-        "shares": 7,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx regarded questions about the foundations of the differential calculus as a “touchstone of the application of the method of materialist dialectics to mathematics.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "foundations",
-        "dialectics"
-      ],
-      "metrics": {
-        "likes": 94,
-        "shares": 13,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>During the Cultural Revolution, mathematics was suspect for being too abstract, aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "maoism",
-        "education"
-      ],
-      "metrics": {
-        "likes": 120,
-        "shares": 10,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx used dialectical materialism to evaluate the history of the calculus, and was especially critical of what he took to be its idealistic, metaphysical foundations.</p>"
-      },
-      "tags": [
-        "calculus",
-        "dialectics",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 92,
-        "shares": 13,
-        "comments": 5
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals, but from a logical transformation in which the ratio \\(\\Delta y / \\Delta x\\) passes to its limit and becomes \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 69,
-        "shares": 7,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>According to Bishop Berkeley, the differential \\(dx\\) was “the ghost of a departed quantity.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 124,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The familiar example \\(y = x^3\\) served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients \\(\\Delta y / \\Delta x\\) and differentials \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 103,
-        "shares": 9,
-        "comments": 6
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Nonstandard analysis constructs a mathematical system based on infinitesimals, providing another interpretation of the calculus distinct from the method of limits.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "calculus"
-      ],
-      "metrics": {
-        "likes": 130,
-        "shares": 10,
-        "comments": 10
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    {
-      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The core of nonstandard analysis shows there is an infinitesimal between zero and any positive number, using the methods of mathematical logic.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "logic"
-      ],
-      "metrics": {
-        "likes": 128,
-        "shares": 14,
-        "comments": 9
-      },
-      "work_id": "marx_mao_mathematics_dauben",
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -1323,12 +820,13 @@
     {
       "id": "caa48dca-63a0-4539-a04a-194912390ddb",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "Preface"
       },
       "content": {
-        "html": "<p>The reflections which form the subject of this little treatise date from the autumn of the year 1858. At that time I felt more keenly than ever before the lack of a truly scientific foundation for arithmetic. This feeling of dissatisfaction was so overpowering that I formed the fixed resolve to reflect until I had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis.</p>"
+        "html": "<p>The reflections which form the subject of this little treatise date from the autumn of the year 1858... I formed the fixed resolve to reflect until I had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis.</p>"
       },
       "tags": [
         "real analysis",
@@ -1340,7 +838,16 @@
         "shares": 371,
         "comments": 121
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What foundational theorem does Dedekind later show is equivalent to the principle of continuity?",
+        "options": [
+          "That every polynomial has a root.",
+          "That every bounded increasing sequence has a limit.",
+          "That every rational number has a decimal expansion."
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1358,12 +865,13 @@
     {
       "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§1"
       },
       "content": {
-        "html": "<p>By arithmetic I understand the science of numbers. The development of arithmetic depends upon the creation of the infinite sequence of positive integers. From this arise the negative and rational numbers, through the demand that subtraction and division shall always be possible.</p>"
+        "html": "<p>By arithmetic I understand the science of numbers... subtraction and division shall always be possible.</p>"
       },
       "tags": [
         "foundations",
@@ -1374,7 +882,16 @@
         "shares": 227,
         "comments": 91
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Why were negative and rational numbers introduced according to Dedekind?",
+        "options": [
+          "To remove the restrictions of subtraction and division.",
+          "To define irrational numbers.",
+          "To model geometry."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1392,12 +909,13 @@
     {
       "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§2"
       },
       "content": {
-        "html": "<p>The rational numbers form an ordered field; but they do not suffice to express every magnitude. There exist magnitudes which cannot be expressed by rational numbers, although they are determined by rational relations.</p>"
+        "html": "<p>The rational numbers form an ordered field; but they do not suffice to express every magnitude...</p>"
       },
       "tags": [
         "real numbers",
@@ -1408,7 +926,16 @@
         "shares": 248,
         "comments": 155
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What example does Dedekind later use to demonstrate this insufficiency?",
+        "options": [
+          "The square root of a non-square integer.",
+          "The number zero.",
+          "Prime numbers."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1426,12 +953,13 @@
     {
       "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§3"
       },
       "content": {
-        "html": "<p>Let D be a positive integer which is not the square of an integer. Then there exists a positive integer \\(\\lambda\\) such that</p><p>\\[ \\lambda^2 < D < (\\lambda + 1)^2. \\]</p><p>No rational number whose square equals D exists. Thus the rational numbers are insufficient to represent all magnitudes.</p>"
+        "html": "<p>Let D be a positive integer which is not the square of an integer... No rational number whose square equals D exists.</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -1442,7 +970,16 @@
         "shares": 399,
         "comments": 232
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Why does this example lead to a Dedekind cut without a greatest element?",
+        "options": [
+          "Because D is prime.",
+          "Because the rationals are finite.",
+          "Because rationals with square less than D have no maximum."
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1460,12 +997,13 @@
     {
       "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§3"
       },
       "content": {
-        "html": "<p>If all points of a straight line fall into two classes such that every point of the first class lies to the left of every point of the second class, then there exists one and only one point which produces this division of all points into two classes.</p>"
+        "html": "<p>If all points of a straight line fall into two classes... there exists one and only one point which produces this division.</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -1476,7 +1014,16 @@
         "shares": 287,
         "comments": 201
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What is remarkable about Dedekind’s treatment of this statement?",
+        "options": [
+          "He proves it using calculus.",
+          "He declares it an axiom defining continuity.",
+          "He derives it from geometry."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1494,12 +1041,13 @@
     {
       "id": "67f96574-8756-4561-889f-ed1e868c6e22",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§4"
       },
       "content": {
-        "html": "<p>Every cut of the rational numbers into two classes, such that every number of the first class is less than every number of the second, determines either a rational or an irrational number.</p>"
+        "html": "<p>Every cut of the rational numbers... determines either a rational or an irrational number.</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -1510,7 +1058,16 @@
         "shares": 204,
         "comments": 96
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What guarantees that each cut corresponds to exactly one number?",
+        "options": [
+          "Decimal expansions.",
+          "Prime factorization.",
+          "The definition of equality via identical lower sets."
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1528,12 +1085,13 @@
     {
       "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§4"
       },
       "content": {
-        "html": "<p>Whenever a cut is given which is not produced by a rational number, we create a new number corresponding to this cut, which we call an irrational number. Thus the domain of rational numbers is extended to a new domain of numbers.</p>"
+        "html": "<p>Whenever a cut is given which is not produced by a rational number, we create a new number...</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -1544,7 +1102,16 @@
         "shares": 480,
         "comments": 230
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What philosophical stance does this reflect?",
+        "options": [
+          "Numbers are created by definition, not discovered geometrically.",
+          "Numbers exist only physically.",
+          "Irrationals are approximations."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1562,12 +1129,13 @@
     {
       "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§5"
       },
       "content": {
-        "html": "<p>The totality of all real numbers forms a complete ordered field. Between any two distinct real numbers there exist infinitely many others.</p>"
+        "html": "<p>The totality of all real numbers forms a complete ordered field...</p>"
       },
       "tags": [
         "real numbers",
@@ -1578,7 +1146,16 @@
         "shares": 241,
         "comments": 112
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which additional property distinguishes \\(\\mathbb{R}\\) from \\(\\mathbb{Q}\\)?",
+        "options": [
+          "Every cut of \\(\\mathbb{R}\\) is produced by a number.",
+          "It has more prime numbers.",
+          "It is finite."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1596,12 +1173,13 @@
     {
       "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§6"
       },
       "content": {
-        "html": "<p>If \\(\\alpha\\) and \\(\\beta\\) are real numbers corresponding to cuts \\((A_1, A_2)\\) and \\((B_1, B_2)\\), then their sum \\(\\gamma = \\alpha + \\beta\\) is defined by a corresponding cut \\((C_1, C_2)\\).</p>"
+        "html": "<p>If \\(\\alpha\\) and \\(\\beta\\) are real numbers corresponding to cuts... their sum is defined by a corresponding cut.</p>"
       },
       "tags": [
         "real numbers",
@@ -1612,7 +1190,16 @@
         "shares": 508,
         "comments": 179
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Why does Dedekind define addition via cuts rather than decimal expansions?",
+        "options": [
+          "To reduce operations entirely to rational arithmetic.",
+          "Because decimals are undefined.",
+          "Because geometry requires it."
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -1630,12 +1217,13 @@
     {
       "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§6"
       },
       "content": {
-        "html": "<p>The order of the real numbers is such that if \\(\\alpha > \\beta\\) and \\(\\beta > \\gamma\\), then \\(\\alpha > \\gamma\\). This order extends that of the rational numbers without contradiction.</p>"
+        "html": "<p>The order of the real numbers is such that if \\(\\alpha > \\beta\\) and \\(\\beta > \\gamma\\), then \\(\\alpha > \\gamma\\).</p>"
       },
       "tags": [
         "real numbers",
@@ -1646,313 +1234,15 @@
         "shares": 363,
         "comments": 169
       },
-      "work_id": "dedekind_continuity_1872",
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
-      "author_id": "dedekind",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§7"
-      },
-      "content": {
-        "html": "<p>If a variable magnitude increases continuously but remains bounded above, then it approaches a limit. This theorem is equivalent to the principle of continuity of the real numbers.</p>"
-      },
-      "tags": [
-        "real analysis",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 2278,
-        "shares": 352,
-        "comments": 185
-      },
-      "work_id": "dedekind_continuity_1872",
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "Conclusion"
-      },
-      "content": {
-        "html": "<p>The essence of continuity lies in the completeness of the number system. The arithmetical conception of the real numbers renders the appeal to geometric intuition unnecessary for the foundation of analysis.</p>"
-      },
-      "tags": [
-        "real numbers",
-        "real analysis",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1336,
-        "shares": 177,
-        "comments": 75
-      },
-      "work_id": "dedekind_continuity_1872",
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§1"
-      },
-      "content": {
-        "html": "<p>I regard the whole of arithmetic as a necessary or at least natural consequence of the simplest arithmetical act, that of counting; and counting itself is nothing other than the successive creation of the infinite series of positive integers.</p>"
-      },
-      "tags": [
-        "foundations",
-        "real numbers"
-      ],
-      "metrics": {
-        "likes": 2698,
-        "shares": 514,
-        "comments": 179
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3da5-2c69-26ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§3"
-      },
-      "content": {
-        "html": "<p>I find the essence of continuity in the following principle: If all points of a straight line fall into two classes such that every point of the first lies to the left of every point of the second, then there exists one and only one point which produces this division.</p>"
-      },
-      "tags": [
-        "dedekind cuts",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1450,
-        "shares": 208,
-        "comments": 133
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3da5-2c69-48ac-201b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§4"
-      },
-      "content": {
-        "html": "<p>In the property that not all cuts are produced by rational numbers consists the incompleteness or discontinuity of the domain \\(\\mathbb{Q}\\).</p>"
-      },
-      "tags": [
-        "dedekind cuts",
-        "real numbers"
-      ],
-      "metrics": {
-        "likes": 2884,
-        "shares": 410,
-        "comments": 249
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3da5-2c69-01bc-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§4"
-      },
-      "content": {
-        "html": "<p>Whenever a cut \\((A_1, A_2)\\) is given which is not produced by a rational number, we create a new number \\(\\alpha\\), which we call an irrational number, and which we regard as completely defined by this cut.</p>"
-      },
-      "tags": [
-        "dedekind cuts",
-        "real numbers"
-      ],
-      "metrics": {
-        "likes": 1692,
-        "shares": 310,
-        "comments": 156
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3da5-7b69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§5"
-      },
-      "content": {
-        "html": "<p>If the system of real numbers \\(\\mathbb{R}\\) is divided into two classes \\(\\mathcal{A}_1\\) and \\(\\mathcal{A}_2\\) such that every number \\(\\alpha_1\\) in \\(\\mathcal{A}_1\\) is less than every number \\(\\alpha_2\\) in \\(\\mathcal{A}_2\\), then there exists one and only one number \\(\\alpha\\) which produces this division.</p>"
-      },
-      "tags": [
-        "real numbers",
-        "real analysis"
-      ],
-      "metrics": {
-        "likes": 1814,
-        "shares": 272,
-        "comments": 98
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ea3da5-2c69-48ac-901b-da6092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§6"
-      },
-      "content": {
-        "html": "<p>To define the sum \\(\\gamma = \\alpha + \\beta\\), it suffices to define the cut \\((C_1, C_2)\\) which corresponds to it, reducing the operation entirely to operations among rational numbers.</p>"
-      },
-      "tags": [
-        "real numbers",
-        "dedekind cuts"
-      ],
-      "metrics": {
-        "likes": 2505,
-        "shares": 432,
-        "comments": 168
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    {
-      "id": "e9ef3da5-2c69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§7"
-      },
-      "content": {
-        "html": "<p>If a variable magnitude increases continuously but remains bounded, then it approaches a limit. This theorem is equivalent to the principle of continuity.</p>"
-      },
-      "tags": [
-        "real analysis",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1753,
-        "shares": 344,
-        "comments": 132
+      "poll": {
+        "question": "What does this ensure about the structure of \\(\\mathbb{R}\\)?",
+        "options": [
+          "It forms a totally ordered set.",
+          "It is cyclic.",
+          "It is finite."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -1989,6 +1279,16 @@
         "shares": 238,
         "comments": 97
       },
+      "poll": {
+        "question": "Why does Ramanujan restrict attention to divisors up to \\( \\sqrt{N} \\)?",
+        "options": [
+          "Because every divisor greater than \\( \\sqrt{N} \\) is paired with a unique conjugate divisor less than \\( \\sqrt{N} \\).",
+          "Because all divisors of N are less than or equal to \\( \\sqrt{N} \\).",
+          "Because prime divisors must lie below \\( \\sqrt{N} \\)."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -2021,6 +1321,16 @@
         "likes": 1160,
         "shares": 168,
         "comments": 56
+      },
+      "poll": {
+        "question": "If \\( N = p^4 q^2 \\), what does Ramanujan’s formula give for \\( d(N) \\)?",
+        "options": [
+          "6",
+          "12",
+          "15"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -2055,6 +1365,16 @@
         "shares": 145,
         "comments": 57
       },
+      "poll": {
+        "question": "What is the purpose of invoking the arithmetic–geometric mean inequality here?",
+        "options": [
+          "To compute \\( d(N) \\) exactly.",
+          "To prove that primes are infinite.",
+          "To derive an upper bound for \\( d(N) \\)."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -2088,6 +1408,16 @@
         "shares": 201,
         "comments": 71
       },
+      "poll": {
+        "question": "Why do logarithms of primes appear in Ramanujan’s bound?",
+        "options": [
+          "Because \\( \\log(p_1 p_2 \\dots p_n) = \\log p_1 + \\dots + \\log p_n \\), allowing multiplicative structure to be analyzed additively.",
+          "Because logarithms count divisors directly.",
+          "Because primes are defined using logarithms."
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -2120,6 +1450,16 @@
         "likes": 984,
         "shares": 151,
         "comments": 47
+      },
+      "poll": {
+        "question": "According to Ramanujan’s definition, what does \\( f(x) = O(\\phi(x)) \\) guarantee?",
+        "options": [
+          "That \\( f(x) = \\phi(x) \\) for all x.",
+          "That \\( f(x) \\) eventually grows no faster than a constant multiple of \\( \\phi(x) \\).",
+          "That \\( f(x) \\) is bounded for all x."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -3149,6 +2489,16 @@
         "shares": 112,
         "comments": 73
       },
+      "poll": {
+        "question": "Why does Cayley immediately connect matrices with linear transformations?",
+        "options": [
+          "Because matrices encode systems of linear equations as single algebraic objects.",
+          "Because matrices were originally invented for calculus.",
+          "Because determinants only apply to transformations."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3181,6 +2531,16 @@
         "likes": 962,
         "shares": 160,
         "comments": 82
+      },
+      "poll": {
+        "question": "What conceptual shift does this definition introduce?",
+        "options": [
+          "Treating an array of numbers as a single algebraic entity.",
+          "Restricting matrices to square form only.",
+          "Defining determinants implicitly."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3215,6 +2575,16 @@
         "shares": 190,
         "comments": 90
       },
+      "poll": {
+        "question": "What structure does this equality preserve?",
+        "options": [
+          "Entrywise structure of the array.",
+          "Only determinant value.",
+          "Only trace value."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3247,6 +2617,16 @@
         "likes": 921,
         "shares": 166,
         "comments": 79
+      },
+      "poll": {
+        "question": "Why is matrix addition commutative?",
+        "options": [
+          "Because real number addition is commutative entrywise.",
+          "Because determinants commute.",
+          "Because matrix multiplication is commutative."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3281,6 +2661,16 @@
         "shares": 134,
         "comments": 43
       },
+      "poll": {
+        "question": "Why is matrix multiplication not generally commutative?",
+        "options": [
+          "Because row-by-column combination depends on order.",
+          "Because determinants change sign.",
+          "Because addition fails."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3313,6 +2703,16 @@
         "likes": 1211,
         "shares": 140,
         "comments": 79
+      },
+      "poll": {
+        "question": "What deeper idea is hinted at here?",
+        "options": [
+          "Matrices form a non-commutative algebra.",
+          "Matrices cannot be added.",
+          "Matrices are scalars."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3347,6 +2747,16 @@
         "shares": 91,
         "comments": 76
       },
+      "poll": {
+        "question": "What algebraic role does the unit-matrix play?",
+        "options": [
+          "Multiplicative identity.",
+          "Additive identity.",
+          "Zero divisor."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
+      },
       "work": {
         "id": "cayley_memoir_1858",
         "title": "A Memoir on the Theory of Matrices",
@@ -3368,7 +2778,7 @@
         "chapter": null
       },
       "content": {
-        "html": "<p>The determinant of a matrix is a function of its elements, and plays an essential part in the theory.</p>"
+        "html": "<p>The determinant vanishes when the rows or columns are linearly dependent.</p>"
       },
       "tags": [
         "linear algebra",
@@ -3380,38 +2790,15 @@
         "shares": 99,
         "comments": 66
       },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "283f9b40-a27c-4ffc-b040-c5c7d7eee391": {
-      "id": "283f9b40-a27c-4ffc-b040-c5c7d7eee391",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The determinant vanishes when the rows or columns are linearly dependent.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 785,
-        "shares": 103,
-        "comments": 47
+      "poll": {
+        "question": "What does a vanishing determinant imply?",
+        "options": [
+          "The matrix is not invertible.",
+          "The matrix equals zero.",
+          "The trace is zero."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3446,203 +2833,15 @@
         "shares": 78,
         "comments": 54
       },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "05322601-ff28-4d0a-9d75-018ec61b5591": {
-      "id": "05322601-ff28-4d0a-9d75-018ec61b5591",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The inverse matrix is that matrix which, when multiplied with the original matrix, produces the unit-matrix.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1172,
-        "shares": 186,
-        "comments": 103
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "669a67cf-225b-4b17-bab2-0955e11819c1": {
-      "id": "669a67cf-225b-4b17-bab2-0955e11819c1",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Matrices may be considered as symbols of linear substitutions.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1247,
-        "shares": 179,
-        "comments": 102
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad": {
-      "id": "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The composition of two linear transformations corresponds to the multiplication of their matrices.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1216,
-        "shares": 166,
-        "comments": 70
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "7991fb62-510e-4a1d-8afe-7608c31602b0": {
-      "id": "7991fb62-510e-4a1d-8afe-7608c31602b0",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>A matrix of the form \\( \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\) represents a linear transformation in two variables.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 838,
-        "shares": 102,
-        "comments": 75
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "09314f74-9312-40ce-a175-208699b14b0e": {
-      "id": "09314f74-9312-40ce-a175-208699b14b0e",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The eigenvalues of a matrix are obtained by solving the equation \\( \\det(A - \\lambda I) = 0 \\).</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 683,
-        "shares": 106,
-        "comments": 41
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "ac22a001-9b20-4b1c-aa7a-4619d371205c": {
-      "id": "ac22a001-9b20-4b1c-aa7a-4619d371205c",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The characteristic equation expresses a fundamental relation satisfied by the matrix itself.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 876,
-        "shares": 152,
-        "comments": 36
+      "poll": {
+        "question": "Why does non-zero determinant guarantee an inverse?",
+        "options": [
+          "Because the matrix equation \\( AX = I \\) has a unique solution.",
+          "Because the trace is non-zero.",
+          "Because rows are identical."
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3677,104 +2876,15 @@
         "shares": 161,
         "comments": 92
       },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "1cdc83ce-bb6d-4282-9b9e-d617d2135047": {
-      "id": "1cdc83ce-bb6d-4282-9b9e-d617d2135047",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The theory of matrices thus supplies a general method for the investigation of linear transformations.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1094,
-        "shares": 124,
-        "comments": 58
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "6081f79f-73b4-4fc8-9b50-e0d383b74ef3": {
-      "id": "6081f79f-73b4-4fc8-9b50-e0d383b74ef3",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Matrices admit of powers, positive and negative, according to the laws of multiplication.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 647,
-        "shares": 82,
-        "comments": 39
-      },
-      "work": {
-        "id": "cayley_memoir_1858",
-        "title": "A Memoir on the Theory of Matrices",
-        "popularity_raw": 4290,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 5.1,
-        "popularity_final": 5.1
-      }
-    },
-    "9f425b26-1269-47df-b7e1-3614f468adf8": {
-      "id": "9f425b26-1269-47df-b7e1-3614f468adf8",
-      "work_id": "cayley_memoir_1858",
-      "author_id": "cayley",
-      "date": "1858-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The generality of the method renders it applicable to a wide class of algebraical investigations.</p>"
-      },
-      "tags": [
-        "linear algebra",
-        "matrices",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1001,
-        "shares": 105,
-        "comments": 42
+      "poll": {
+        "question": "This statement is now known as:",
+        "options": [
+          "The Cayley–Hamilton theorem.",
+          "The fundamental theorem of algebra.",
+          "Cramer’s rule."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
       },
       "work": {
         "id": "cayley_memoir_1858",
@@ -3809,6 +2919,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "According to Dauben, why did Marx study the foundations of calculus so intensely?",
+        "options": [
+          "He aimed to compute new numerical tables.",
+          "He saw foundational questions as revealing the logical structure of scientific reasoning.",
+          "He wanted to replace Newton’s physics."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3842,6 +2962,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What larger claim is Dauben attributing to Marx here?",
+        "options": [
+          "Mathematical concepts are historically and socially conditioned.",
+          "Mathematics should avoid philosophy.",
+          "Mathematics is purely objective and timeless."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3875,6 +3005,16 @@
         "comments": 4
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What logical difficulty made infinitesimals controversial?",
+        "options": [
+          "They contradicted number theory.",
+          "They were too computationally complex.",
+          "They were treated as both zero and non-zero simultaneously."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3908,6 +3048,16 @@
         "comments": 9
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What issue does the expression \\(\\frac{dy}{dx}\\) raise in Marx’s analysis?",
+        "options": [
+          "Whether division is commutative.",
+          "Whether it represents a true ratio of quantities or the result of a limiting process.",
+          "Whether functions are continuous."
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3941,6 +3091,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "In dialectical terms, what does the passage from \\(\\Delta y/\\Delta x\\) to \\(dy/dx\\) represent?",
+        "options": [
+          "A numerical approximation.",
+          "A qualitative transformation emerging from quantitative variation.",
+          "A simple algebraic simplification."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -3974,6 +3134,16 @@
         "comments": 3
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "How did nineteenth-century limit theory change the status of infinitesimals?",
+        "options": [
+          "It eliminated derivatives.",
+          "It proved infinitesimals are prime numbers.",
+          "It replaced them with rigorously defined limiting processes."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4007,6 +3177,16 @@
         "comments": 5
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "What tension during the Cultural Revolution shaped attitudes toward mathematics?",
+        "options": [
+          "Conflict between geometry and algebra.",
+          "Suspicion of abstraction versus demand for practical application.",
+          "Rejection of arithmetic."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4040,6 +3220,16 @@
         "comments": 7
       },
       "work_id": "marx_mao_mathematics_dauben",
+      "poll": {
+        "question": "Why did infinitesimals become politically significant in China?",
+        "options": [
+          "They symbolized deeper debates about abstraction and ideology in science.",
+          "They simplified computation.",
+          "They were used in military engineering."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4073,369 +3263,16 @@
         "comments": 8
       },
       "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "2abb6c32-900f-4fd0-ab91-4f00eeb148fa": {
-      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
+      "poll": {
+        "question": "What conceptual advance does this limit expression embody?",
+        "options": [
+          "Introducing complex numbers.",
+          "Eliminating functions.",
+          "Replacing infinitesimal ratios with a rigorously defined limiting process."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
       },
-      "content": {
-        "html": "<p>Nonstandard analysis later restored infinitesimals to mathematics in a rigorous way, demonstrating that earlier conceptual difficulties could be overcome within a new logical framework.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 61,
-        "shares": 6,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "16923c06-e878-478d-abf4-8f0a4c5c370d": {
-      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Mathematics, in this context, becomes a field in which philosophical commitments are enacted through technical choices about definition, proof, and rigor.</p>"
-      },
-      "tags": [
-        "philosophy of mathematics",
-        "foundations",
-        "marxism"
-      ],
-      "metrics": {
-        "likes": 126,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "7ecec24d-eded-4269-9859-66223d1a5267": {
-      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The historical study of mathematics reveals that its development is neither linear nor inevitable. It is shaped by intellectual struggle, cultural context, and philosophical debate.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "foundations",
-        "philosophy of mathematics"
-      ],
-      "metrics": {
-        "likes": 88,
-        "shares": 7,
-        "comments": 4
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1": {
-      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx regarded questions about the foundations of the differential calculus as a “touchstone of the application of the method of materialist dialectics to mathematics.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "foundations",
-        "dialectics"
-      ],
-      "metrics": {
-        "likes": 94,
-        "shares": 13,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41": {
-      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>During the Cultural Revolution, mathematics was suspect for being too abstract, aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society.</p>"
-      },
-      "tags": [
-        "history of mathematics",
-        "maoism",
-        "education"
-      ],
-      "metrics": {
-        "likes": 120,
-        "shares": 10,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a": {
-      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx used dialectical materialism to evaluate the history of the calculus, and was especially critical of what he took to be its idealistic, metaphysical foundations.</p>"
-      },
-      "tags": [
-        "calculus",
-        "dialectics",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 92,
-        "shares": 13,
-        "comments": 5
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90": {
-      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals, but from a logical transformation in which the ratio \\(\\Delta y / \\Delta x\\) passes to its limit and becomes \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 69,
-        "shares": 7,
-        "comments": 2
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72": {
-      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>According to Bishop Berkeley, the differential \\(dx\\) was “the ghost of a departed quantity.”</p>"
-      },
-      "tags": [
-        "calculus",
-        "infinitesimals",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 124,
-        "shares": 16,
-        "comments": 7
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09": {
-      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The familiar example \\(y = x^3\\) served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients \\(\\Delta y / \\Delta x\\) and differentials \\(dy/dx\\).</p>"
-      },
-      "tags": [
-        "calculus",
-        "derivatives",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 103,
-        "shares": 9,
-        "comments": 6
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b": {
-      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>Nonstandard analysis constructs a mathematical system based on infinitesimals, providing another interpretation of the calculus distinct from the method of limits.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "calculus"
-      ],
-      "metrics": {
-        "likes": 130,
-        "shares": 10,
-        "comments": 10
-      },
-      "work_id": "marx_mao_mathematics_dauben",
-      "work": {
-        "id": "marx_mao_mathematics_dauben",
-        "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
-        "popularity_raw": 181,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "original_english"
-        },
-        "popularity_score": 1,
-        "popularity_final": 1
-      }
-    },
-    "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81": {
-      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
-      "author_id": "dauben",
-      "date": "1998-01-01",
-      "source": {
-        "chapter": null
-      },
-      "content": {
-        "html": "<p>The core of nonstandard analysis shows there is an infinitesimal between zero and any positive number, using the methods of mathematical logic.</p>"
-      },
-      "tags": [
-        "nonstandard analysis",
-        "infinitesimals",
-        "logic"
-      ],
-      "metrics": {
-        "likes": 128,
-        "shares": 14,
-        "comments": 9
-      },
-      "work_id": "marx_mao_mathematics_dauben",
       "work": {
         "id": "marx_mao_mathematics_dauben",
         "title": "Marx, Mao and Mathematics: The Politics of Infinitesimals",
@@ -4451,12 +3288,13 @@
     "caa48dca-63a0-4539-a04a-194912390ddb": {
       "id": "caa48dca-63a0-4539-a04a-194912390ddb",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "Preface"
       },
       "content": {
-        "html": "<p>The reflections which form the subject of this little treatise date from the autumn of the year 1858. At that time I felt more keenly than ever before the lack of a truly scientific foundation for arithmetic. This feeling of dissatisfaction was so overpowering that I formed the fixed resolve to reflect until I had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis.</p>"
+        "html": "<p>The reflections which form the subject of this little treatise date from the autumn of the year 1858... I formed the fixed resolve to reflect until I had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis.</p>"
       },
       "tags": [
         "real analysis",
@@ -4468,7 +3306,16 @@
         "shares": 371,
         "comments": 121
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What foundational theorem does Dedekind later show is equivalent to the principle of continuity?",
+        "options": [
+          "That every polynomial has a root.",
+          "That every bounded increasing sequence has a limit.",
+          "That every rational number has a decimal expansion."
+        ],
+        "correctIndex": 1,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4486,12 +3333,13 @@
     "51106bc0-80d0-45fe-889c-6ceb55f0cce2": {
       "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§1"
       },
       "content": {
-        "html": "<p>By arithmetic I understand the science of numbers. The development of arithmetic depends upon the creation of the infinite sequence of positive integers. From this arise the negative and rational numbers, through the demand that subtraction and division shall always be possible.</p>"
+        "html": "<p>By arithmetic I understand the science of numbers... subtraction and division shall always be possible.</p>"
       },
       "tags": [
         "foundations",
@@ -4502,7 +3350,16 @@
         "shares": 227,
         "comments": 91
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Why were negative and rational numbers introduced according to Dedekind?",
+        "options": [
+          "To remove the restrictions of subtraction and division.",
+          "To define irrational numbers.",
+          "To model geometry."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4520,12 +3377,13 @@
     "5372d308-df6c-46e9-afe9-2f09d33f81d3": {
       "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§2"
       },
       "content": {
-        "html": "<p>The rational numbers form an ordered field; but they do not suffice to express every magnitude. There exist magnitudes which cannot be expressed by rational numbers, although they are determined by rational relations.</p>"
+        "html": "<p>The rational numbers form an ordered field; but they do not suffice to express every magnitude...</p>"
       },
       "tags": [
         "real numbers",
@@ -4536,7 +3394,16 @@
         "shares": 248,
         "comments": 155
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What example does Dedekind later use to demonstrate this insufficiency?",
+        "options": [
+          "The square root of a non-square integer.",
+          "The number zero.",
+          "Prime numbers."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4554,12 +3421,13 @@
     "d6a461f2-939d-499d-8c7d-c5a6ff623e79": {
       "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§3"
       },
       "content": {
-        "html": "<p>Let D be a positive integer which is not the square of an integer. Then there exists a positive integer \\(\\lambda\\) such that</p><p>\\[ \\lambda^2 < D < (\\lambda + 1)^2. \\]</p><p>No rational number whose square equals D exists. Thus the rational numbers are insufficient to represent all magnitudes.</p>"
+        "html": "<p>Let D be a positive integer which is not the square of an integer... No rational number whose square equals D exists.</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -4570,7 +3438,16 @@
         "shares": 399,
         "comments": 232
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Why does this example lead to a Dedekind cut without a greatest element?",
+        "options": [
+          "Because D is prime.",
+          "Because the rationals are finite.",
+          "Because rationals with square less than D have no maximum."
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4588,12 +3465,13 @@
     "f8b545dd-9842-4666-8357-fd9de34ae6ff": {
       "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§3"
       },
       "content": {
-        "html": "<p>If all points of a straight line fall into two classes such that every point of the first class lies to the left of every point of the second class, then there exists one and only one point which produces this division of all points into two classes.</p>"
+        "html": "<p>If all points of a straight line fall into two classes... there exists one and only one point which produces this division.</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -4604,7 +3482,16 @@
         "shares": 287,
         "comments": 201
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What is remarkable about Dedekind’s treatment of this statement?",
+        "options": [
+          "He proves it using calculus.",
+          "He declares it an axiom defining continuity.",
+          "He derives it from geometry."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4622,12 +3509,13 @@
     "67f96574-8756-4561-889f-ed1e868c6e22": {
       "id": "67f96574-8756-4561-889f-ed1e868c6e22",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§4"
       },
       "content": {
-        "html": "<p>Every cut of the rational numbers into two classes, such that every number of the first class is less than every number of the second, determines either a rational or an irrational number.</p>"
+        "html": "<p>Every cut of the rational numbers... determines either a rational or an irrational number.</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -4638,7 +3526,16 @@
         "shares": 204,
         "comments": 96
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What guarantees that each cut corresponds to exactly one number?",
+        "options": [
+          "Decimal expansions.",
+          "Prime factorization.",
+          "The definition of equality via identical lower sets."
+        ],
+        "correctIndex": 2,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4656,12 +3553,13 @@
     "f726991b-e76b-4945-ad4a-86415f0b99dc": {
       "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§4"
       },
       "content": {
-        "html": "<p>Whenever a cut is given which is not produced by a rational number, we create a new number corresponding to this cut, which we call an irrational number. Thus the domain of rational numbers is extended to a new domain of numbers.</p>"
+        "html": "<p>Whenever a cut is given which is not produced by a rational number, we create a new number...</p>"
       },
       "tags": [
         "dedekind cuts",
@@ -4672,7 +3570,16 @@
         "shares": 480,
         "comments": 230
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "What philosophical stance does this reflect?",
+        "options": [
+          "Numbers are created by definition, not discovered geometrically.",
+          "Numbers exist only physically.",
+          "Irrationals are approximations."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4690,12 +3597,13 @@
     "b5fa4b20-aaca-4644-bde6-49862b25ae25": {
       "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§5"
       },
       "content": {
-        "html": "<p>The totality of all real numbers forms a complete ordered field. Between any two distinct real numbers there exist infinitely many others.</p>"
+        "html": "<p>The totality of all real numbers forms a complete ordered field...</p>"
       },
       "tags": [
         "real numbers",
@@ -4706,7 +3614,16 @@
         "shares": 241,
         "comments": 112
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Which additional property distinguishes \\(\\mathbb{R}\\) from \\(\\mathbb{Q}\\)?",
+        "options": [
+          "Every cut of \\(\\mathbb{R}\\) is produced by a number.",
+          "It has more prime numbers.",
+          "It is finite."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4724,12 +3641,13 @@
     "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd": {
       "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§6"
       },
       "content": {
-        "html": "<p>If \\(\\alpha\\) and \\(\\beta\\) are real numbers corresponding to cuts \\((A_1, A_2)\\) and \\((B_1, B_2)\\), then their sum \\(\\gamma = \\alpha + \\beta\\) is defined by a corresponding cut \\((C_1, C_2)\\).</p>"
+        "html": "<p>If \\(\\alpha\\) and \\(\\beta\\) are real numbers corresponding to cuts... their sum is defined by a corresponding cut.</p>"
       },
       "tags": [
         "real numbers",
@@ -4740,7 +3658,16 @@
         "shares": 508,
         "comments": 179
       },
-      "work_id": "dedekind_continuity_1872",
+      "poll": {
+        "question": "Why does Dedekind define addition via cuts rather than decimal expansions?",
+        "options": [
+          "To reduce operations entirely to rational arithmetic.",
+          "Because decimals are undefined.",
+          "Because geometry requires it."
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "dedekind_continuity_1872",
         "title": "Continuity and Irrational Numbers",
@@ -4758,12 +3685,13 @@
     "c69124a2-f2d6-4ab6-8ed6-8185af0c244e": {
       "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
       "author_id": "dedekind",
+      "work_id": "dedekind_continuity_1872",
       "date": "1872-03-20",
       "source": {
         "chapter": "§6"
       },
       "content": {
-        "html": "<p>The order of the real numbers is such that if \\(\\alpha > \\beta\\) and \\(\\beta > \\gamma\\), then \\(\\alpha > \\gamma\\). This order extends that of the rational numbers without contradiction.</p>"
+        "html": "<p>The order of the real numbers is such that if \\(\\alpha > \\beta\\) and \\(\\beta > \\gamma\\), then \\(\\alpha > \\gamma\\).</p>"
       },
       "tags": [
         "real numbers",
@@ -4774,313 +3702,15 @@
         "shares": 363,
         "comments": 169
       },
-      "work_id": "dedekind_continuity_1872",
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "cde3949d-b941-4267-a9c9-a19b56442a46": {
-      "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
-      "author_id": "dedekind",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§7"
-      },
-      "content": {
-        "html": "<p>If a variable magnitude increases continuously but remains bounded above, then it approaches a limit. This theorem is equivalent to the principle of continuity of the real numbers.</p>"
-      },
-      "tags": [
-        "real analysis",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 2278,
-        "shares": 352,
-        "comments": 185
-      },
-      "work_id": "dedekind_continuity_1872",
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3da5-2c69-48ac-901b-da3092916c24": {
-      "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "Conclusion"
-      },
-      "content": {
-        "html": "<p>The essence of continuity lies in the completeness of the number system. The arithmetical conception of the real numbers renders the appeal to geometric intuition unnecessary for the foundation of analysis.</p>"
-      },
-      "tags": [
-        "real numbers",
-        "real analysis",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1336,
-        "shares": 177,
-        "comments": 75
-      },
-      "work_id": "dedekind_continuity_1872",
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3df5-3c69-48ac-901b-da3092916c24": {
-      "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§1"
-      },
-      "content": {
-        "html": "<p>I regard the whole of arithmetic as a necessary or at least natural consequence of the simplest arithmetical act, that of counting; and counting itself is nothing other than the successive creation of the infinite series of positive integers.</p>"
-      },
-      "tags": [
-        "foundations",
-        "real numbers"
-      ],
-      "metrics": {
-        "likes": 2698,
-        "shares": 514,
-        "comments": 179
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3da5-2c69-26ac-901b-da3092916c24": {
-      "id": "e9ea3da5-2c69-26ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§3"
-      },
-      "content": {
-        "html": "<p>I find the essence of continuity in the following principle: If all points of a straight line fall into two classes such that every point of the first lies to the left of every point of the second, then there exists one and only one point which produces this division.</p>"
-      },
-      "tags": [
-        "dedekind cuts",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1450,
-        "shares": 208,
-        "comments": 133
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3da5-2c69-48ac-201b-da3092916c24": {
-      "id": "e9ea3da5-2c69-48ac-201b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§4"
-      },
-      "content": {
-        "html": "<p>In the property that not all cuts are produced by rational numbers consists the incompleteness or discontinuity of the domain \\(\\mathbb{Q}\\).</p>"
-      },
-      "tags": [
-        "dedekind cuts",
-        "real numbers"
-      ],
-      "metrics": {
-        "likes": 2884,
-        "shares": 410,
-        "comments": 249
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3da5-2c69-01bc-901b-da3092916c24": {
-      "id": "e9ea3da5-2c69-01bc-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§4"
-      },
-      "content": {
-        "html": "<p>Whenever a cut \\((A_1, A_2)\\) is given which is not produced by a rational number, we create a new number \\(\\alpha\\), which we call an irrational number, and which we regard as completely defined by this cut.</p>"
-      },
-      "tags": [
-        "dedekind cuts",
-        "real numbers"
-      ],
-      "metrics": {
-        "likes": 1692,
-        "shares": 310,
-        "comments": 156
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3da5-7b69-48ac-901b-da3092916c24": {
-      "id": "e9ea3da5-7b69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§5"
-      },
-      "content": {
-        "html": "<p>If the system of real numbers \\(\\mathbb{R}\\) is divided into two classes \\(\\mathcal{A}_1\\) and \\(\\mathcal{A}_2\\) such that every number \\(\\alpha_1\\) in \\(\\mathcal{A}_1\\) is less than every number \\(\\alpha_2\\) in \\(\\mathcal{A}_2\\), then there exists one and only one number \\(\\alpha\\) which produces this division.</p>"
-      },
-      "tags": [
-        "real numbers",
-        "real analysis"
-      ],
-      "metrics": {
-        "likes": 1814,
-        "shares": 272,
-        "comments": 98
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ea3da5-2c69-48ac-901b-da6092916c24": {
-      "id": "e9ea3da5-2c69-48ac-901b-da6092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§6"
-      },
-      "content": {
-        "html": "<p>To define the sum \\(\\gamma = \\alpha + \\beta\\), it suffices to define the cut \\((C_1, C_2)\\) which corresponds to it, reducing the operation entirely to operations among rational numbers.</p>"
-      },
-      "tags": [
-        "real numbers",
-        "dedekind cuts"
-      ],
-      "metrics": {
-        "likes": 2505,
-        "shares": 432,
-        "comments": 168
-      },
-      "work": {
-        "id": "dedekind_continuity_1872",
-        "title": "Continuity and Irrational Numbers",
-        "popularity_raw": 29300,
-        "visibility_adjustment": 1,
-        "translation": {
-          "type": "machine_translated",
-          "from": "German",
-          "to": "English"
-        },
-        "popularity_score": 7.5,
-        "popularity_final": 7.5
-      }
-    },
-    "e9ef3da5-2c69-48ac-901b-da3092916c24": {
-      "id": "e9ef3da5-2c69-48ac-901b-da3092916c24",
-      "author_id": "dedekind",
-      "work_id": "dedekind_continuity_1872",
-      "date": "1872-03-20",
-      "source": {
-        "chapter": "§7"
-      },
-      "content": {
-        "html": "<p>If a variable magnitude increases continuously but remains bounded, then it approaches a limit. This theorem is equivalent to the principle of continuity.</p>"
-      },
-      "tags": [
-        "real analysis",
-        "foundations"
-      ],
-      "metrics": {
-        "likes": 1753,
-        "shares": 344,
-        "comments": 132
+      "poll": {
+        "question": "What does this ensure about the structure of \\(\\mathbb{R}\\)?",
+        "options": [
+          "It forms a totally ordered set.",
+          "It is cyclic.",
+          "It is finite."
+        ],
+        "correctIndex": 0,
+        "difficulty": "easy"
       },
       "work": {
         "id": "dedekind_continuity_1872",
@@ -5117,6 +3747,16 @@
         "shares": 238,
         "comments": 97
       },
+      "poll": {
+        "question": "Why does Ramanujan restrict attention to divisors up to \\( \\sqrt{N} \\)?",
+        "options": [
+          "Because every divisor greater than \\( \\sqrt{N} \\) is paired with a unique conjugate divisor less than \\( \\sqrt{N} \\).",
+          "Because all divisors of N are less than or equal to \\( \\sqrt{N} \\).",
+          "Because prime divisors must lie below \\( \\sqrt{N} \\)."
+        ],
+        "correctIndex": 0,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -5149,6 +3789,16 @@
         "likes": 1160,
         "shares": 168,
         "comments": 56
+      },
+      "poll": {
+        "question": "If \\( N = p^4 q^2 \\), what does Ramanujan’s formula give for \\( d(N) \\)?",
+        "options": [
+          "6",
+          "12",
+          "15"
+        ],
+        "correctIndex": 2,
+        "difficulty": "easy"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -5183,6 +3833,16 @@
         "shares": 145,
         "comments": 57
       },
+      "poll": {
+        "question": "What is the purpose of invoking the arithmetic–geometric mean inequality here?",
+        "options": [
+          "To compute \\( d(N) \\) exactly.",
+          "To prove that primes are infinite.",
+          "To derive an upper bound for \\( d(N) \\)."
+        ],
+        "correctIndex": 2,
+        "difficulty": "medium"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -5216,6 +3876,16 @@
         "shares": 201,
         "comments": 71
       },
+      "poll": {
+        "question": "Why do logarithms of primes appear in Ramanujan’s bound?",
+        "options": [
+          "Because \\( \\log(p_1 p_2 \\dots p_n) = \\log p_1 + \\dots + \\log p_n \\), allowing multiplicative structure to be analyzed additively.",
+          "Because logarithms count divisors directly.",
+          "Because primes are defined using logarithms."
+        ],
+        "correctIndex": 0,
+        "difficulty": "hard"
+      },
       "work": {
         "id": "ramanujan_divisors_1915",
         "title": "On the Number of Divisors of a Number",
@@ -5248,6 +3918,16 @@
         "likes": 984,
         "shares": 151,
         "comments": 47
+      },
+      "poll": {
+        "question": "According to Ramanujan’s definition, what does \\( f(x) = O(\\phi(x)) \\) guarantee?",
+        "options": [
+          "That \\( f(x) = \\phi(x) \\) for all x.",
+          "That \\( f(x) \\) eventually grows no faster than a constant multiple of \\( \\phi(x) \\).",
+          "That \\( f(x) \\) is bounded for all x."
+        ],
+        "correctIndex": 1,
+        "difficulty": "medium"
       },
       "work": {
         "id": "ramanujan_divisors_1915",
@@ -6028,10 +4708,6 @@
     },
     {
       "id": "85dd27c8-3eec-4dc1-9c7b-be7c3623fb42",
-      "text": "the determinant of a matrix is a function of its elements and plays an essential part in the theory linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "283f9b40-a27c-4ffc-b040-c5c7d7eee391",
       "text": "the determinant vanishes when the rows or columns are linearly dependent linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
     },
     {
@@ -6039,44 +4715,8 @@
       "text": "if the determinant of a matrix does not vanish the matrix possesses an inverse linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
     },
     {
-      "id": "05322601-ff28-4d0a-9d75-018ec61b5591",
-      "text": "the inverse matrix is that matrix which when multiplied with the original matrix produces the unit matrix linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "669a67cf-225b-4b17-bab2-0955e11819c1",
-      "text": "matrices may be considered as symbols of linear substitutions linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "30924c97-bc69-4183-9ff0-ce1f9c9bd6ad",
-      "text": "the composition of two linear transformations corresponds to the multiplication of their matrices linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "7991fb62-510e-4a1d-8afe-7608c31602b0",
-      "text": "a matrix of the form begin pmatrix a b c d end pmatrix represents a linear transformation in two variables linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "09314f74-9312-40ce-a175-208699b14b0e",
-      "text": "the eigenvalues of a matrix are obtained by solving the equation det a lambda i 0 linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "ac22a001-9b20-4b1c-aa7a-4619d371205c",
-      "text": "the characteristic equation expresses a fundamental relation satisfied by the matrix itself linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
       "id": "2001b499-fa2d-47f4-a8e1-2b8aa09dacb3",
       "text": "every square matrix satisfies its own characteristic equation linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "1cdc83ce-bb6d-4282-9b9e-d617d2135047",
-      "text": "the theory of matrices thus supplies a general method for the investigation of linear transformations linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "6081f79f-73b4-4fc8-9b50-e0d383b74ef3",
-      "text": "matrices admit of powers positive and negative according to the laws of multiplication linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
-    },
-    {
-      "id": "9f425b26-1269-47df-b7e1-3614f468adf8",
-      "text": "the generality of the method renders it applicable to a wide class of algebraical investigations linear algebra matrices foundations a memoir on the theory of matrices arthur cayley"
     },
     {
       "id": "f8793b9f-e659-4557-826d-e2eb273d058f",
@@ -6115,124 +4755,44 @@
       "text": "expressions like lim h to 0 frac f x h f x h represent the culmination of centuries of effort to clarify the foundations of calculus limits calculus real analysis marx mao and mathematics the politics of infinitesimals joseph w dauben"
     },
     {
-      "id": "2abb6c32-900f-4fd0-ab91-4f00eeb148fa",
-      "text": "nonstandard analysis later restored infinitesimals to mathematics in a rigorous way demonstrating that earlier conceptual difficulties could be overcome within a new logical framework nonstandard analysis infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "16923c06-e878-478d-abf4-8f0a4c5c370d",
-      "text": "mathematics in this context becomes a field in which philosophical commitments are enacted through technical choices about definition proof and rigor philosophy of mathematics foundations marxism marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "7ecec24d-eded-4269-9859-66223d1a5267",
-      "text": "the historical study of mathematics reveals that its development is neither linear nor inevitable it is shaped by intellectual struggle cultural context and philosophical debate history of mathematics foundations philosophy of mathematics marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "4d5b9a6c-3c7b-4e54-bc27-7b0b8a8df2f1",
-      "text": "marx regarded questions about the foundations of the differential calculus as a touchstone of the application of the method of materialist dialectics to mathematics calculus foundations dialectics marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "a8f2c931-9c5a-4b73-8fd5-2bbaac5d5f41",
-      "text": "during the cultural revolution mathematics was suspect for being too abstract aloof from the concerns of the common man and the struggle to meet the basic needs of daily life in a still largely agrarian society history of mathematics maoism education marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "c7f81c3e-2b9e-4b27-a75f-4b95fa2eab6a",
-      "text": "marx used dialectical materialism to evaluate the history of the calculus and was especially critical of what he took to be its idealistic metaphysical foundations calculus dialectics foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "f3c7a6b1-9d44-4a5f-b2e8-6c1e4d7a2f90",
-      "text": "marx emphasized that the differential does not arise from the mere neglect of higher powers of infinitesimals but from a logical transformation in which the ratio delta y delta x passes to its limit and becomes dy dx calculus derivatives foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "6e42c78a-0fcb-4c35-9f94-8f5e0d6b3a72",
-      "text": "according to bishop berkeley the differential dx was the ghost of a departed quantity calculus infinitesimals foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "9a5d18cf-4e8c-4f7e-a91d-ff3d7d2c3e09",
-      "text": "the familiar example y x 3 served repeatedly as a test case for interpreting the derivative and distinguishing between difference quotients delta y delta x and differentials dy dx calculus derivatives foundations marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "bb8e4d4d-3a8c-4c45-8a2e-3f4d4c5f7c6b",
-      "text": "nonstandard analysis constructs a mathematical system based on infinitesimals providing another interpretation of the calculus distinct from the method of limits nonstandard analysis infinitesimals calculus marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
-      "id": "d47b2c19-5f74-4e0f-9a5c-2a4d2e5c6b81",
-      "text": "the core of nonstandard analysis shows there is an infinitesimal between zero and any positive number using the methods of mathematical logic nonstandard analysis infinitesimals logic marx mao and mathematics the politics of infinitesimals joseph w dauben"
-    },
-    {
       "id": "caa48dca-63a0-4539-a04a-194912390ddb",
-      "text": "the reflections which form the subject of this little treatise date from the autumn of the year 1858 at that time i felt more keenly than ever before the lack of a truly scientific foundation for arithmetic this feeling of dissatisfaction was so overpowering that i formed the fixed resolve to reflect until i had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis real analysis foundations real numbers continuity and irrational numbers richard dedekind"
+      "text": "the reflections which form the subject of this little treatise date from the autumn of the year 1858 i formed the fixed resolve to reflect until i had found a purely arithmetical and completely rigorous foundation for the principles of infinitesimal analysis real analysis foundations real numbers continuity and irrational numbers richard dedekind"
     },
     {
       "id": "51106bc0-80d0-45fe-889c-6ceb55f0cce2",
-      "text": "by arithmetic i understand the science of numbers the development of arithmetic depends upon the creation of the infinite sequence of positive integers from this arise the negative and rational numbers through the demand that subtraction and division shall always be possible foundations real numbers continuity and irrational numbers richard dedekind"
+      "text": "by arithmetic i understand the science of numbers subtraction and division shall always be possible foundations real numbers continuity and irrational numbers richard dedekind"
     },
     {
       "id": "5372d308-df6c-46e9-afe9-2f09d33f81d3",
-      "text": "the rational numbers form an ordered field but they do not suffice to express every magnitude there exist magnitudes which cannot be expressed by rational numbers although they are determined by rational relations real numbers real analysis continuity and irrational numbers richard dedekind"
+      "text": "the rational numbers form an ordered field but they do not suffice to express every magnitude real numbers real analysis continuity and irrational numbers richard dedekind"
     },
     {
       "id": "d6a461f2-939d-499d-8c7d-c5a6ff623e79",
-      "text": "let d be a positive integer which is not the square of an integer then there exists a positive integer lambda such that lambda 2 no rational number whose square equals d exists thus the rational numbers are insufficient to represent all magnitudes dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+      "text": "let d be a positive integer which is not the square of an integer no rational number whose square equals d exists dedekind cuts real numbers continuity and irrational numbers richard dedekind"
     },
     {
       "id": "f8b545dd-9842-4666-8357-fd9de34ae6ff",
-      "text": "if all points of a straight line fall into two classes such that every point of the first class lies to the left of every point of the second class then there exists one and only one point which produces this division of all points into two classes dedekind cuts real analysis continuity and irrational numbers richard dedekind"
+      "text": "if all points of a straight line fall into two classes there exists one and only one point which produces this division dedekind cuts real analysis continuity and irrational numbers richard dedekind"
     },
     {
       "id": "67f96574-8756-4561-889f-ed1e868c6e22",
-      "text": "every cut of the rational numbers into two classes such that every number of the first class is less than every number of the second determines either a rational or an irrational number dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+      "text": "every cut of the rational numbers determines either a rational or an irrational number dedekind cuts real numbers continuity and irrational numbers richard dedekind"
     },
     {
       "id": "f726991b-e76b-4945-ad4a-86415f0b99dc",
-      "text": "whenever a cut is given which is not produced by a rational number we create a new number corresponding to this cut which we call an irrational number thus the domain of rational numbers is extended to a new domain of numbers dedekind cuts real numbers continuity and irrational numbers richard dedekind"
+      "text": "whenever a cut is given which is not produced by a rational number we create a new number dedekind cuts real numbers continuity and irrational numbers richard dedekind"
     },
     {
       "id": "b5fa4b20-aaca-4644-bde6-49862b25ae25",
-      "text": "the totality of all real numbers forms a complete ordered field between any two distinct real numbers there exist infinitely many others real numbers real analysis continuity and irrational numbers richard dedekind"
+      "text": "the totality of all real numbers forms a complete ordered field real numbers real analysis continuity and irrational numbers richard dedekind"
     },
     {
       "id": "7c34e8ec-912d-43c4-86b4-7ca2e4f0d4dd",
-      "text": "if alpha and beta are real numbers corresponding to cuts a 1 a 2 and b 1 b 2 then their sum gamma alpha beta is defined by a corresponding cut c 1 c 2 real numbers dedekind cuts continuity and irrational numbers richard dedekind"
+      "text": "if alpha and beta are real numbers corresponding to cuts their sum is defined by a corresponding cut real numbers dedekind cuts continuity and irrational numbers richard dedekind"
     },
     {
       "id": "c69124a2-f2d6-4ab6-8ed6-8185af0c244e",
-      "text": "the order of the real numbers is such that if alpha beta and beta gamma then alpha gamma this order extends that of the rational numbers without contradiction real numbers real analysis continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "cde3949d-b941-4267-a9c9-a19b56442a46",
-      "text": "if a variable magnitude increases continuously but remains bounded above then it approaches a limit this theorem is equivalent to the principle of continuity of the real numbers real analysis foundations continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3da5-2c69-48ac-901b-da3092916c24",
-      "text": "the essence of continuity lies in the completeness of the number system the arithmetical conception of the real numbers renders the appeal to geometric intuition unnecessary for the foundation of analysis real numbers real analysis foundations continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3df5-3c69-48ac-901b-da3092916c24",
-      "text": "i regard the whole of arithmetic as a necessary or at least natural consequence of the simplest arithmetical act that of counting and counting itself is nothing other than the successive creation of the infinite series of positive integers foundations real numbers continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3da5-2c69-26ac-901b-da3092916c24",
-      "text": "i find the essence of continuity in the following principle if all points of a straight line fall into two classes such that every point of the first lies to the left of every point of the second then there exists one and only one point which produces this division dedekind cuts foundations continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3da5-2c69-48ac-201b-da3092916c24",
-      "text": "in the property that not all cuts are produced by rational numbers consists the incompleteness or discontinuity of the domain mathbb q dedekind cuts real numbers continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3da5-2c69-01bc-901b-da3092916c24",
-      "text": "whenever a cut a 1 a 2 is given which is not produced by a rational number we create a new number alpha which we call an irrational number and which we regard as completely defined by this cut dedekind cuts real numbers continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3da5-7b69-48ac-901b-da3092916c24",
-      "text": "if the system of real numbers mathbb r is divided into two classes mathcal a 1 and mathcal a 2 such that every number alpha 1 in mathcal a 1 is less than every number alpha 2 in mathcal a 2 then there exists one and only one number alpha which produces this division real numbers real analysis continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ea3da5-2c69-48ac-901b-da6092916c24",
-      "text": "to define the sum gamma alpha beta it suffices to define the cut c 1 c 2 which corresponds to it reducing the operation entirely to operations among rational numbers real numbers dedekind cuts continuity and irrational numbers richard dedekind"
-    },
-    {
-      "id": "e9ef3da5-2c69-48ac-901b-da3092916c24",
-      "text": "if a variable magnitude increases continuously but remains bounded then it approaches a limit this theorem is equivalent to the principle of continuity real analysis foundations continuity and irrational numbers richard dedekind"
+      "text": "the order of the real numbers is such that if alpha beta and beta gamma then alpha gamma real numbers real analysis continuity and irrational numbers richard dedekind"
     },
     {
       "id": "a1c2f8d1-9c43-4c6b-9f72-ram1",

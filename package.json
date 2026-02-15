@@ -8,6 +8,7 @@
                     "predev":  "node scripts/generate-social-pages.mjs && node scripts/generate-feed-index.mjs",
                     "build":  "vite build",
                     "lint":  "eslint .",
+                    "validate:polls": "node scripts/validate-polls.mjs",
                     "preview":  "vite preview",
                     "prebuild":  "node scripts/generate-social-pages.mjs && node scripts/generate-feed-index.mjs"
                 },
